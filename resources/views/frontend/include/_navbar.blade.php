@@ -16,7 +16,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('landing-page.about.index')}}">About<span>/</span></a>
+          <a class="nav-link" href="{{ route('landing-page.about.index')}}">aa<span>/</span></a>
         </li>
         
         <li class="nav-item">
