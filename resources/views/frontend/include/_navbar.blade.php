@@ -3,7 +3,7 @@
   <div class="container-fluid p-0">
       <!-- logo -->
       <a class="navbar-brand" href="/">
-        <h1>Desaku</h1>
+       <img src="{{ asset('assets/images/desaku/icon.jpeg')}}" alt="" style="height: 80px;width: 150px;" >
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="fa fa-bars"></span>
@@ -16,7 +16,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('landing-page.about.index')}}">Home<span>/</span></a>
+          <a class="nav-link" href="{{ route('landing-page.about.index')}}">About Us<span>/</span></a>
         </li>
         
         <li class="nav-item">

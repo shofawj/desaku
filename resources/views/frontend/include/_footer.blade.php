@@ -5,7 +5,7 @@
       <div class="col-md-12">
         <div class="block text-center">
           <div class="footer-logo">
-            <img src="{{ asset('assets/images/footer-logo.png')}}" alt="logo" class="img-fluid">
+            <img src="{{ asset('assets/images/desaku/iconfooter.jpeg')}}" alt="logo" class="img-fluid" style="width: 200px;">
           </div>
           <ul class="social-links-footer list-inline">
             <li class="list-inline-item">
