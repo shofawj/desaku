@@ -46,7 +46,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 align-self-center ml-lg-auto">
                         <div class="content-block">
-                            <h2>About The <span class="alternate">Eventre</span></h2>
+                            <h2>Tentang <span class="alternate">Desaku</span></h2>
                             <div class="description-one">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore dolore magna aliqua enim ad
@@ -71,8 +71,36 @@
 
         <!--====  End of About  ====-->
 
+       <!--===========================
+        =        cara kerja          =
+        ============================-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h3>Cara Kerja <span class="alternate">Desaku</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--====  End of cara kerja  ====-->
+
+
+       <!--===========================
+        =           Album            =
+        ============================-->
+
         <section class="speakers-full-width">
             <div class="container-fluid p-0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h3>Album <span class="alternate">Desaku</span></h3>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-12">
                         <!-- Speaker Slider -->
@@ -203,6 +231,9 @@
             </div>
         </section>
 
+        <!--====  End of Album  ====-->
+
+
 
         <!--==========================
         =            News            =
@@ -213,8 +244,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title">
-                            <h3>Eventre <span class="alternate">News</span></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, enim.</p>
+                            <h3>Popular <span class="alternate">Desaku</span></h3>
                         </div>
                     </div>
                 </div>

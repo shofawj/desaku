@@ -12,19 +12,19 @@
       <ul class="navbar-nav mx-auto">
       
         <li class="nav-item">
-          <a class="nav-link" href="/">Home<span>/</span></a>
+          <a class="nav-link" href="/">Beranda<span>/</span></a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('landing-page.about.index')}}">About Us<span>/</span></a>
+          <a class="nav-link" href="{{ route('landing-page.profil.index')}}">Kategori<span>/</span></a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('landing-page.profil.index')}}">Profil<span>/</span></a>
+          <a class="nav-link" href="{{ route('landing-page.about.index')}}">Tentang Kami<span>/</span></a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('landing-page.contact.index')}}">Contact</a>
+          <a class="nav-link" href="{{ route('landing-page.contact.index')}}">Kontak</a>
         </li>
 
       </ul>

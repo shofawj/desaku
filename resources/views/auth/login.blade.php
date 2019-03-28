@@ -4,7 +4,13 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card card-login">
+                <div class="container">
+                    <h1>Masuk ke akun anda</h1>
+                    <input type="text" placeholder="Username/Email">
+                </div>
+            </div>
+            {{-- <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
@@ -66,8 +72,36 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
 @endsection
+
+@push('header-scripts')
+    <style>
+
+        .card-login{
+            -webkit-box-shadow: 0px 10px 79px -9px rgba(143,141,143,1);
+            -moz-box-shadow: 0px 10px 79px -9px rgba(143,141,143,1);
+            box-shadow: 0px 10px 79px -9px rgba(143,141,143,1);
+            border: none;
+        }
+
+        h1{
+            padding: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+            color: #777;
+        }
+
+        input{
+            padding-left: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+    </style>
+   
+@endpush
+
