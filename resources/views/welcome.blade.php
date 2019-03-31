@@ -18,12 +18,10 @@
                     <div class="col-md-6">
                         <!-- Content Block -->
                         <div class="block">
-                            <h1>Business</h1>
-                            <h2>Conference</h2>
-                            <h3>2017</h3>
-                            <h6>02-05 July 2017 California</h6>
+                            <h4 style="margin-top:-120px;line-height: 35px;">Jutaan Sumber Daya Alam <br> untuk mewujudkan mimpi <br> bersama </h4>
+                            <h6>Jutaan bisnis menggunakan Desaku untuk membuat ide-ide mereka jadi kenyataan</h6>
                             <!-- Action Button -->
-                            <a href="#" class="btn btn-main-md">get ticket now</a>
+                            <a href="#" class="btn btn-main-md">ayo mulai!</a>
                         </div>
                     </div>
                 </div>
@@ -41,7 +39,7 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-6 align-self-center">
                         <div class="image-block two bg-about">
-                            <img class="img-fluid" src="{{ asset('assets/images/speakers/featured-speaker-two.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{ asset('assets/images/desaku/about.png')}}" alt="" style="border-radius:20px;">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 align-self-center ml-lg-auto">
@@ -57,10 +55,7 @@
                             </div>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a href="#" class="btn btn-main-md">Buy ticket</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#" class="btn btn-transparent-md">Read more</a>
+                                    <a href="{{ route('landing-page.about.index')}}" class="btn btn-main-md">Baca Selengkapnya</a>
                                 </li>
                             </ul>
                         </div>
