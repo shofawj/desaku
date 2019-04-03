@@ -9,10 +9,6 @@
 				<div class="title">
 					<h3>About Us</h3>
 				</div>
-				<ol class="breadcrumb p-0 m-0">
-				  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-				  <li class="breadcrumb-item active">About US</li>
-				</ol>
 			</div>
 		</div>
 	</div>
@@ -23,7 +19,7 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-6 align-self-center">
 				<div class="image-block bg-about">
-					<img class="img-fluid" src="{{ asset('assets/images//speakers/featured-speaker.jpg')}}" alt="">
+					<img class="img-fluid" src="{{ asset('assets/images/komponen/1.png')}}" alt="">
 				</div>
 			</div>
 			<div class="col-lg-8 col-md-6 align-self-center">
