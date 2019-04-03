@@ -24,4 +24,4 @@ Route::view('/contact', 'frontend.landing-page.contact.index')->name('landing-pa
 
 Route::view('/about', 'frontend.landing-page.about.index')->name('landing-page.about.index');
 
-Route::view('/profil', 'frontend.landing-page.profil.index')->name('landing-page.profil.index');
+Route::view('/kategori', 'frontend.landing-page.category.index')->name('landing-page.category.index');
