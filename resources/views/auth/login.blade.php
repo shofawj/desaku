@@ -64,12 +64,12 @@
                                 </div>
 
                                 <div class="group-facebook">
-                                        <button id="customBtn" type="button" class="btn customGPlusSignIn">
+                                        <button id="customBtnFacebook" type="button" class="btn customGPlusSignIn">
                                                 <span class="icon"></span>
                                                 <span class="buttonText">Masuk dengan Facebook</span>
                                         </button>
 
-                                        ssss
+                                        
                                     </div>
                                 </form>
 
@@ -235,7 +235,7 @@
       display: inline-block;
       background: white;
       color: #444;
-      border-radius: 20px;
+      border-radius: 14px;
       width: 100%;
       /* border: thin solid #888; */
       box-shadow: 0px 10px 40px -10px rgba(143,141,143,1);
@@ -266,6 +266,39 @@
 
     .group-facebook{
         margin-top:2%;
+    }
+
+    #customBtnFacebook {
+      display: inline-block;
+      background: blue;
+      color: #444;
+      border-radius: 14px;
+      width: 100%;
+      /* border: thin solid #888; */
+      box-shadow: 0px 10px 40px -10px rgba(143,141,143,1);
+      white-space: nowrap;
+    }
+    #customBtnFacebook:hover {
+      cursor: pointer;
+    }
+    #customBtnFacebook span.label {
+      font-family: serif;
+      font-weight: normal;
+    }
+    #customBtnFacebook  span.icon {
+      background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
+      display: inline-block;
+      vertical-align: middle;
+      width: 42px;
+      height: 42px;
+    }
+    #customBtnFacebook  span.buttonText {
+      display: inline-block;
+     text-align: center;
+     color: #ffffff;
+      font-size: 21px;
+      font-weight: bold;
+     
     }
     </style>
    
