@@ -16,7 +16,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('landing-page.profil.index')}}">Kategori<span>/</span></a>
+          <a class="nav-link" href="{{ route('landing-page.category.index')}}">Kategori<span>/</span></a>
         </li>
         
         <li class="nav-item">
