@@ -7,9 +7,66 @@
             <div class="card card-login">
                 <div class="container">
                     <h1>Masuk ke akun anda</h1>
-                    <input type="text" placeholder="Username/Email">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            
+                            <div class="form-login">
+                                <form method="POST" action="{{route('login')}}">
+                                @csrf
+                                <div class="group-email">
+                                    <input id="email" type="email" class="{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" placeholder="Type your email" required autofocus>
+                                    @if ($errors->has('email'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                    @endif
+                                </div>
+
+                                <div class="group-password">
+                                    <input id="password" type="password" placeholder="Type your password" class="{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+                                    @if ($errors->has('password'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
+                                </div>
+
+                                <div class="group-forgot">
+                                    @if (Route::has('password.request'))
+                                    <a class="forgot btn btn-link" href="{{ route('password.request') }}">
+                                        {{ __('Lupa Password?') }}
+                                    </a>
+                                @endif
+                                </div>
+                                <br/>
+                                <div class="group-button">
+                                
+                                        <button type="submit" class="btn btn-submit">
+                                                <h4>{{ __('Masuk') }}</h4>
+                                            </button>
+                                            
+                                </div> 
+
+                                <div class="group-daftar">
+                                    <p>Belum punya akun Desaku ?  
+                                            @if (Route::has('register'))
+                                            <a href="{{ route('register') }}">{{ __('Daftar') }}</a>
+                                    @endif
+                                    </p>
+                                   
+                                </div>
+                                </form>
+
+                               
+
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </div>  
             {{-- <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
@@ -82,25 +139,81 @@
     <style>
 
         .card-login{
+            padding: 5%;
             -webkit-box-shadow: 0px 10px 79px -9px rgba(143,141,143,1);
             -moz-box-shadow: 0px 10px 79px -9px rgba(143,141,143,1);
             box-shadow: 0px 10px 79px -9px rgba(143,141,143,1);
             border: none;
+            border-radius: 20px;
         }
 
         h1{
-            padding: 30px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 300;
             color: #777;
+            margin-bottom: 5%;
         }
 
         input{
+            width: 100%;
             padding-left: 20px;
-            padding-top: 8px;
-            padding-bottom: 8px;
+            padding-top: 16px;
+            padding-bottom: 16px;
         }
 
+        .group-email{
+            margin-bottom: 3%;
+        }
+
+        .form-login {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2%;
+        }
+
+        
+        .group-forgot{
+            margin-top: 2%;
+            
+        }
+        .forgot{
+            float: right;
+            color: #e67e22;
+            font-size: 15px;
+        }
+
+        
+        .group-button{
+            margin-top: 4%;
+        }
+        .btn-submit{
+            width: 100%;
+            background:#e67e22;
+            color: white;
+            border-radius: 20px;
+        }
+
+        .btn-submit h4{
+            font-size: 25px;
+            margin-top: 1%;
+            font-weight: bold;
+        }
+
+        .group-daftar{
+            width:100%;
+            margin-top: 5%;
+        }
+
+        .group-daftar p {
+            text-align: center;
+            font-size: 16px;
+
+        }
+
+        .group-daftar p a {
+            color: #000000;
+            font-weight: bold;
+        }
     </style>
    
 @endpush
