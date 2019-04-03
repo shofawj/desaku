@@ -55,6 +55,22 @@
                                     </p>
                                    
                                 </div>
+
+                                <div class="group-google">
+                                    <button id="customBtn" type="button" class="btn customGPlusSignIn">
+                                            <span class="icon"></span>
+                                            <span class="buttonText">Masuk dengan Google</span>
+                                    </button>
+                                </div>
+
+                                <div class="group-facebook">
+                                        <button id="customBtn" type="button" class="btn customGPlusSignIn">
+                                                <span class="icon"></span>
+                                                <span class="buttonText">Masuk dengan Facebook</span>
+                                        </button>
+
+                                        ssss
+                                    </div>
                                 </form>
 
                                
@@ -214,6 +230,43 @@
             color: #000000;
             font-weight: bold;
         }
+
+    #customBtn {
+      display: inline-block;
+      background: white;
+      color: #444;
+      border-radius: 20px;
+      width: 100%;
+      /* border: thin solid #888; */
+      box-shadow: 0px 10px 40px -10px rgba(143,141,143,1);
+      white-space: nowrap;
+    }
+    #customBtn:hover {
+      cursor: pointer;
+    }
+    span.label {
+      font-family: serif;
+      font-weight: normal;
+    }
+    span.icon {
+      background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
+      display: inline-block;
+      vertical-align: middle;
+      width: 42px;
+      height: 42px;
+    }
+    span.buttonText {
+      display: inline-block;
+     text-align: center;
+     
+      font-size: 21px;
+      font-weight: bold;
+     
+    }
+
+    .group-facebook{
+        margin-top:2%;
+    }
     </style>
    
 @endpush
