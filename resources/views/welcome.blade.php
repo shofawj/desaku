@@ -74,11 +74,82 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h3>Cara Kerj <span class="alternate">Desaku</span></h3>
+                        <h3>Cara Kerja <span class="alternate">Desaku</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body" style="min-height:420px;box-shadow: 2px 13px 29px -8px rgba(194,194,194,1);">
+                            <h3 class="text-center"> Pembelian </h3>
+                            <div class="container mt-5">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-3">
+                                        <p class="text-center">Cari Kebutuhan</p>
+                                        <img src="{{ asset('assets/images/komponen/seo.svg')}}" class="ml-5 mt-3" alt="" width="150">
+                                    </div>
+                                    <div class="col-1 d-flex align-items-center">
+                                        <img src="{{ asset('assets/images/komponen/arrow-point-to-right-1.svg')}}" alt="" width="15">
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="text-center">Pilih Kebutuhan</p>
+                                        <img src="{{ asset('assets/images/komponen/rate.svg')}}" class="ml-5 mt-3" alt="" width="150" alt="">
+                                    </div>
+                                    <div class="col-1 d-flex align-items-center">
+                                        <img src="{{ asset('assets/images/komponen/arrow-point-to-right-1.svg')}}" alt="" width="15">
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="text-center">Hubungani Penjual</p>
+                                        <img src="{{ asset('assets/images/komponen/question.svg')}}" class="ml-5 mt-3" alt="" width="150" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body" style="min-height:420px;box-shadow: 2px 13px 29px -8px rgba(194,194,194,1);">
+                                <h3 class="text-center"> Penjualan </h3>
+                                <div class="container mt-5">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-3">
+                                            <p class="text-center">Isi Form</p>
+                                            <img src="{{ asset('assets/images/komponen/form.svg')}}" class="ml-5 mt-3" alt="" width="150" alt="">
+                                        </div>
+                                        <div class="col-1 d-flex align-items-center">
+                                            <img src="{{ asset('assets/images/komponen/arrow-point-to-right-1.svg')}}" alt="" width="15">
+                                        </div>
+                                        <div class="col-3">
+                                            <p class="text-center">Lakukan Verifikasi</p>
+                                            <img src="{{ asset('assets/images/komponen/clipboard.svg')}}" class="ml-5 mt-3" alt="" width="150" alt="">
+                                        </div>
+                                        <div class="col-1 d-flex align-items-center">
+                                            <img src="{{ asset('assets/images/komponen/arrow-point-to-right-1.svg')}}" alt="" width="15">
+                                        </div>
+                                        <div class="col-3">
+                                            <p class="text-center">Jual Hasil Sumber Daya Alam</p>
+                                            <img src="{{ asset('assets/images/komponen/trade.svg')}}" class="ml-5 mt-3" alt="" width="150" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         <!--====  End of cara kerja  ====-->
 
@@ -87,7 +158,7 @@
         =           Album            =
         ============================-->
 
-        <section class="speakers-full-width">
+        <section class="speakers-full-width mt-5">
             <div class="container-fluid p-0">
                 <div class="row">
                     <div class="col-12">
@@ -105,11 +176,6 @@
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="speaker-image">
@@ -117,11 +183,6 @@
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="speaker-image">
@@ -129,11 +190,6 @@
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="speaker-image">
@@ -141,11 +197,6 @@
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="speaker-image">
@@ -153,11 +204,6 @@
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="speaker-image">
@@ -165,11 +211,6 @@
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="speaker-image">
@@ -177,11 +218,6 @@
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -330,29 +366,29 @@
                                 <div class="col-6">
                                     <!-- Service item -->
                                     <div class="service-item">
-                                        <i class="fa fa-microphone"></i>
-                                        <h5>8 Speakers</h5>
+                                        <img src="{{ asset('assets/images/komponen/visitor.svg')}}" alt="" class="mb-3">
+                                        <h5>800.000 Pengunjung</h5>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <!-- Service item -->
                                     <div class="service-item">
-                                        <i class="fa fa-flag"></i>
-                                        <h5>500 + Seats</h5>
+                                        <img src="{{ asset('assets/images/komponen/charts.svg')}}" alt="" class="mb-3">
+                                        <h5>500+ Transaksi</h5>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <!-- Service item -->
                                     <div class="service-item">
-                                        <i class="fa fa-ticket"></i>
-                                        <h5>300 tickets</h5>
+                                        <img src="{{ asset('assets/images/komponen/fruit.svg')}}" alt="" class="mb-3">
+                                        <h5>200+ SDA</h5>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <!-- Service item -->
                                     <div class="service-item">
-                                        <i class="fa fa-calendar"></i>
-                                        <h5>3 days event</h5>
+                                        <img src="{{ asset('assets/images/komponen/village.svg')}}" alt="" class="mb-3">
+                                        <h5>300+ Desa Terdaftar</h5>
                                     </div>
                                 </div>
                             </div>
