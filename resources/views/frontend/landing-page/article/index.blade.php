@@ -23,42 +23,71 @@
                                     <div class="rating">
                                         <ul>
                                             <li>
-                                                <svg height="25" width="23">
+                                                <svg height="20" width="23">
                                                     <polygon
                                                         points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78"
                                                         fill="currentColor" />
                                                 </svg>
                                             </li>
                                             <li>
-                                                <svg height="25" width="23">
+                                                <svg height="20" width="23">
                                                     <polygon
                                                         points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78"
                                                         fill="currentColor" />
                                                 </svg>
                                             </li>
                                             <li>
-                                                <svg height="25" width="23">
+                                                <svg height="20" width="23">
                                                     <polygon
                                                         points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78"
                                                         fill="currentColor" />
                                                 </svg>
                                             </li>
                                             <li>
-                                                <svg height="25" width="23">
+                                                <svg height="20" width="23">
                                                     <polygon
                                                         points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78"
                                                         fill="currentColor" />
                                                 </svg>
                                             </li>
                                             <li>
-                                                <svg height="25" width="23">
+                                                <svg height="20" width="23">
                                                     <polygon
                                                         points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78"
                                                         fill="currentColor" />
                                                 </svg>
                                             </li>
+
+                                            <span class="ulasan">
+                                                <label for="">
+                                                    &nbsp;1000 Ulasan
+                                                </label>
+                                            </span>
                                         </ul>
                                     </div>
+
+                                    <div class="price">
+                                        <p>Rp. 50.000/kg</p>
+                                    </div>
+                                    <div class="location">
+                                        <p>Desa Gayo di Papua Barat</p>
+                                    </div>
+
+                                    <div class="group-button">
+
+                                        <button type="submit" class="btn btn-submit">
+                                            <h4>Hubungi Penjual</h4>
+                                        </button>
+
+                                    </div>
+
+                                    <div class="group-button">
+
+                                            <button type="submit" class="btn btn-chart">
+                                                <h4>Tambahkan ke Keranjang</h4>
+                                            </button>
+    
+                                        </div>
                                 </div>
                             </div>
                             {{-- End section --}}
@@ -96,18 +125,16 @@
 
     .image-gallery {
         width: 100%;
-        height: 400px;
+        height: 350px;
         border: 1px solid #000000;
     }
 
     .caption-section {
         width: 100%;
-        height: 400px;
-        border: 1px solid #000000;
+        height: auto;
     }
 
     .caption-section p {
-        margin-top: 6%;
         font-size: 1.5vw;
     }
 
@@ -115,7 +142,7 @@
         width: 100%;
         margin-top: 1%;
         height: auto;
-        border: 1px solid #000000;
+        border-bottom: 2px solid #ecf0f1;
     }
 
     .rating ul {
@@ -131,6 +158,63 @@
 
     .rating li:hover~li {
         color: grey;
+    }
+
+    .ulasan label {
+        font-size: 1vw;
+    }
+
+    .price {
+        margin-top: 8%;
+        width: 100%;
+        height: auto;
+    }
+
+    .price p {
+        font-size: 1.5vw;
+        font-weight: bold;
+        color: #e67e22;
+    }
+
+    .location p {
+        font-size: 1vw;
+        margin-top: 2%;
+    }
+
+    .group-button {
+        margin-top: 4%;
+    }
+
+    .group-button .btn-submit {
+        width: 100%;
+        background: #e67e22;
+        color: white;
+        box-shadow: 0px 10px 40px -10px rgba(143, 141, 143, 1);
+
+    }
+
+    .group-button .btn-submit h4 {
+        font-size: 25px;
+        margin-top: 1%;
+        font-weight: bold;
+        color: #ffffff;
+        text-transform: capitalize;
+    }
+
+    .group-button .btn-chart {
+        width: 100%;
+        background: #ffffff;
+        color: white;
+        box-shadow: 0px 10px 40px -10px rgba(143, 141, 143, 1);
+
+    }
+
+    .group-button .btn-chart h4 {
+        font-size: 25px;
+        margin-top: 1%;
+        font-weight: bold;
+        color: #e67e22;
+        text-transform: capitalize;
     }
 
 </style>
