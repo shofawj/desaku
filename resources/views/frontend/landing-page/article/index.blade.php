@@ -3,7 +3,7 @@
 @section('content')
 
 <section class="banner-page">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <div class="card-banner">
@@ -29,9 +29,7 @@
                                                 <a href="#" class="thumbnail" data-big="http://placekitten.com/460/700">
                                                     <div class="thumbnail-image" style="background-image: url(http://placekitten.com/460/700)"></div>
                                                   </a>
-                                                  <a href="#" class="thumbnail" data-big="http://placekitten.com/460/700">
-                                                    <div class="thumbnail-image" style="background-image: url(http://placekitten.com/460/700)"></div>
-                                                  </a>
+                                               
                                               </div>
                                         
                                     </div>
@@ -130,7 +128,7 @@
         width: 100%;
         height: auto;
         padding: 2%;
-    }
+a    }
 
     .banner-page .card-banner {
         width: 100%;
@@ -254,7 +252,7 @@
 
     .primary {
         width: 100%;
-        height: 300px;
+        height: 450px;
         border: 1px solid #000000;
         background-color: #cccccc;
         background-size: cover;
