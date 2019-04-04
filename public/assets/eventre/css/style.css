@@ -221,7 +221,7 @@ button:hover {
 }
 
 .bg-timer {
-  background: url(../images/background/timer-bg.jpg) no-repeat;
+  background: url("/assets/images/komponen/3.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }

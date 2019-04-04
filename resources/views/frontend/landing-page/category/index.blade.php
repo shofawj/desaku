@@ -36,7 +36,7 @@
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="news-single.html">
-										<img src="{{ asset('assets/images/news/post-thumb-one.jpg')}}" alt="post-image" class="img-fluid">
+										<img src="{{ asset('assets/images/komponen/22.png')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
 								<div class="post-content">
@@ -69,7 +69,7 @@
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="news-single.html">
-										<img src="{{ asset('assets/images/news/post-thumb-one.jpg')}}" alt="post-image" class="img-fluid">
+										<img src="{{ asset('assets/images/komponen/21.png')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
 								<div class="post-content">
