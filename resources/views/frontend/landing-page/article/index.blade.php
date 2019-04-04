@@ -13,7 +13,28 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="image-gallery">
 
-                                </div>
+                                    <main class="primary"
+                                        style="background-image: url('http://placekitten.com/410/500');"></main>
+                                        
+                                        <div class="thumbnails">
+                                                <a href="#" class="selected thumbnail" data-big="http://placekitten.com/420/600">
+                                                  <div class="thumbnail-image" style="background-image: url(http://placekitten.com/420/600)"></div>
+                                                </a>
+                                                <a href="#" class="thumbnail" data-big="http://placekitten.com/450/600">
+                                                  <div class="thumbnail-image" style="background-image: url(http://placekitten.com/450/600)"></div>
+                                                </a>
+                                                <a href="#" class="thumbnail" data-big="http://placekitten.com/460/700">
+                                                  <div class="thumbnail-image" style="background-image: url(http://placekitten.com/460/700)"></div>
+                                                </a>
+                                                <a href="#" class="thumbnail" data-big="http://placekitten.com/460/700">
+                                                    <div class="thumbnail-image" style="background-image: url(http://placekitten.com/460/700)"></div>
+                                                  </a>
+                                                  <a href="#" class="thumbnail" data-big="http://placekitten.com/460/700">
+                                                    <div class="thumbnail-image" style="background-image: url(http://placekitten.com/460/700)"></div>
+                                                  </a>
+                                              </div>
+                                        
+                                    </div>
                             </div>
                             {{-- End --}}
                             {{-- Section  --}}
@@ -83,11 +104,11 @@
 
                                     <div class="group-button">
 
-                                            <button type="submit" class="btn btn-chart">
-                                                <h4>Tambahkan ke Keranjang</h4>
-                                            </button>
-    
-                                        </div>
+                                        <button type="submit" class="btn btn-chart">
+                                            <h4>Tambahkan ke Keranjang</h4>
+                                        </button>
+
+                                    </div>
                                 </div>
                             </div>
                             {{-- End section --}}
@@ -109,7 +130,6 @@
         width: 100%;
         height: auto;
         padding: 2%;
-        border: 1px solid #000000;
     }
 
     .banner-page .card-banner {
@@ -126,7 +146,6 @@
     .image-gallery {
         width: 100%;
         height: 350px;
-        border: 1px solid #000000;
     }
 
     .caption-section {
@@ -136,6 +155,7 @@
 
     .caption-section p {
         font-size: 1.5vw;
+        margin-top: 6%;
     }
 
     .rating {
@@ -217,6 +237,58 @@
         text-transform: capitalize;
     }
 
+    .image-gallery {
+        margin: 0 auto;
+        display: table;
+    }
+
+    .primary,
+    .thumbnails {
+        display: inline-flex;
+    }
+
+    .thumbnails {
+        width: 100px;
+
+    }
+
+    .primary {
+        width: 100%;
+        height: 300px;
+        border: 1px solid #000000;
+        background-color: #cccccc;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .thumbnail:hover .thumbnail-image,
+    .selected .thumbnail-image {
+        border: 4px solid red;
+    }
+
+    .thumbnail-image {
+        width: 100px;
+        height: 100px;
+        
+        margin: 20px auto;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 1px solid transparent;
+    }
+
 </style>
 
 @endpush
+
+<script>
+        $('.thumbnail').on('click', function() {
+          let clicked = $(this);
+          let newSelection = clicked.data('big');
+          let $img = $('.primary').css("background-image","url(" + newSelection + ")");
+          clicked.parent().find('.thumbnail').removeClass('selected');
+          clicked.addClass('selected');
+          $('.primary').empty().append($img.hide().fadeIn('slow'));
+        });
+        </script>
