@@ -273,7 +273,7 @@
       background: blue;
       color: #444;
       border-radius: 14px;
-      width: 100%;
+          width: 100%;
       /* border: thin solid #888; */
       box-shadow: 0px 10px 40px -10px rgba(143,141,143,1);
       white-space: nowrap;
