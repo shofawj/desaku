@@ -74,7 +74,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h3>Cara Kerja <span class="alternate">Desaku</span></h3>
+                        <h3>Cara Kerj <span class="alternate">Desaku</span></h3>
                     </div>
                 </div>
             </div>
