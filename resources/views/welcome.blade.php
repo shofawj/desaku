@@ -101,7 +101,7 @@
                         <!-- Speaker Slider -->
                         <div class="speaker-slider">
                             <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-one.jpg')}}" alt="speaker" class="img-fluid">
+                                <img src="{{ asset('assets/images/komponen/13.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                             <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-two.jpg')}}" alt="speaker" class="img-fluid">
+                                <img src="{{ asset('assets/images/komponen/12.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
@@ -125,7 +125,7 @@
                                 </div>
                             </div>
                             <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-three.jpg')}}" alt="speaker" class="img-fluid">
+                                <img src="{{ asset('assets/images/komponen/13.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
@@ -137,7 +137,7 @@
                                 </div>
                             </div>
                             <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-four.jpg')}}" alt="speaker" class="img-fluid">
+                                <img src="{{ asset('assets/images/komponen/11.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                             <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-five.jpg')}}" alt="speaker" class="img-fluid">
+                                <img src="{{ asset('assets/images/komponen/12.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
@@ -161,7 +161,7 @@
                                 </div>
                             </div>
                             <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-one.jpg')}}" alt="speaker" class="img-fluid">
+                                <img src="{{ asset('assets/images/komponen/13.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
@@ -173,43 +173,7 @@
                                 </div>
                             </div>
                             <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-two.jpg')}}" alt="speaker" class="img-fluid">
-                                <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-two.jpg')}}" alt="speaker" class="img-fluid">
-                                <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-four.jpg')}}" alt="speaker" class="img-fluid">
-                                <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="speaker-image">
-                                <img src="{{ asset('assets/images/speakers/speaker-full-five.jpg')}}" alt="speaker" class="img-fluid">
+                                <img src="{{ asset('assets/images/komponen/11.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
                                     <h5>GEORGE G. HERNANDEZ</h5>
                                     <p>CEO Rancom Motor</p>
@@ -248,7 +212,7 @@
                         <article class="news-post-hr">
                             <div class="post-thumb">
                                 <a href="news-single.html">
-                                    <img src="{{ asset('assets/images/news/post-thumb-hr-one.jpg')}}" alt="post-image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/komponen/21.png')}}" alt="post-image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="post-contents border-top">
@@ -271,7 +235,7 @@
                         <article class="news-post-hr">
                             <div class="post-thumb">
                                 <a href="news-single.html">
-                                    <img src="{{ asset('assets/images/news/post-thumb-hr-two.jpg')}}" alt="post-image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/komponen/22.png')}}" alt="post-image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="post-contents border-top">
@@ -294,7 +258,7 @@
                         <article class="news-post-hr">
                             <div class="post-thumb">
                                 <a href="news-single.html">
-                                    <img src="{{ asset('assets/images/news/post-thumb-hr-three.jpg')}}" alt="post-image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/komponen/23.png')}}" alt="post-image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="post-contents">
@@ -317,7 +281,7 @@
                         <article class="news-post-hr">
                             <div class="post-thumb">
                                 <a href="news-single.html">
-                                    <img src="{{ asset('assets/images/news/post-thumb-hr-four.jpg')}}" alt="post-image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/komponen/21.png')}}" alt="post-image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="post-contents">

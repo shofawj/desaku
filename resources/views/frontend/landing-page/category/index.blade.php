@@ -269,11 +269,11 @@
 						<!-- Widget Header -->
 						<h5 class="widget-header">Categories</h5>
 						<ul class="category-list m-0 p-0">
-							<li><a href="">Strategy Planning <span class="float-right">(6)</span></a></li>
-							<li><a href="">Corporate Identity <span class="float-right">(9)</span></a></li>
-							<li><a href="">Brand Creation<span class="float-right">(3)</span></a></li>
-							<li><a href="">Entertainment<span class="float-right">(5)</span></a></li>
-							<li><a href="">Conference<span class="float-right">(7)</span></a></li>
+							<li><a href="">Buah-Buahan<span class="float-right">(6)</span></a></li>
+							<li><a href="">Kacang-Kacangan<span class="float-right">(9)</span></a></li>
+							<li><a href="">Sayur-Sayuran<span class="float-right">(3)</span></a></li>
+							<li><a href="">Hewan Ternak<span class="float-right">(5)</span></a></li>
+							<li><a href="">Biji-Bijian<span class="float-right">(7)</span></a></li>
 						</ul>
 					</div>
 					<!-- Latest post -->
@@ -317,12 +317,12 @@
 						<!-- Widget Header -->
 						<h5 class="widget-header">Popular Tags</h5>
 						<ul class="list-inline">
-							<li class="list-inline-item"><a href="#">Culture</a></li>
-							<li class="list-inline-item"><a href="#">Social</a></li>
-							<li class="list-inline-item"><a href="#">News</a></li>
-							<li class="list-inline-item"><a href="#">Events</a></li>
-							<li class="list-inline-item"><a href="#">Sports</a></li>
-							<li class="list-inline-item"><a href="#">Music</a></li>
+							<li class="list-inline-item"><a href="#">Buah Naga</a></li>
+							<li class="list-inline-item"><a href="#">Kentang</a></li>
+							<li class="list-inline-item"><a href="#">Bawang Merah</a></li>
+							<li class="list-inline-item"><a href="#">Lemon</a></li>
+							<li class="list-inline-item"><a href="#">Jeruk</a></li>
+							<li class="list-inline-item"><a href="#">Strawberry</a></li>
 						</ul>
 					</div>
 				</div>

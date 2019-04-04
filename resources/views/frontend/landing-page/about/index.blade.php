@@ -49,7 +49,7 @@
 				<div class="col-12">
 					<div class="section-title">
 						<h3>Apa kata<span class="alternate"> Mereka?</span></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquid vero harum rerum voluptates, ab, ullam.</p>
+						<p></p>
 					</div>
 				</div>
 			</div>
@@ -59,7 +59,7 @@
 					<div class="testimonial-item">
 						<!-- Given Comment -->
 						<div class="comment">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel illo dolorem, atque maxime voluptates optio fugit iure cum ipsa quo quaerat! Veritatis, modi. Laudantium provident deleniti earum voluptas delectus, labore dolor dolorem amet expedita.</p>
+							<p>Teimakasih atas pelayanan yang baik. Tingkatkan kembali </p>
 						</div>
 						<div class="person">
 							<div class="media">
@@ -67,9 +67,9 @@
 								<img src="{{ asset('assets/images/speakers/speaker-thumb-three.jpg')}}" alt="person-image">
 								<div class="media-body">
 									<!-- Person Name -->
-									<div class="name"><p>Espen Brunberg</p></div>
+									<div class="name"><p>Afif Susanto</p></div>
 									<!-- Profession -->
-									<div class="profession"><p>Web Developer</p></div>
+									<div class="profession"><p>Pembeli Jeruk </p></div>
 								</div>
 							</div>
 						</div>
@@ -80,17 +80,20 @@
 					<div class="testimonial-item">
 						<!-- Given Comment -->
 						<div class="comment">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel illo dolorem, atque maxime voluptates optio fugit iure cum ipsa quo quaerat! Veritatis, modi. Laudantium provident deleniti earum voluptas delectus, labore dolor dolorem amet expedita.</p>
-						</div>
+							<p> 
+									
+									Ada diskon 5% setelah pembelian pertama. Jadi, untuk pembelian berikutnya total biaya pembelian akan otomatis dikurangi dengan diskon yang kita peroleh sebelumnya.
+							</p>
+							</div>
 						<div class="person">
 							<div class="media">
 								<!-- Person Image -->
 								<img src="{{ asset('assets/images/speakers/speaker-thumb-one.jpg')}}" alt="person-image">
 								<div class="media-body">
 									<!-- Person Name -->
-									<div class="name"><p>Kaite Stricker</p></div>
+									<div class="name"><p>Hanifah Lazuardy</p></div>
 									<!-- Profession -->
-									<div class="profession"><p>Designer</p></div>
+									<div class="profession"><p>Pembeli Strawberry</p></div>
 								</div>
 							</div>
 						</div>
@@ -101,17 +104,19 @@
 					<div class="testimonial-item">
 						<!-- Given Comment -->
 						<div class="comment">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel illo dolorem, atque maxime voluptates optio fugit iure cum ipsa quo quaerat! Veritatis, modi. Laudantium provident deleniti earum voluptas delectus, labore dolor dolorem amet expedita.</p>
-						</div>
+							<p>dari pengalaman aku sih kalo belanja dibawah $50 ga akan dikenai biaya apa2 karena itu udah ada peraturan nya, jd kalau belanjaan kamu kurang dari $50 tpi dimintaan bayaran yg gak masuk akal jgn mau.
+									kalau pakai dhl juga mereka usahain bakalan sampai tepat waktu, ga akn di tahan sama ekspedisi.
+									
+									thank you :) </p></div>
 						<div class="person">
 							<div class="media">
 								<!-- Person Image -->
 								<img src="{{ asset('assets/images/speakers/speaker-thumb-five.jpg')}}" alt="person-image">
 								<div class="media-body">
 									<!-- Person Name -->
-									<div class="name"><p>Adam Smith</p></div>
+									<div class="name"><p>Tito dwiky</p></div>
 									<!-- Profession -->
-									<div class="profession"><p>Web Developer</p></div>
+									<div class="profession"><p>Pembeli Kentang</p></div>
 								</div>
 							</div>
 						</div>
