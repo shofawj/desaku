@@ -106,11 +106,11 @@
                                     </div>
 
                                     <div class="group-button">
-
+                                    <a href="/">
                                         <button type="submit" class="btn btn-chart">
-                                            <h4>Tambahkan ke Keranjang</h4>
+                                            <h4>Tambahkan ke Favorite</h4>
                                         </button>
-
+                                    </a>
                                     </div>
                                 </div>
                             </div>

@@ -30,7 +30,7 @@
       </ul>
       <a href="#" class="ticket">
         <img src="{{ asset('assets/images/icon/ticket.png')}}" alt="ticket">
-        <span>ayo mulai</span>
+        <span>Favorite</span>
       </a>
       </div>
   </div>
