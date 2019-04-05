@@ -141,8 +141,7 @@
             <th title="Field #4">Color</th>
             <th title="Field #5">Deposit Paid</th>
             <th title="Field #6">Order Date</th>
-            <th title="Field #7">Status</th>
-            <th title="Field #8">Type</th>
+           
           </tr>
         </thead>
         <tbody>

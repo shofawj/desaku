@@ -19,11 +19,41 @@
             <div class="product-fav">
                 <div class="row">
                     <div class="col-md-2">
-                        <img src="" alt="">
+                       <div class="image-product">
+                       <img src="{{asset('assets/images/gallery/gallery-five.jpg')}}" alt="">
+                       </div>
                     </div>
                     <div class="col-md-10">
                         <div class="description">
+                            <div class="title">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cupiditate eos cumque consequuntur similique dolorem.</p>
+                            </div>
+                            <br>
+                            <div class="price">
+                                <p>Rp 180.000</p>
+                                {{-- input plus minus item --}}
+                                
+                                <input type="button" class="btn btn-default pull-left" style="margin-right: 0%; border-radius:10px;  background:transparent; border:1px solid #bdc3c7;" 
+                                id="subs"
+                                value="-"
+                                /> 
+                                &nbsp;
+                                &nbsp;
+                                <input type="text" style="width: 40px;text-align: center; margin: 0px;" 
+                                name="noOfRoom" class="onlyNumber form-control pull-left" 
+                                id="noOfRoom" 
+                                value="0" 
+                                />
+                                &nbsp;
+                                &nbsp;
+                                <input type="button" class="btn btn-default"  style="margin-right: 0%; border-radius:10px; background:transparent; border:1px solid #bdc3c7;"
+                                id="adds"
+                                value="+" 
+                                />
 
+                                                                {{--  --}}
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,12 +151,12 @@ padding: 2%;
     .item-fav .name{
         width: 100%;
         height: auto;
-        border-bottom: 1px solid #000000;
+        border-bottom: 2px solid #bdc3c7;
         
     }
 
     .item-fav .name p {
-        font-size: 1vw;
+        font-size: 0.8vw;
         margin-bottom: 1%;
     }
     .item-fav .name p b {
@@ -137,15 +167,46 @@ padding: 2%;
     .item-fav .product-fav{
         width: 100%;
         height: auto;
-        border: 1px solid #000000;
     }
 
     .item-fav .product-fav .description{
         width: 100%;
-        height: 100px ;
-        border: 1px solid #000000;
+        height: auto ;
     }
 
+    .item-fav .product-fav .description .title{
+        width: 100%;
+        height: auto;
+    }
+
+    .item-fav .product-fav .description .price{
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        display: inline-flex;
+    }
+
+    
+    .price p {
+        color:  #e67e22;
+        font-size: 1vw;
+        font-weight: bold;
+        margin-right: 55%;
+        
+    }
+
+    .product-fav .image-product{
+        width: 100%;
+        height: 100px;
+    }
+
+    .product-fav .image-product img {
+        width: 100%;
+        height: 100px;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
     .content-fav{
         width: 100%;
         height: auto;
