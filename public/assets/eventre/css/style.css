@@ -128,7 +128,7 @@ ul.pagination .active a,
 }
 
 .text-overlay:after {
-    content: 'CONFERENCE';
+    content: 'DESAKU';
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 215px;

@@ -229,8 +229,156 @@
                                 odio rerum unde! Veniam, voluptas voluptatum dolorum nam perferendis itaque laudantium
                                 repellat voluptatem porro ducimus pariatur!</div>
 
-                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, ad esse. Hic at
-                                officiis fuga mollitia quod.</div>
+
+                            {{-- Review --}}
+                            <div>
+                                <div class="section-review">
+                                    <div class="rating-review">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="all-rating">
+                                                    <div class="container">
+
+                                                        <div class="inner">
+                                                            <div class="rating">
+                                                                <span class="rating-num">4.0</span>
+                                                                <div class="rating-stars">
+                                                                    <span><i class="active icon-star"></i></span>
+                                                                    <span><i class="active icon-star"></i></span>
+                                                                    <span><i class="active icon-star"></i></span>
+                                                                    <span><i class="active icon-star"></i></span>
+                                                                    <span><i class="icon-star"></i></span>
+                                                                </div>
+
+                                                                <div class="rating-users">
+                                                                    <i class="icon-user"></i> 1,014,004 total
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="histo">
+                                                                <div class="five histo-rate">
+                                                                    <span class="histo-star">
+                                                                        <i class="active icon-star"></i> 5 </span>
+                                                                    <span class="bar-block">
+                                                                        <span id="bar-five" class="bar">
+                                                                            <span>566,784</span>&nbsp;
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+
+                                                                <div class="four histo-rate">
+                                                                    <span class="histo-star">
+                                                                        <i class="active icon-star"></i> 4 </span>
+                                                                    <span class="bar-block">
+                                                                        <span id="bar-four" class="bar">
+                                                                            <span>171,298</span>&nbsp;
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+
+                                                                <div class="three histo-rate">
+                                                                    <span class="histo-star">
+                                                                        <i class="active icon-star"></i> 3 </span>
+                                                                    <span class="bar-block">
+                                                                        <span id="bar-three" class="bar">
+                                                                            <span>100,940</span>&nbsp;
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+
+                                                                <div class="two histo-rate">
+                                                                    <span class="histo-star">
+                                                                        <i class="active icon-star"></i> 2 </span>
+                                                                    <span class="bar-block">
+                                                                        <span id="bar-two" class="bar">
+                                                                            <span>44,525</span>&nbsp;
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+
+                                                                <div class="one histo-rate">
+                                                                    <span class="histo-star">
+                                                                        <i class="active icon-star"></i> 1 </span>
+                                                                    <span class="bar-block">
+                                                                        <span id="bar-one" class="bar">
+                                                                            <span>136,457</span>&nbsp;
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {{-- Comment --}}
+
+                                    <br>
+                                    <div class="comment">
+                                        <h5>Comments (3)</h5>
+                                        	<!-- Comment -->
+						<div class="media comment">
+							<img src="images/speakers/speaker-thumb-four.jpg" alt="image">
+							<div class="media-body">
+								<h6>Jessica Brown</h6>
+								<ul class="list-inline">
+									<li class="list-inline-item"><span class="fa fa-calendar"></span>Mar 20, 2016</li>
+									<li class="list-inline-item"><a href="#">Reply</a></li>
+								</ul>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant tota rem ape riamipsa eaque  quae nisi ut aliquip commodo consequat. 
+								</p>
+								<!-- Nested Comment -->
+								<div class="media comment">
+									<img src="images/speakers/speaker-thumb-three.jpg" alt="image">
+									<div class="media-body">
+										<h6>Jonathan Doe</h6>
+										<ul class="list-inline">
+											<li class="list-inline-item"><span class="fa fa-calendar"></span>Mar 20, 2016</li>
+										</ul>
+										<p>
+											Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant tota rem ape riamipsa eaque  quae nisi 
+										</p>
+									</div>
+								</div>
+							</div>
+                        </div>
+                        
+                        	<!-- Comment -->
+						<div class="media comment">
+							<img src="images/speakers/speaker-thumb-two.jpg" alt="image">
+							<div class="media-body">
+								<h6>Adam Smith</h6>
+								<ul class="list-inline">
+									<li class="list-inline-item"><span class="fa fa-calendar"></span>Mar 20, 2016</li>
+									<li class="list-inline-item"><a href="#">Reply</a></li>
+								</ul>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant tota rem ape riamipsa eaque  quae nisi ut aliquip commodo consequat. 
+								</p>
+							</div>
+						</div>
+                                    </div>
+                                    <br>
+                                    <div class="comment-form">
+                                        <h5>Leave A Comment</h5>
+                                        <form action="#" class="row">
+                                            <div class="col-12">
+                                                <textarea class="form-control main" name="comment" id="comment" rows="10" placeholder="Your Review"></textarea>
+                                            </div>
+                                           
+                                            <div class="col-12">
+                                                <button class="btn btn-main-md" type="submit">Submit Now</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            {{-- End Review --}}
                         </div><!-- //tab-content -->
 
                     </div><!-- //tab-wrapper -->
@@ -270,7 +418,7 @@
                                 <div class="media-body">
                                     <h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
                                     <p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
-                                    <a href="" class="btn btn-primary">Selengkapnya</a>
+                                    <a href="" class="btn btn-detail">Selengkapnya</a>
                                 </div>
                             </div>
                             <!-- Post -->
@@ -279,7 +427,7 @@
                                 <div class="media-body">
                                     <h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
                                     <p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
-                                    <a href="" class="btn btn-primary">Selengkapnya</a>
+                                    <a href="" class="btn btn-detail">Selengkapnya</a>
                                 </div>
                             </div>
                             <!-- Post -->
@@ -288,7 +436,7 @@
                                 <div class="media-body">
                                     <h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
                                     <p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
-                                    <a href="" class="btn btn-primary">Selengkapnya</a>
+                                    <a href="" class="btn btn-detail">Selengkapnya</a>
                                 </div>
                             </div>
                             <!-- Post -->
@@ -297,12 +445,12 @@
                                 <div class="media-body">
                                     <h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
                                     <p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
-                                    <a href="" class="btn btn-primary">Selengkapnya</a>
+                                    <a href="" class="btn btn-detail">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
                         <!-- Popular Tag Widget -->
-                       
+
                     </div>
                 </div>
             </div>
@@ -529,6 +677,12 @@
         left: 0;
     }
 
+    .btn-detail {
+        width: 50%;
+        height: auto;
+        background: #e67e22;
+        color: #ffffff;
+    }
 
 
 
@@ -536,6 +690,120 @@
         width: 100%;
         height: auto;
     }
+
+    .section-review {
+        width: 100%;
+        height: auto;
+        padding: 2%;
+    }
+
+    .section-review .rating-review {
+        width: 100%;
+        height: auto;
+    }
+
+    .rating-review .all-rating {
+        width: 100%;
+        height: auto;
+        border-bottom: 3px solid #ececec;
+    }
+
+    .inner {
+        padding: 1em;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .rating {
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    .rating-num {
+        color: #333333;
+        font-size: 72px;
+        font-weight: 100;
+        line-height: 1em;
+    }
+
+    .rating-stars {
+        font-size: 20px;
+        color: #E3E3E3;
+        margin-bottom: .5em;
+    }
+
+    .rating-stars .active {
+        color: #737373;
+    }
+
+    .rating-users {
+        font-size: 14px;
+    }
+
+    .histo {
+        float: left;
+        width: 50%;
+        font-size: 13px;
+    }
+
+    .histo-star {
+        float: left;
+        padding: 3px;
+
+    }
+
+    .histo-rate {
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+
+    .bar-block {
+        margin-left: 5px;
+        color: black;
+        display: block;
+        float: left;
+        width: 75%;
+        position: relative;
+    }
+
+    .bar {
+        padding: 4px;
+        display: block;
+    }
+
+    #bar-five {
+        width: 0;
+        background-color: #9FC05A;
+    }
+
+    #bar-four {
+        width: 0;
+        background-color: #ADD633;
+    }
+
+    #bar-three {
+        width: 0;
+        background-color: #FFD834;
+    }
+
+    #bar-two {
+        width: 0;
+        background-color: #FFB234;
+    }
+
+    #bar-one {
+        width: 0;
+        background-color: #FF8B5A;
+    }
+
+    @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 
 </style>
 

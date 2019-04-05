@@ -40,7 +40,8 @@
     <script src="{{asset('assets/eventre/js/click-image.js')}}"></script>
     {{-- Click tabs menu --}}
     <script src="{{asset('assets/eventre/js/click-tabs.js')}}"></script>
-
+    {{-- Rating --}}
+    <script src="{{asset('assets/eventre/js/rating.js')}}"></script>
     @stack('footer-scripts')
 </body>
 
