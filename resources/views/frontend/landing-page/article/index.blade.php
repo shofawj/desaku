@@ -106,7 +106,7 @@
                                     </div>
 
                                     <div class="group-button">
-                                    <a href="/">
+                                    <a href="/favorite">
                                         <button type="submit" class="btn btn-chart">
                                             <h4>Tambahkan ke Favorite</h4>
                                         </button>
