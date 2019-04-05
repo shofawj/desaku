@@ -56,6 +56,17 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-12 col-sm-12">
+                        <br>
+                        <div class="total">
+                            <p>Total : Rp. 180.000 </p>
+                            <br>
+                            <br>
+                            <button type="submit" class="btn btn-success">
+                                Melakukan pemesanan ke pemilik
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -193,6 +204,21 @@ padding: 2%;
         font-weight: bold;
         margin-right: 55%;
         
+    }
+
+    .total{
+        width: 100%;
+        height: auto;
+        border-top: 1px solid #bdc3c7;
+    }
+
+    .total .btn {
+        width: 100%;
+    }
+
+    .total p {
+        float: right;
+        color: #000000;
     }
 
     .product-fav .image-product{
