@@ -14,7 +14,7 @@
                                 <div class="image-gallery">
 
                                     <main class="primary"
-                                        style="background-image: url('http://placekitten.com/410/500');"></main>
+                                        style="background-image: url('http://placekitten.com/410/500') ;"></main>
                                         
                                         <div class="thumbnails">
                                                 <a href="#" class="selected thumbnail" data-big="http://placekitten.com/420/600">
@@ -255,9 +255,9 @@ a    }
         height: 450px;
         border: 1px solid #000000;
         background-color: #cccccc;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     }
 
     .thumbnail:hover .thumbnail-image,
@@ -267,8 +267,7 @@ a    }
 
     .thumbnail-image {
         width: 100px;
-        height: 100px;
-        
+        height: 100%;
         margin: 20px auto;
         background-size: cover;
         background-position: center center;
