@@ -28,8 +28,5 @@ Route::view('/kategori', 'frontend.landing-page.category.index')->name('landing-
 
 Route::view('/article', 'frontend.landing-page.article.index')->name('landing-page.article.index');
 
-<<<<<<< HEAD
 Route::view('/favorite', 'frontend.landing-page.favorite.index')->name('landing-page.favorite.index');
-=======
 Route::view('/admin', 'frontend.admin.index')->name('landing-page.admin.index');
->>>>>>> origin/iqbal
