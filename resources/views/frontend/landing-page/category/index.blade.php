@@ -44,7 +44,7 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+										<h2><a href="/article">Elementum purus id ultrices.</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
