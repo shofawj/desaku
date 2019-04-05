@@ -35,3 +35,5 @@ Route::view('/admin', 'frontend.admin.index')->name('landing-page.admin.index');
 Route::view('/admin/nabati', 'frontend.admin.hayati.nabati.index')->name('landing-page.admin.nabati');
 
 Route::view('/admin/hewani', 'frontend.admin.hayati.hewani.index')->name('landing-page.admin.hewani');
+
+Route::view('/admin/pelanggan', 'frontend.admin.pelanggan.index')->name('landing-page.admin.pelanggan');
