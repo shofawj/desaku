@@ -118,6 +118,24 @@
     </div>
 </section>
 
+<section class="description">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 col-sm-8">
+            <div class="tab-menu">
+
+            </div>
+        </div>
+        {{--  --}}
+        <div class="col-md-4 col-sm-4">
+            <div class="aside">
+
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
 @endsection
 
 {{-- CSS --}}
@@ -275,6 +293,28 @@ a    }
         border: 1px solid transparent;
     }
 
+
+    /* Section description */
+
+    .description{
+        width: 100%;
+        height: auto;
+        padding: 2%;
+
+        border:1px solid #000000;
+    }
+    
+    .tab-menu{
+        width: 100%;
+        height: 100px;
+        border: 1px solid #000000;
+    }
+
+    .aside{
+        width: 100%;
+        height: 100px;
+        border: 1px solid #000000;
+    }
 </style>
 
 @endpush
