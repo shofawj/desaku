@@ -30,3 +30,12 @@ Route::view('/article', 'frontend.landing-page.article.index')->name('landing-pa
 
 Route::view('/favorite', 'frontend.landing-page.favorite.index')->name('landing-page.favorite.index');
 Route::view('/admin', 'frontend.admin.index')->name('landing-page.admin.index');
+
+
+
+
+
+
+Route::view('/nabati', 'frontend.admin.hayati.nabati.index')->name('landing-page.admin.nabati');
+
+Route::view('/hewani', 'frontend.admin.hayati.hewani.index')->name('landing-page.admin.hewani');
