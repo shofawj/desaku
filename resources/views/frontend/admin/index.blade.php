@@ -3,7 +3,9 @@
 
 	<!-- begin::Head -->
 	<head>
-    @include('frontend.admin.include._header')
+		@include('frontend.admin.include._header')
+		
+    @stack('header-scripts')
 	</head>
 
 	<!-- end::Head -->
@@ -109,6 +111,8 @@
 		<!-- end::Global Config -->
 
 		@include('frontend.admin.include._vendor')
+
+		@stack('footer-scripts')
 
 	</body>
 

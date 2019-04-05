@@ -28951,7 +28951,7 @@ body {
     width: 90% !important; } }
 
 .kt-content {
-  padding: 25px; }
+  padding: 25px; margin-top:-40px;}
   .kt-subheader--enabled.kt-subheader--transparent:not(.kt-subheader--fixed) .kt-content {
     padding-top: 0; }
 
