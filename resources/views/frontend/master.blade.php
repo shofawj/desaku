@@ -38,6 +38,9 @@
     <script src="{{ asset('assets/eventre/js/custom.js')}}"></script>
     {{-- Click Image --}}
     <script src="{{asset('assets/eventre/js/click-image.js')}}"></script>
+    {{-- Click tabs menu --}}
+    <script src="{{asset('assets/eventre/js/click-tabs.js')}}"></script>
+
     @stack('footer-scripts')
 </body>
 

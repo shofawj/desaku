@@ -123,8 +123,25 @@
     <div class="row">
         <div class="col-md-8 col-sm-8">
             <div class="tab-menu">
-
-            </div>
+               
+                <div class="tab-wrapper">
+  
+                    <ul class="tab-menu">
+                      <li class="active">Deskripsi</li>
+                      <li>Review</li>
+                     
+                    </ul>
+                    
+                    <div class="tab-content">
+                      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis exercitationem minima quisquam ex earum sapiente, debitis ipsum quidem optio rerum!</div>
+                    
+                      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, ad esse. Hic at officiis fuga mollitia quod.</div>
+                    </div><!-- //tab-content -->
+                    
+                  </div><!-- //tab-wrapper -->
+                  
+                  
+            </div>  
         </div>
         {{--  --}}
         <div class="col-md-4 col-sm-4">
@@ -306,9 +323,58 @@ a    }
     
     .tab-menu{
         width: 100%;
-        height: 100px;
-        border: 1px solid #000000;
+        height: auto;
+
     }
+
+    .tab-wrapper {
+  width:100%;
+  
+}
+
+.tab-menu li {
+  position:relative;
+  background-color: #fff;
+  color:#bcbcbc;
+  display: inline-block;
+  padding: 20px 40px;
+  opacity: 0.8;
+  cursor:pointer;
+  z-index:0;
+}
+
+.tab-menu li:hover {
+  color:#464646;
+}
+
+.tab-menu li.active {
+  color:#464646;
+  opacity: 1;
+}
+
+.tab-menu li.active:hover {
+  color:#464646;
+}
+
+.tab-content>div {
+  background-color: #fff;
+  box-sizing:border-box;
+  width: 100%;
+  padding: 50px;   
+  min-height:200px;
+}
+
+.line {
+  width: 0;
+  position:absolute;
+  height: 7px;
+  background-color: #e67e22;
+  top: 0;
+  left: 0;
+}
+
+
+
 
     .aside{
         width: 100%;
