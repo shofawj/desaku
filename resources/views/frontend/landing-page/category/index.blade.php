@@ -35,7 +35,7 @@
 						<div class="col-md-6 col-sm-8 col-10 m-auto">
 							<div class="blog-post">
 								<div class="post-thumb">
-									<a href="news-single.html">
+									<a href="{{ route('landing-page.article.index')}}">
 										<img src="{{ asset('assets/images/desaku/12.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
@@ -68,7 +68,7 @@
 						<div class="col-md-6 col-sm-8 col-10 m-auto">
 							<div class="blog-post">
 								<div class="post-thumb">
-									<a href="news-single.html">
+									<a href="{{ route('landing-page.article.index')}}">
 										<img src="{{ asset('assets/images/desaku/2.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
@@ -77,7 +77,7 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Buah Alpukat</a></h2>
+										<h2><a href="{{ route('landing-page.article.index')}}">Buah Alpukat</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
@@ -101,7 +101,7 @@
 						<div class="col-md-6 m-md-auto col-sm-8 col-10 m-auto">
 							<div class="blog-post">
 								<div class="post-thumb">
-									<a href="news-single.html">
+									<a href="{{ route('landing-page.article.index')}}">
 										<img src="{{ asset('assets/images/desaku/3.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
@@ -110,7 +110,7 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Bawang Merah</a></h2>
+										<h2><a href="{{ route('landing-page.article.index')}}">Bawang Merah</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
@@ -134,7 +134,7 @@
 						<div class="col-md-6 col-sm-8 col-10 m-auto">
 							<div class="blog-post">
 								<div class="post-thumb">
-									<a href="news-single.html">
+									<a href="{{ route('landing-page.article.index')}}">
 										<img src="{{ asset('assets/images/desaku/4.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
@@ -143,7 +143,7 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Buah Cherry</a></h2>
+										<h2><a href="{{ route('landing-page.article.index')}}">Buah Cherry</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
@@ -167,7 +167,7 @@
 						<div class="col-md-6 col-sm-8 col-10 m-auto">
 							<div class="blog-post">
 								<div class="post-thumb">
-									<a href="news-single.html">
+									<a href="{{ route('landing-page.article.index')}}">
 										<img src="{{ asset('assets/images/desaku/5.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
@@ -176,7 +176,7 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Buah Strawberry</a></h2>
+										<h2><a href="{{ route('landing-page.article.index')}}">Buah Strawberry</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
@@ -200,7 +200,7 @@
 						<div class="col-md-6 m-md-auto col-sm-8 col-10 m-auto">
 							<div class="blog-post">
 								<div class="post-thumb">
-									<a href="news-single.html">
+									<a href="{{ route('landing-page.article.index')}}">
 										<img src="{{ asset('assets/images/desaku/6.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
@@ -209,7 +209,7 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Buah Tomat</a></h2>
+										<h2><a href="{{ route('landing-page.article.index')}}">Buah Tomat</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
@@ -281,7 +281,7 @@
 						<h5 class="widget-header">Posting Terbaru</h5>
 						<!-- Post -->
 						<div class="media">
-							<img src="{{ asset('assets/images/desaku/1-sm.jpeg')}}" class="img-fluid" alt="post-thumb">
+							<img src="{{ asset('assets/images/desaku/3-sm.jpeg')}}" class="img-fluid" alt="post-thumb">
 							<div class="media-body">
 								<h6><a href="">Apel Manalagi</a></h6>
 								<p href="#"><span class="fa fa-home"></span>Desa Wonogiri</p>

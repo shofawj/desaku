@@ -264,7 +264,7 @@
                                     <h4>20<span>Suka</span></h4>
                                 </div>
                                 <div class="more">
-                                    <a href="news-single.html">Lihat <br> Selengkapnya</a>
+                                    <a href="{{ route('landing-page.article.index')}}">Lihat <br> Selengkapnya</a>
                                 </div>
                             </div>
                         </article>
@@ -288,7 +288,7 @@
                                     <h4>20<span>Suka</span></h4>
                                 </div>
                                 <div class="more">
-                                    <a href="news-single.html">Lihat <br> Selengkapnya</a>
+                                    <a href="{{ route('landing-page.article.index')}}">Lihat <br> Selengkapnya</a>
                                 </div>
                             </div>
                         </article>
@@ -312,7 +312,7 @@
                                     <h4>20<span>Suka</span></h4>
                                 </div>
                                 <div class="more">
-                                    <a href="news-single.html">Lihat <br> selengkapnya</a>
+                                    <a href="{{ route('landing-page.article.index')}}">Lihat <br> selengkapnya</a>
                                 </div>
                             </div>
                         </article>
@@ -337,7 +337,7 @@
                                     <h4>20<span>Suka</span></h4>
                                 </div>
                                 <div class="more">
-                                    <a href="news-single.html">Lihat <br> Selengkapnya</a>
+                                    <a href="{{ route('landing-page.article.index')}}">Lihat <br> Selengkapnya</a>
                                 </div>
                             </div>
                         </article>
@@ -363,7 +363,7 @@
                             </div>
                             <!-- Coundown Timer -->
                             <div class="timer"></div>
-                            <a href="#" class="btn btn-main-md">Beli Sekarang</a>
+                            <a href="{{ route('landing-page.article.index')}}" class="btn btn-main-md">Beli Sekarang</a>
                         </div>
                     </div>
                     <div class="col-lg-5 p-0">
