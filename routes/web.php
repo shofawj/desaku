@@ -26,7 +26,7 @@ Route::view('/about', 'frontend.landing-page.about.index')->name('landing-page.a
 
 Route::view('/kategori', 'frontend.landing-page.category.index')->name('landing-page.category.index');
 
-Route::view('/article', 'frontend.landing-page.article.index')->name('landing-page.article.index');
+Route::view('/kategori/article', 'frontend.landing-page.article.index')->name('landing-page.article.index');
 
 Route::view('/favorite', 'frontend.landing-page.favorite.index')->name('landing-page.favorite.index');
 
