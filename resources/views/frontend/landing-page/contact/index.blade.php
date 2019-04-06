@@ -27,6 +27,7 @@
 			<div class="col-12">
 				<div class="section-title">
 					<h3>Hubungi <span class="alternate">Kami</span></h3>
+					<p> silahkan kirim sebuah saran dan kritik ke kami supaya kedepan paltform ini menjadi lebih baik lagi</p>
 				</div>
 			</div>
 		</div>

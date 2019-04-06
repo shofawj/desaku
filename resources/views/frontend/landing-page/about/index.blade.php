@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col-12 text-center">
 				<div class="title">
-					<h3>About Us</h3>
+					<h3>Tentang Kami</h3>
 				</div>
 			</div>
 		</div>
@@ -27,11 +27,13 @@
 					<h2>Tentang <span class="alternate">Desaku</span></h2>
 					<div class="description-one">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco.
+								Desaku merupakan membantu para petani menjual hasil sawah atau hasil kebun mereka. Jadi kami mengembangkan sebuah platform yang menjembatani antara petani (penjual) dan orang yang membutuhkan SDA (pembeli).
 						</p>
 					</div>
 					<div class="description-two">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt ut labore et dolore magna aliq enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+						<p>
+							Selain itu sebagai orang yang membutuhkan SDA (pembeli) dimudahkan karena bahan yang digunakan untuk diolah kembali akan mendapatkan harga yang lebih miring daripada membeli bahan dari pihak ke-2 atau pihak ke-3. 
+						</p>
 					</div>
 				</div>
 			</div>

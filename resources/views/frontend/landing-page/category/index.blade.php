@@ -36,7 +36,7 @@
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="news-single.html">
-										<img src="{{ asset('assets/images/komponen/22.png')}}" alt="post-image" class="img-fluid">
+										<img src="{{ asset('assets/images/desaku/12.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
 								<div class="post-content">
@@ -44,13 +44,13 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="/article">Elementum purus id ultrices.</a></h2>
+										<h2><a href="/article">Buah Cermai</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
 											<li class="list-inline-item">
 												<i class="fa fa-user-o"></i>
-												<a href="#">Admin</a>
+												<a href="#">Desa Hago</a>
 											</li>
 											<li class="list-inline-item">
 												<i class="fa fa-heart-o"></i>
@@ -69,7 +69,7 @@
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="news-single.html">
-										<img src="{{ asset('assets/images/komponen/21.png')}}" alt="post-image" class="img-fluid">
+										<img src="{{ asset('assets/images/desaku/2.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
 								<div class="post-content">
@@ -77,13 +77,13 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+										<h2><a href="news-single.html">Buah Alpukat</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
 											<li class="list-inline-item">
 												<i class="fa fa-user-o"></i>
-												<a href="#">Admin</a>
+												<a href="#">Desa Hago</a>
 											</li>
 											<li class="list-inline-item">
 												<i class="fa fa-heart-o"></i>
@@ -102,7 +102,7 @@
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="news-single.html">
-										<img src="{{ asset('assets/images/news/post-thumb-one.jpg')}}" alt="post-image" class="img-fluid">
+										<img src="{{ asset('assets/images/desaku/3.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
 								<div class="post-content">
@@ -110,13 +110,13 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+										<h2><a href="news-single.html">Bawang Merah</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
 											<li class="list-inline-item">
 												<i class="fa fa-user-o"></i>
-												<a href="#">Admin</a>
+												<a href="#">Desa Hago</a>
 											</li>
 											<li class="list-inline-item">
 												<i class="fa fa-heart-o"></i>
@@ -135,7 +135,7 @@
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="news-single.html">
-										<img src="{{ asset('assets/images/news/post-thumb-one.jpg')}}" alt="post-image" class="img-fluid">
+										<img src="{{ asset('assets/images/desaku/4.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
 								<div class="post-content">
@@ -143,13 +143,13 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+										<h2><a href="news-single.html">Buah Cherry</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
 											<li class="list-inline-item">
 												<i class="fa fa-user-o"></i>
-												<a href="#">Admin</a>
+												<a href="#">Desa Hago</a>
 											</li>
 											<li class="list-inline-item">
 												<i class="fa fa-heart-o"></i>
@@ -168,7 +168,7 @@
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="news-single.html">
-										<img src="{{ asset('assets/images/news/post-thumb-one.jpg')}}" alt="post-image" class="img-fluid">
+										<img src="{{ asset('assets/images/desaku/5.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
 								<div class="post-content">
@@ -176,13 +176,13 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+										<h2><a href="news-single.html">Buah Strawberry</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
 											<li class="list-inline-item">
 												<i class="fa fa-user-o"></i>
-												<a href="#">Admin</a>
+												<a href="#">Desa Hago</a>
 											</li>
 											<li class="list-inline-item">
 												<i class="fa fa-heart-o"></i>
@@ -201,7 +201,7 @@
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="news-single.html">
-										<img src="{{ asset('assets/images/news/post-thumb-one.jpg')}}" alt="post-image" class="img-fluid">
+										<img src="{{ asset('assets/images/desaku/6.jpeg')}}" alt="post-image" class="img-fluid">
 									</a>
 								</div>
 								<div class="post-content">
@@ -209,13 +209,13 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+										<h2><a href="news-single.html">Buah Tomat</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">
 											<li class="list-inline-item">
 												<i class="fa fa-user-o"></i>
-												<a href="#">Admin</a>
+												<a href="#">Desa Hago</a>
 											</li>
 											<li class="list-inline-item">
 												<i class="fa fa-heart-o"></i>
@@ -260,14 +260,14 @@
 					<!-- Search Widget -->
 					<div class="widget search p-0">
 						<div class="input-group">
-						    <input type="text" class="form-control main m-0" id="expire" placeholder="Search...">
+						    <input type="text" class="form-control main m-0" id="expire" placeholder="Cari...">
 						    <span class="input-group-addon"><i class="fa fa-search"></i></span>
 					    </div>
 					</div>
 					<!-- Category Widget -->
 					<div class="widget category">
 						<!-- Widget Header -->
-						<h5 class="widget-header">Categories</h5>
+						<h5 class="widget-header">Kategori</h5>
 						<ul class="category-list m-0 p-0">
 							<li><a href="">Buah-Buahan<span class="float-right">(6)</span></a></li>
 							<li><a href="">Kacang-Kacangan<span class="float-right">(9)</span></a></li>
@@ -278,7 +278,7 @@
 					</div>
 					<!-- Latest post -->
 					<div class="widget latest-post">
-						<h5 class="widget-header">Latest Post</h5>
+						<h5 class="widget-header">Posting Terbaru</h5>
 						<!-- Post -->
 						<div class="media">
 							<img src="{{ asset('assets/images/news/post-thumb-sm-one.jpg')}}" class="img-fluid" alt="post-thumb">

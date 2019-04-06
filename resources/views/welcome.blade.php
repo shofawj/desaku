@@ -47,11 +47,11 @@
                             <h2>Tentang <span class="alternate">Desaku</span></h2>
                             <div class="description-one">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore dolore magna aliqua enim ad
+                                    Desaku merupakan membantu para petani menjual hasil sawah atau hasil kebun mereka. Jadi kami mengembangkan sebuah platform yang menjembatani antara petani (penjual) dan orang yang membutuhkan SDA (pembeli).
                                 </p>
                             </div>
                             <div class="description-two">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt ut labore et dolore magna aliq enim ad minim</p>
+                                <p></p>
                             </div>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
@@ -174,50 +174,50 @@
                             <div class="speaker-image">
                                 <img src="{{ asset('assets/images/komponen/13.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
+                                    <h5>Buah Naga</h5>
+                                    <p>Desa Baribis</p>
                                 </div>
                             </div>
                             <div class="speaker-image">
                                 <img src="{{ asset('assets/images/komponen/12.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
+                                    <h5>Strawberry</h5>
+                                    <p>Desa Tajur</p>
                                 </div>
                             </div>
                             <div class="speaker-image">
                                 <img src="{{ asset('assets/images/komponen/13.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
+                                    <h5>Buah Naga</h5>
+                                    <p>Desa Baribis</p>
                                 </div>
                             </div>
                             <div class="speaker-image">
                                 <img src="{{ asset('assets/images/komponen/11.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
+                                    <h5>Jeruk Bergamot</h5>
+                                    <p>Desa Balida</p>
                                 </div>
                             </div>
                             <div class="speaker-image">
                                 <img src="{{ asset('assets/images/komponen/12.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
+                                    <h5>Strawberry</h5>
+                                    <p>Desa Tajur</p>
                                 </div>
                             </div>
                             <div class="speaker-image">
                                 <img src="{{ asset('assets/images/komponen/13.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
+                                    <h5>Buah Naga</h5>
+                                    <p>Desa Baribis</p>
                                 </div>
                             </div>
                             <div class="speaker-image">
                                 <img src="{{ asset('assets/images/komponen/11.png')}}" alt="speaker" class="img-fluid">
                                 <div class="primary-overlay text-center">
-                                    <h5>GEORGE G. HERNANDEZ</h5>
-                                    <p>CEO Rancom Motor</p>
+                                    <h5>Jeruk Bergamot</h5>
+                                    <p>Desa Balida</p>
                                 </div>
                             </div>
                         </div>
@@ -252,9 +252,11 @@
                                 </a>
                             </div>
                             <div class="post-contents border-top">
-                                <div class="post-title"><h6><a href="news-single.html">Default title here</a></h6></div>
+                                <div class="post-title"><h6><a href="news-single.html">Semangka beauty</a></h6></div>
                                 <div class="post-exerpts">
-                                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed doeiuse tempor incididunt ut
+                                    <p>
+                                       Semangka sweet beauty ini memiliki ciri-ciri pada
+                                        kulit buahnya yang sangat tebal ..
                                     </p>
                                 </div>
         
@@ -262,7 +264,7 @@
                                     <h4>20<span>May</span></h4>
                                 </div>
                                 <div class="more">
-                                    <a href="news-single.html">Show more</a>
+                                    <a href="news-single.html">Lihat <br> Selengkapnya</a>
                                 </div>
                             </div>
                         </article>
@@ -275,9 +277,10 @@
                                 </a>
                             </div>
                             <div class="post-contents border-top">
-                                <div class="post-title"><h6><a href="news-single.html">Default title here</a></h6></div>
+                                <div class="post-title"><h6><a href="news-single.html">Bawang Merah</a></h6></div>
                                 <div class="post-exerpts">
-                                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed doeiuse tempor incididunt ut
+                                    <p>
+                                        Bawang merah adalah salah satu bumbu masak utama dunia ..
                                     </p>
                                 </div>
                                 
@@ -285,7 +288,7 @@
                                     <h4>20<span>May</span></h4>
                                 </div>
                                 <div class="more">
-                                    <a href="news-single.html">Show more</a>
+                                    <a href="news-single.html">Lihat <br> Selengkapnya</a>
                                 </div>
                             </div>
                         </article>
@@ -298,9 +301,10 @@
                                 </a>
                             </div>
                             <div class="post-contents">
-                                <div class="post-title"><h6><a href="news-single.html">Default title here</a></h6></div>
+                                <div class="post-title"><h6><a href="news-single.html">Kentang </a></h6></div>
                                 <div class="post-exerpts">
-                                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed doeiuse tempor incididunt ut
+                                    <p>
+                                        Kentang (Solanum tuberosum L.) adalah tanaman dari suku Solanaceae yang memiliki ..
                                     </p>
                                 </div>
                                 
@@ -308,7 +312,7 @@
                                     <h4>20<span>May</span></h4>
                                 </div>
                                 <div class="more">
-                                    <a href="news-single.html">Show more</a>
+                                    <a href="news-single.html">Lihat <br> selengkapnya</a>
                                 </div>
                             </div>
                         </article>
@@ -321,17 +325,19 @@
                                 </a>
                             </div>
                             <div class="post-contents">
-                                <div class="post-title"><h6><a href="news-single.html">Default title here</a></h6></div>
+                                <div class="post-title"><h6><a href="news-single.html">Semangka beauty</a></h6></div>
                                 <div class="post-exerpts">
-                                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed doeiuse tempor incididunt ut
+                                    <p>
+                                        Semangka sweet beauty ini memiliki ciri-ciri pada
+                                        kulit buahnya yang sangat tebal ..
                                     </p>
                                 </div>
-                                
+        
                                 <div class="date">
                                     <h4>20<span>May</span></h4>
                                 </div>
                                 <div class="more">
-                                    <a href="news-single.html">Show more</a>
+                                    <a href="news-single.html">Lihat <br> Selengkapnya</a>
                                 </div>
                             </div>
                         </article>
