@@ -44,7 +44,7 @@
 										<h4>20<span>May</span></h4>
 									</div>
 									<div class="post-title">
-										<h2><a href="/article">Buah Cermai</a></h2>
+										<h2><a href="{{ route('landing-page.article.index')}}">Buah Cermai</a></h2>
 									</div>
 									<div class="post-meta">
 										<ul class="list-inline">

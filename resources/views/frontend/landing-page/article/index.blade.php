@@ -14,25 +14,25 @@
                                 <div class="image-gallery">
 
                                     <main class="primary"
-                                        style="background-image: url('http://placekitten.com/410/500') ;"></main>
+                                        style="background-image: url('{{asset('assets/images/komponen/buah-cermai.jpg')}}') ;"></main>
 
                                     <div class="thumbnails">
                                         <a href="#" class="selected thumbnail"
-                                            data-big="http://placekitten.com/420/600">
+                                            data-big="{{asset('assets/images/komponen/buah-cermai.jpg')}}">
                                             <div class="thumbnail-image"
-                                                style="background-image: url(http://placekitten.com/420/600)"></div>
+                                                style="background-image: url('{{asset('assets/images/komponen/buah-cermai.jpg')}}')"></div>
                                         </a>
-                                        <a href="#" class="thumbnail" data-big="http://placekitten.com/450/600">
+                                        <a href="#" class="thumbnail" data-big="{{asset('assets/images/komponen/buah-cermai.jpg')}}">
                                             <div class="thumbnail-image"
-                                                style="background-image: url(http://placekitten.com/450/600)"></div>
+                                                style="background-image: url('{{asset('assets/images/komponen/buah-cermai.jpg')}}')"></div>
                                         </a>
-                                        <a href="#" class="thumbnail" data-big="http://placekitten.com/460/700">
+                                        <a href="#" class="thumbnail" data-big="{{asset('assets/images/komponen/buah-cermai2.jpg')}}">
                                             <div class="thumbnail-image"
-                                                style="background-image: url(http://placekitten.com/460/700)"></div>
+                                                style="background-image: url('{{asset('assets/images/komponen/buah-cermai2.jpg')}}')"></div>
                                         </a>
-                                        <a href="#" class="thumbnail" data-big="http://placekitten.com/460/700">
+                                        <a href="#" class="thumbnail" data-big="{{asset('assets/images/komponen/buah-cermai1.jpg')}}">
                                             <div class="thumbnail-image"
-                                                style="background-image: url(http://placekitten.com/460/700)"></div>
+                                                style="background-image: url('{{asset('assets/images/komponen/buah-cermai1.jpg')}}')"></div>
                                         </a>
 
                                     </div>
