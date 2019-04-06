@@ -261,7 +261,7 @@
                                 </div>
         
                                 <div class="date">
-                                    <h4>20<span>May</span></h4>
+                                    <h4>20<span>Suka</span></h4>
                                 </div>
                                 <div class="more">
                                     <a href="news-single.html">Lihat <br> Selengkapnya</a>
@@ -285,7 +285,7 @@
                                 </div>
                                 
                                 <div class="date">
-                                    <h4>20<span>May</span></h4>
+                                    <h4>20<span>Suka</span></h4>
                                 </div>
                                 <div class="more">
                                     <a href="news-single.html">Lihat <br> Selengkapnya</a>
@@ -309,7 +309,7 @@
                                 </div>
                                 
                                 <div class="date">
-                                    <h4>20<span>May</span></h4>
+                                    <h4>20<span>Suka</span></h4>
                                 </div>
                                 <div class="more">
                                     <a href="news-single.html">Lihat <br> selengkapnya</a>
@@ -334,7 +334,7 @@
                                 </div>
         
                                 <div class="date">
-                                    <h4>20<span>May</span></h4>
+                                    <h4>20<span>Suka</span></h4>
                                 </div>
                                 <div class="more">
                                     <a href="news-single.html">Lihat <br> Selengkapnya</a>
@@ -358,12 +358,12 @@
                     <div class="col-lg-7 p-0 m-0">
                         <div class="block bg-timer overlay-dark text-center">
                             <div class="section-title white m-0">
-                                <h3>Limited Audience <span class="alternate">Seats</span></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm</p>
+                                <h3>Potongan Harga <span class="alternate">Strawberry</span></h3>
+                                <p>Terbatas untuk 20 orang pembeli pertama</p>
                             </div>
                             <!-- Coundown Timer -->
                             <div class="timer"></div>
-                            <a href="#" class="btn btn-main-md">Buy Ticket</a>
+                            <a href="#" class="btn btn-main-md">Beli Sekarang</a>
                         </div>
                     </div>
                     <div class="col-lg-5 p-0">
