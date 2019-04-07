@@ -248,15 +248,14 @@
                         <article class="news-post-hr">
                             <div class="post-thumb">
                                 <a href="news-single.html">
-                                    <img src="{{ asset('assets/images/komponen/21.png')}}" alt="post-image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/komponen/cermai.jpeg')}}" alt="post-image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="post-contents border-top">
-                                <div class="post-title"><h6><a href="news-single.html">Semangka beauty</a></h6></div>
+                                <div class="post-title"><h6><a href="news-single.html">Buah Cermai</a></h6></div>
                                 <div class="post-exerpts">
                                     <p>
-                                       Semangka sweet beauty ini memiliki ciri-ciri pada
-                                        kulit buahnya yang sangat tebal ..
+                                            cerme adalah nama sejenis pohon dengan buahnya sekali .. 
                                     </p>
                                 </div>
         
@@ -280,7 +279,7 @@
                                 <div class="post-title"><h6><a href="news-single.html">Bawang Merah</a></h6></div>
                                 <div class="post-exerpts">
                                     <p>
-                                        Bawang merah adalah salah satu bumbu masak utama dunia ..
+                                        Bawang merah adalah salah satu bumbu masak utama ..
                                     </p>
                                 </div>
                                 

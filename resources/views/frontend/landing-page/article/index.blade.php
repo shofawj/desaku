@@ -43,7 +43,7 @@
                             {{-- Section  --}}
                             <div class="col-md-6 col-sm-6">
                                 <div class="caption-section">
-                                    <p>Kentang Lokal</p>
+                                    <p>Buah Cermai</p>
                                     <div class="rating">
                                         <ul>
                                             <li>
@@ -138,7 +138,21 @@
                         </ul>
 
                         <div class="tab-content">
-                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto porro culpa
+                            <div>
+                                Buah Cermai atau yang memiliki Nama Latin Phyllanthus acidus  Cerme berkerabat dekat 
+                                dengan pohon malaka (Phyllanthus emblica) dan meniran (P. niruri); keduanya adalah tumbuhan
+                                yang berkhasiat obat, buah ini merupakan Buah yang memiliki rasa yang asam. Coba kalian bayangkan 
+                                semua kalau menggigit buah ini dengan rasa yang pertama kita rasakan gigi terasa Nyilu,kwkwk…, 
+                                kembali ke pembahasan  Buah Cermai,Daun dari Buah cermai ini mempunyai bentuk yang Kecil-kecil dan tidak 
+                                memiliki banyak ranting. Jika di Desa biasanya buah ini lebih sering di Buat untuk Manisan atau Atau 
+                                manisan Kering yang kadang di Sebut Alua, nah jika di buat manisan buah ini akan terasa enak sekali, Namun 
+                                siapa sangka ternyata buah Cermai ini memiliki Banyak sekali Kandungan atau Khasiat yang bisa untuk pengobatan,
+                                Nah mau tau apa saja Manfaat dari Buah Cermai ini untuk kesehatan, maka silahkan saja lihat di bawah ini.
+                                Cerme, cereme atau ceremai adalah nama sejenis pohon dengan buahnya sekali. Buah yang masam ini dikenal pula dengan
+                                nama-nama lain seperti ceremoi (Aceh), chermai (Mal.), karmay (Ilokano, Fil.), mayom (Thai.) dan lain-lain. Dalam 
+                                bahasa Inggris dinamai Otaheite gooseberry, Malay gooseberry dan beberapa sebutan yang lain. Nama ilmiahnya adalah
+                                Phyllanthus acidus.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto porro culpa
                                 corrupti quos! Consequatur obcaecati laboriosam provident mollitia, ut culpa repellendus
                                 eos quia illum possimus ea quis dolorem nemo, deserunt repudiandae voluptas rerum quae
                                 architecto ducimus illo quasi magni eveniet facere accusamus? Molestiae soluta deleniti
@@ -167,67 +181,7 @@
                                 ipsam rerum nihil, delectus ea soluta! Laudantium, alias? Quaerat, ipsum esse aperiam
                                 enim, vel facilis iusto laboriosam odio laudantium corrupti vitae eius itaque ratione
                                 eaque odit! Voluptatum nihil et, expedita nemo, corrupti quia dolor maxime tenetur
-                                placeat eveniet vel sint similique, asperiores alias in quos commodi iure iste quod
-                                magni ipsa autem? Qui tenetur, aliquid omnis voluptatum praesentium unde laboriosam
-                                facilis libero blanditiis doloremque in! Expedita suscipit voluptas voluptatum
-                                asperiores labore ullam, recusandae beatae eaque numquam cum harum sequi perspiciatis
-                                inventore voluptate aliquid eos neque repudiandae quas aspernatur quibusdam? Architecto
-                                hic quasi, soluta ut repellendus unde quidem? Architecto unde nihil similique cumque
-                                quae veritatis? Unde, harum nemo! Facere porro, aliquam, cupiditate asperiores modi aut
-                                dolores officia esse sequi eum impedit, obcaecati earum possimus animi totam! Incidunt
-                                assumenda laborum voluptatibus delectus aperiam beatae, voluptates recusandae
-                                dignissimos veritatis? Provident modi sunt accusantium repellendus eaque, perferendis
-                                maiores excepturi placeat dolor fugit nostrum velit voluptatum eligendi hic veniam in
-                                omnis inventore quam ipsam reiciendis? Accusamus cum officiis incidunt. Earum nihil
-                                neque laboriosam eligendi, dignissimos voluptatibus dolore inventore temporibus suscipit
-                                nostrum. Minima, aperiam odit? Vitae provident blanditiis non, maiores magnam soluta
-                                nihil, doloremque harum consectetur recusandae nobis porro earum! Deleniti, eum placeat
-                                culpa nesciunt sapiente, quidem, aperiam est odio qui eveniet quisquam facere blanditiis
-                                voluptatem aliquam dicta dolore quis aliquid at! Aspernatur eos alias ab labore, dolore
-                                expedita velit modi sit veniam delectus aut saepe vel, necessitatibus quisquam
-                                perspiciatis sapiente ut similique placeat maxime maiores! Soluta dicta impedit possimus
-                                sunt inventore sapiente iusto harum explicabo. Enim tempora explicabo voluptatum nemo,
-                                cumque possimus, dolore esse consectetur, voluptates molestias natus voluptatibus ut.
-                                Accusamus assumenda aliquam aut minima at in nesciunt? Voluptate maiores porro vitae
-                                totam fuga, rem unde saepe voluptas qui atque ea officiis neque tenetur autem modi quasi
-                                corrupti rerum error provident odit hic alias nostrum dignissimos quos! Similique iste
-                                accusamus doloribus alias quibusdam illum quia tempora ducimus placeat maxime doloremque
-                                recusandae, amet soluta pariatur, odit aliquid tenetur optio eum? Aliquam asperiores
-                                repellendus voluptate ratione, enim voluptates neque dolore debitis in vel laudantium
-                                placeat reiciendis alias tenetur aspernatur, autem dolorum labore distinctio quas nemo!
-                                Distinctio obcaecati itaque tenetur dignissimos minima facere minus voluptatum
-                                voluptates eligendi quia debitis laudantium odit officia sed deleniti labore culpa
-                                magnam recusandae, ipsum quo voluptatem blanditiis soluta? Repellendus amet quia
-                                perferendis quasi fuga, eveniet ex dolorum fugit maiores consequatur reprehenderit,
-                                nesciunt, qui modi laudantium dicta obcaecati quod ab sunt natus perspiciatis omnis.
-                                Deserunt minima adipisci distinctio! Exercitationem optio voluptas soluta tempora. Sequi
-                                doloremque culpa reprehenderit quae nam beatae officiis, asperiores incidunt corrupti
-                                maiores reiciendis facere minima esse eligendi, cupiditate ab. Odio eveniet facere
-                                cupiditate saepe blanditiis officiis culpa quidem corrupti labore tempore quae
-                                temporibus similique repudiandae soluta necessitatibus eius accusamus alias nostrum,
-                                nihil doloribus. Adipisci quo, consequatur non minima aut assumenda iste distinctio
-                                vero, explicabo harum tempore. Laudantium sit sint, illum magnam voluptates quia
-                                provident culpa vel. Facilis non similique veniam eos cupiditate deserunt, temporibus
-                                unde rem possimus impedit, necessitatibus at labore. Libero voluptatibus, dolorum ab
-                                iusto corrupti nam, optio magni similique aut consectetur fugiat maiores mollitia iste.
-                                Magnam modi quaerat hic magni vel molestiae, accusamus eos ut eaque dolore quo.
-                                Recusandae beatae ab ullam libero molestias aut possimus vitae iusto saepe tenetur
-                                eveniet sapiente sit ut vel autem, fuga natus nobis. Dolorem, deleniti. Porro cum vel
-                                eligendi tempore. Culpa pariatur et quae odio tempore tempora ipsam ullam enim soluta
-                                architecto magni eum, modi commodi magnam nam harum alias! Itaque explicabo eos maxime
-                                dicta veritatis doloremque ipsa corporis sed. Rem enim quae suscipit tempore
-                                praesentium, accusamus, sapiente beatae cumque, corporis quam nobis animi assumenda
-                                veritatis nostrum labore? Repellat, fugiat. Iusto dolores velit repellat similique,
-                                fugiat sint quas libero, facere dignissimos delectus mollitia quibusdam ratione quam,
-                                nulla unde temporibus rem voluptatibus est repellendus! Reprehenderit soluta accusamus
-                                quia, unde iusto sunt totam dolores et accusantium quas, voluptate necessitatibus
-                                ducimus nemo. Eum modi possimus eius quis aspernatur id ratione vel. Sit quibusdam,
-                                sapiente accusantium voluptatibus a dolorem ducimus doloremque aperiam tempore mollitia
-                                fugiat repellendus, quisquam aliquid ab quia cupiditate hic consectetur? Aliquam, veniam
-                                asperiores similique neque, ipsum quo vero enim commodi ipsa culpa cumque modi quisquam
-                                illum voluptate inventore laudantium earum perspiciatis, et delectus optio. Laudantium
-                                odio rerum unde! Veniam, voluptas voluptatum dolorum nam perferendis itaque laudantium
-                                repellat voluptatem porro ducimus pariatur!</div>
+                            </div>
 
 
                             {{-- Review --}}
