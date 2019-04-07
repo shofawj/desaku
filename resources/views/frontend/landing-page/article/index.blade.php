@@ -411,41 +411,69 @@
                         </div>
                         <!-- Latest post -->
                         <div class="widget latest-post">
-                            <h5 class="widget-header">Popular</h5>
+                            <h5 class="widget-header">Posting Terbaru</h5>
                             <!-- Post -->
                             <div class="media">
-                                <img src="images/news/post-thumb-sm-one.jpg" class="img-fluid" alt="post-thumb">
+                                <img src="{{ asset('assets/images/desaku/3-sm.jpeg')}}" class="img-fluid" alt="post-thumb">
                                 <div class="media-body">
-                                    <h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
-                                    <p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
-                                    <a href="" class="btn btn-detail">Selengkapnya</a>
+                                    <h6><a href="">Apel Manalagi</a></h6>
+                                    <p href="#"><span class="fa fa-home"></span>Desa Wonogiri</p>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-heart-o"></i>
+                                        <a href="#">350</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-comments-o"></i>
+                                        <a href="#">30</a>
+                                    </li>
                                 </div>
                             </div>
                             <!-- Post -->
                             <div class="media">
-                                <img src="images/news/post-thumb-sm-two.jpg" class="img-fluid" alt="post-thumb">
+                                <img src="{{ asset('assets/images/desaku/2-sm.jpeg')}}" class="img-fluid" alt="post-thumb">
                                 <div class="media-body">
-                                    <h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
-                                    <p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
-                                    <a href="" class="btn btn-detail">Selengkapnya</a>
+                                    <h6><a href="">Strawberry</a></h6>
+                                    <p href="#"><span class="fa fa-home"></span>Desa Wonogiri</p>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-heart-o"></i>
+                                        <a href="#">350</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-comments-o"></i>
+                                        <a href="#">30</a>
+                                    </li>
                                 </div>
                             </div>
                             <!-- Post -->
                             <div class="media">
-                                <img src="images/news/post-thumb-sm-three.jpg" class="img-fluid" alt="post-thumb">
+                                <img src="{{ asset('assets/images/desaku/3-sm.jpeg')}}" class="img-fluid" alt="post-thumb">
                                 <div class="media-body">
-                                    <h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
-                                    <p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
-                                    <a href="" class="btn btn-detail">Selengkapnya</a>
+                                    <h6><a href="">Apel Manalagi</a></h6>
+                                    <p href="#"><span class="fa fa-home"></span>Desa Wonogiri</p>
+                                    <li class="list-inline-item">
+                                            <i class="fa fa-heart-o"></i>
+                                            <a href="#">350</a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fa fa-comments-o"></i>
+                                            <a href="#">30</a>
+                                    </li>
                                 </div>
                             </div>
                             <!-- Post -->
                             <div class="media">
-                                <img src="images/news/post-thumb-sm-four.jpg" class="img-fluid" alt="post-thumb">
+                                <img src="{{ asset('assets/images/desaku/4-sm.jpeg')}}" class="img-fluid" alt="post-thumb">
                                 <div class="media-body">
-                                    <h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
-                                    <p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
-                                    <a href="" class="btn btn-detail">Selengkapnya</a>
+                                    <h6><a href="">Jeruk</a></h6>
+                                    <p href="#"><span class="fa fa-home"></span>Desa Wonogiri</p>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-heart-o"></i>
+                                        <a href="#">350</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-comments-o"></i>
+                                        <a href="#">30</a>
+                                    </li>
                                 </div>
                             </div>
                         </div>
