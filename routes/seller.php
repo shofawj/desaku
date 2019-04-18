@@ -10,11 +10,11 @@ Route::name('seller.')->group(function () {
 
     ], function () {
         
+    
     Route::view('/', 'seller.index')->name('index');
-    Route::view('/nabati', 'seller.hayati.nabati.index')->name('nabati');
-    Route::view('/hewani', 'seller.hayati.hewani.index')->name('hewani');
-    Route::view('/pelanggan', 'seller.pelanggan.index')->name('pelanggan');
-
+    Route::resource('hewani', 'Seller\HewaniController');
+    Route::resource('nabati', 'Seller\NabatiController');
+    // Route::resource('pelanggan', 'Seller\PelangganController');
 
     });
 
