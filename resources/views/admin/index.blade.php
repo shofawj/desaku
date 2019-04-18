@@ -3,7 +3,7 @@
 
 	<!-- begin::Head -->
 	<head>
-		@include('seller.include._header')
+		@include('admin.include._header')
 		
     @stack('header-scripts')
 	</head>
@@ -18,7 +18,7 @@
 		<!-- begin:: Header Mobile -->
 		<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
 			<div class="kt-header-mobile__logo">
-				<a href="{{ route('seller.index')}}">
+				<a href="{{ route('landing-page.admin.index')}}">
 					Desaku
 				</a>
 			</div>
@@ -38,11 +38,11 @@
 				<div class="kt-aside  kt-aside--fixed  kt-grid__item kt-grid kt-grid--desktop kt-grid--hor-desktop" id="kt_aside">
 
 					<!-- begin:: Aside -->
-					@include('seller.include._aside-head')
+					@include('admin.include._aside-head')
 					<!-- end:: Aside -->
 
 					<!-- begin:: Aside Menu -->
-					@include('seller.include._aside-menu')
+					@include('admin.include._aside-menu')
 					<!-- end:: Aside Menu -->
 					
 				</div>
@@ -55,17 +55,17 @@
 
 						<!-- begin:: Header Menu -->
 						<button class="kt-header-menu-wrapper-close" id="kt_header_menu_mobile_close_btn"><i class="la la-close"></i></button>
-						@include('seller.include._navbar-right')
+						@include('admin.include._navbar-right')
 						<!-- end:: Header Menu -->
 
 						<!-- begin:: Header Topbar -->
 						<div class="kt-header__topbar">
 
-							@include('seller.include._navbar-left')
+							@include('admin.include._navbar-left')
 
 
 							<!--begin: User Bar -->
-							@include('seller.include._navbar-user')
+							@include('admin.include._navbar-user')
 							<!--end: User Bar -->
 
 						</div>
@@ -79,7 +79,7 @@
 					</div>
 
 					<!-- begin:: Footer -->
-					@include('seller.include._footer')
+					@include('admin.include._footer')
 					<!-- end:: Footer -->
 					
 			</div>
@@ -110,7 +110,7 @@
 		</script>
 		<!-- end::Global Config -->
 
-		@include('seller.include._vendor')
+		@include('admin.include._vendor')
 
 		@stack('footer-scripts')
 

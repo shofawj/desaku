@@ -1,6 +1,6 @@
 <div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
   <div class="kt-aside__brand-logo">
-    <a href="{{ route('seller.index')}}">
+    <a href="{{ route('landing-page.seller.index')}}">
       Desaku
     </a>
   </div>

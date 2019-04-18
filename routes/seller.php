@@ -4,14 +4,19 @@ Route::name('seller.')->group(function () {
 
     Route::group([
 
-        'middleware'    => 'auth',
+        // 'middleware'    => 'auth',
         'prefix'        => 'seller',
-        'namespace'     => 'Seller',
+        // 'namespace'     => 'Seller',
 
     ], function () {
 
 
-        Route::resource('type', 'TypeController');
+            
+    Route::view('/', 'seller.index')->name('index');
+    Route::view('/nabati', 'seller.hayati.nabati.index')->name('nabati');
+    Route::view('/hewani', 'seller.hayati.hewani.index')->name('hewani');
+    Route::view('/pelanggan', '.seller.pelanggan.index')->name('pelanggan');
+
 
     });
 
