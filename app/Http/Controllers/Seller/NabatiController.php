@@ -24,7 +24,7 @@ class NabatiController extends Controller
      */
     public function create()
     {
-        //
+        return view('seller.hayati.nabati.create');
     }
 
     /**

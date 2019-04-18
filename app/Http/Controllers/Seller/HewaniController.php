@@ -24,7 +24,7 @@ class HewaniController extends Controller
      */
     public function create()
     {
-        //
+        return view('seller.hayati.hewani.create');
     }
 
     /**
