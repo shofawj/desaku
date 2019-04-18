@@ -35,10 +35,10 @@ Route::view('/kategori/article', 'frontend.landing-page.article.index')->name('l
 
 Route::view('/favorite', 'frontend.landing-page.favorite.index')->name('landing-page.favorite.index');
 
-Route::view('/admin', 'frontend.admin.index')->name('landing-page.admin.index');
+Route::view('/seller', 'seller.index')->name('landing-page.seller.index');
 
-Route::view('/admin/nabati', 'frontend.admin.hayati.nabati.index')->name('landing-page.admin.nabati');
+Route::view('/seller/nabati', 'seller.hayati.nabati.index')->name('landing-page.seller.nabati');
 
-Route::view('/admin/hewani', 'frontend.admin.hayati.hewani.index')->name('landing-page.admin.hewani');
+Route::view('/seller/hewani', 'seller.hayati.hewani.index')->name('landing-page.seller.hewani');
 
-Route::view('/admin/pelanggan', 'frontend.admin.pelanggan.index')->name('landing-page.admin.pelanggan');
+Route::view('/seller/pelanggan', '.seller.pelanggan.index')->name('landing-page.seller.pelanggan');

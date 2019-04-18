@@ -1,4 +1,4 @@
-@extends('frontend.admin.index')
+@extends('seller.index')
 
 @section('content')
 
@@ -10,8 +10,8 @@
           <i class="kt-font-brand flaticon2-infographic"></i>
         </span>
         <h3 class="kt-portlet__head-title">
-          Nabati
-          <small>berisi data seluruh data NABATI</small>
+          HEWANI
+          <small>berisi data seluruh data HEWANI</small>
         </h3>
       </div>
       <div class="kt-portlet__head-toolbar">
@@ -132,7 +132,7 @@
     <div class="kt-portlet__body kt-portlet__body--fit">
 
       <!--begin: Datatable -->
-      <table class="nabatidatable" id="html_table" width="100%">
+      <table class="hewanidatable" id="html_table" width="100%">
         <thead>
           <tr>
             <th title="Field #1">Order ID</th>
@@ -141,8 +141,7 @@
             <th title="Field #4">Color</th>
             <th title="Field #5">Deposit Paid</th>
             <th title="Field #6">Order Date</th>
-            <th title="Field #7">Status</th>
-            <th title="Field #8">Type</th>
+           
           </tr>
         </thead>
         <tbody>
@@ -306,5 +305,5 @@
 @endsection
 
 @push('footer-scripts')
-<script src="{{ asset('js/admin/datatable/nabatidatatable.js')}}" type="text/javascript"></script>
+<script src="{{ asset('js/admin/datatable/hewanidatatable.js')}}" type="text/javascript"></script>
 @endpush
