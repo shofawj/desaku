@@ -2,19 +2,19 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    @include('frontend.include._header')
+    @include('landing-page.include._header')
 </head>
 
 <body>
 
     <div>
-        @include('frontend.include._navbar')
+        @include('landing-page.include._navbar')
 
         <div>
             @yield('content')
         </div>
 
-        @include('frontend.include._footer')
+        @include('landing-page.include._footer')
     </div>
 
     <!-- JAVASCRIPTS -->
