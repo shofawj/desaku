@@ -24,9 +24,3 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
-Route::view('/contact', 'frontend.landing-page.contact.index')->name('landing-page.contact.index');
-Route::view('/about', 'frontend.landing-page.about.index')->name('landing-page.about.index');
-Route::view('/kategori', 'frontend.landing-page.category.index')->name('landing-page.category.index');
-Route::view('/kategori/article', 'frontend.landing-page.article.index')->name('landing-page.article.index');
-Route::view('/favorite', 'frontend.landing-page.favorite.index')->name('landing-page.favorite.index');

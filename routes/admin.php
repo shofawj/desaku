@@ -4,14 +4,16 @@ Route::name('admin.')->group(function () {
 
     Route::group([
 
-        'middleware'    => 'auth',
+
+        // 'namespace'     => 'Admin',
+        // 'middleware'    => 'auth',
         'prefix'        => 'admin',
-        'namespace'     => 'Admin',
 
     ], function () {
 
+            
+    Route::view('/', 'admin.index')->name('index');
 
-        Route::resource('type', 'TypeController');
 
     });
 

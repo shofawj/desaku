@@ -4,9 +4,9 @@ Route::name('seller.')->group(function () {
 
     Route::group([
 
+        // 'namespace'     => 'Seller',
         // 'middleware'    => 'auth',
         'prefix'        => 'seller',
-        // 'namespace'     => 'Seller',
 
     ], function () {
 

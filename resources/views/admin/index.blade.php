@@ -18,7 +18,7 @@
 		<!-- begin:: Header Mobile -->
 		<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
 			<div class="kt-header-mobile__logo">
-				<a href="{{ route('landing-page.admin.index')}}">
+				<a href="{{ route('admin.index')}}">
 					Desaku
 				</a>
 			</div>
