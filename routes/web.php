@@ -11,6 +11,11 @@
 |
 */
 
+require('admin.php');
+require('buyer.php');
+require('seller.php');
+require('report.php');
+
 Route::get('/', function () {
     return view('welcome');
 });

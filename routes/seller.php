@@ -1,12 +1,12 @@
 <?php
 
-Route::name('admin.')->group(function () {
+Route::name('seller.')->group(function () {
 
     Route::group([
 
         'middleware'    => 'auth',
-        'prefix'        => 'admin',
-        'namespace'     => 'Admin',
+        'prefix'        => 'seller',
+        'namespace'     => 'Seller',
 
     ], function () {
 
