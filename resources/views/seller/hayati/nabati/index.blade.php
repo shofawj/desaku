@@ -306,5 +306,5 @@
 @endsection
 
 @push('footer-scripts')
-<script src="{{ asset('js/admin/datatable/nabatidatatable.js')}}" type="text/javascript"></script>
+<script src="{{ asset('js/seller/datatable/nabatidatatable.js')}}" type="text/javascript"></script>
 @endpush

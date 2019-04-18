@@ -305,5 +305,5 @@
 @endsection
 
 @push('footer-scripts')
-<script src="{{ asset('js/admin/datatable/hewanidatatable.js')}}" type="text/javascript"></script>
+<script src="{{ asset('js/seller/datatable/hewanidatatable.js')}}" type="text/javascript"></script>
 @endpush
