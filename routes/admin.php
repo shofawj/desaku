@@ -12,7 +12,7 @@ Route::name('admin.')->group(function () {
     ], function () {
 
             
-    Route::view('/', 'admin.index')->name('index');
+    Route::view('/', 'admin.dasboard')->name('index');
 
 
     });
