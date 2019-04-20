@@ -80,20 +80,15 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @foreach ($penduduk as $warga)
                     <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>61</td>
+                        <td>{{ $warga->nama }}</td>
+                        <td>{{ $warga->alamat }}</td>
+                        <td>{{ $warga->jkel }}</td>
+                        <td>{{ $warga->no_hp }}</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <td>Garrett Winters</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>63</td>
-                        <td></td>
-                    </tr>
+                  @endforeach
                 </tbody>
             </table>
         </div>
