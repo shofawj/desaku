@@ -12,14 +12,14 @@
               </h3>
             </div>
           </div>
-          <form class="kt-form kt-form--label-right" action="{{url('penduduk')}}" method="POST">
+          <form class="kt-form kt-form--label-right" action="{{url('seller/penduduk')}}" method="POST">
           {{csrf_field()}}           
 
             <div class="kt-portlet__body">
               <div class="form-group row">
                 <div class="col-lg-12">
                   <label>Nama Lengkap:</label>
-                  <input type="text" name="nama_lengkap" id="nama_lengkap" class="form-control" placeholder="Masukkan nama penduduk">
+                  <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan nama penduduk">
                   <span class="form-text text-muted">Tolong masukkan nama lengkap penduduk</span>
                 </div>
                 <div class="col-lg-12">
@@ -37,18 +37,17 @@
                   </div>
                   <span class="form-text text-muted">Tolong masukkan nomor penduduk</span>
                 </div>
-                
               </div>
               <div class="form-group row">
                 <div class="col-lg-6">
                   <label>Jenis Kelamin:</label>
                   <div class="kt-radio-inline">
                     <label class="kt-radio kt-radio--solid">
-                      <input type="radio" name="jenis_kelamin" id="jenis_kelamin" checked value="laki-laki"> Laki - laki
+                      <input type="radio" name="jkel" id="jkel" checked value="laki-laki"> Laki - laki
                       <span></span>
                     </label>
                     <label class="kt-radio kt-radio--solid">
-                      <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="perempuan"> Perempuan
+                      <input type="radio" name="jkel" id="jkel" value="perempuan"> Perempuan
                       <span></span>
                     </label>
                   </div>
@@ -59,13 +58,11 @@
             <div class="kt-portlet__foot">
               <div class="kt-form__actions">
                 <div class="row">
-                  <div class="col-lg-6">
-                    <button type="reset" class="btn btn-primary">Save</button>
-                    <button type="reset" class="btn btn-secondary">Cancel</button>
+                  <div class="col-lg-12 kt-align-right">
+                    <button type="submit" class="btn btn-primary">Simpan data</button>
+                    <button type="reset" class="btn btn-secondary">Batal</button>
                   </div>
-                  <div class="col-lg-6 kt-align-right">
-                    <button type="reset" class="btn btn-danger">Delete</button>
-                  </div>
+                  
                 </div>
               </div>
             </div>

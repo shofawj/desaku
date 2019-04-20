@@ -1,10 +1,10 @@
 <?php
 
-namespace Desaku;
+namespace Desaku\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
-class villager extends Model
+class Villager extends Model
 {
     //
 }

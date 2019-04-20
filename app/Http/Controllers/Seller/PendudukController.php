@@ -2,6 +2,7 @@
 
 namespace Desaku\Http\Controllers\Seller;
 
+use Desaku\Model\Villager;
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
 
@@ -35,7 +36,17 @@ class PendudukController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //input data
+        $post = new\Desaku\Model\Villager();
+        $post->nama     = $request->nama;
+        $post->alamat           = $request->alamat;       
+        $post->no_hp            = $request->no_hp;
+        $post->jkel    = $request->jkel;
+
+        $post->save();
+        return redirect('/seller/penduduk')->with('success','Data telah terkirim');
+
+
     }
 
     /**
