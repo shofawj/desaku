@@ -4,6 +4,7 @@ namespace Desaku\Http\Controllers\Seller;
 
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
+use Desaku\Model\customer;
 
 class PelangganController extends Controller
 {
@@ -35,7 +36,16 @@ class PelangganController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post = new\Desaku\Model\customer();
+        $post->nama     = $request->nama;
+        $post->no_hp           = $request->no_hp;       
+        $post->tgl_lahir            = $request->tgl_lahir;
+        $post->jkel    = $request->jkel;
+        $post->alamat = $request->alamat;
+
+        $post->save();
+        return redirect('/seller/pelanggan')->with('success','Data telah terkirim');
+
     }
 
     /**
