@@ -756,5 +756,12 @@
 </div>
 </div>
 
+	
+
 <!-- end:: Content -->
 @endsection
+@push('footer-scripts')
+<script src="{{ asset('js/seller/datatable/penduduk.js')}}" type="text/javascript"></script>
+<script src="{{ asset('js/seller/datatable/datatables.bundle.js')}}" type="text/javascript"></script>
+
+@endpush
