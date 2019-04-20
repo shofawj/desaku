@@ -13,5 +13,18 @@ class CategorySeeder extends Seeder
     public function run()
     {
         factory(category::class,20)->create();
+        
+        category::create([
+            'nama_kategori' => 'biji-bijian'
+        ]);
+        category::create([
+            'nama_kategori' => 'kacang-kacangan'
+        ]);
+        category::create([
+            'nama_kategori' => 'sayur-sayuran'
+        ]);
+        category::create([
+            'nama_kategori' => 'hewan-ternak'
+        ]);
     }
 }
