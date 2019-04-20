@@ -9,7 +9,7 @@
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label">
               <h3 class="kt-portlet__head-title">
-                2 Columns Form Layout
+                Form Nabati
               </h3>
             </div>
           </div>

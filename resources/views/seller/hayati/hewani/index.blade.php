@@ -62,7 +62,7 @@
             &nbsp;
             <a href="{{ route('seller.hewani.create')}}" class="btn btn-brand btn-elevate btn-icon-sm">
               <i class="la la-plus"></i>
-              New Record
+              Tambah Data
             </a>
           </div>
         </div>
