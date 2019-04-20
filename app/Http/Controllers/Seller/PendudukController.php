@@ -15,7 +15,8 @@ class PendudukController extends Controller
      */
     public function index()
     {
-        return view('seller.penduduk.index');
+        $penduduk = villager::all();
+        return view('seller.penduduk.index',['penduduk'=> $penduduk]);
     }
 
     /**

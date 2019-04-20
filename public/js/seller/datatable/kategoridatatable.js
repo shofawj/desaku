@@ -1,3 +1,3 @@
 $(document).ready( function () {
-	$('#table_pelanggan').DataTable();
+	$('#table_kategori').DataTable();
 } );

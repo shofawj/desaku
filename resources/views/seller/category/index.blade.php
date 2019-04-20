@@ -11,7 +11,7 @@
                     <i class="kt-font-brand flaticon2-line-chart"></i>
                 </span>
                 <h3 class="kt-portlet__head-title">
-                    Category
+                    Kategori
                 </h3>
             </div>
             <div class="kt-portlet__head-toolbar">
@@ -69,99 +69,24 @@
             </div>
         </div>
         <div class="kt-portlet__body">
-
-            <!--begin: Datatable -->
-            <table class="table table-striped- table-bordered table-hover table-checkable" id="penduduk_datatable">
+            <table id="table_kategori" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
-                        <th>Record ID</th>
-                        <th>Order ID</th>
-                        <th>Country</th>
-                        <th>Ship City</th>
-                        <th>Ship Address</th>
-                        <th>Company Agent</th>
-                        <th>Company Name</th>
-                        <th>Ship Date</th>
-                        <th>Status</th>
-                        <th>Type</th>
-                        <th>Actions</th>
+                        <th>Nama Kategori</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
+                    @foreach ($kategori as $kat)
                     <tr>
-                        <td>1</td>
-                        <td>61715-075</td>
-                        <td>China</td>
-                        <td>Tieba</td>
-                        <td>746 Pine View Junction</td>
-                        <td>Nixie Sailor</td>
-                        <td>Gleichner, Ziemann and Gutkowski</td>
-                        <td>2/12/2018</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td nowrap></td>
+                        <td>{{ $kat->nama_kategori }}</td>
+                        <td></td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>63629-4697</td>
-                        <td>Indonesia</td>
-                        <td>Cihaur</td>
-                        <td>01652 Fulton Trail</td>
-                        <td>Emelita Giraldez</td>
-                        <td>Rosenbaum-Reichel</td>
-                        <td>8/6/2017</td>
-                        <td>6</td>
-                        <td>3</td>
-                        <td nowrap></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>68084-123</td>
-                        <td>Argentina</td>
-                        <td>Puerto Iguazú</td>
-                        <td>2 Pine View Park</td>
-                        <td>Ula Luckin</td>
-                        <td>Kulas, Cassin and Batz</td>
-                        <td>5/26/2016</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td nowrap></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>67457-428</td>
-                        <td>Indonesia</td>
-                        <td>Talok</td>
-                        <td>3050 Buell Terrace</td>
-                        <td>Evangeline Cure</td>
-                        <td>Pfannerstill-Treutel</td>
-                        <td>7/2/2016</td>
-                        <td>1</td>
-                        <td>3</td>
-                        <td nowrap></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>31722-529</td>
-                        <td>Austria</td>
-                        <td>Sankt Andrä-Höch</td>
-                        <td>3038 Trailsway Junction</td>
-                        <td>Tierney St. Louis</td>
-                        <td>Dicki-Kling</td>
-                        <td>5/20/2017</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td nowrap></td>
-                    </tr>
+                    @endforeach
                 </tbody>
             </table>
-
-            <!--end: Datatable -->
         </div>
     </div>
-
-</div>
-</div>
 </div>
 
 	
@@ -169,7 +94,6 @@
 <!-- end:: Content -->
 @endsection
 @push('footer-scripts')
-<script src="{{ asset('js/seller/datatable/pendudukdatatable.js')}}" type="text/javascript"></script>
-<script src="{{ asset('js/seller/datatable/datatables.bundle.js')}}" type="text/javascript"></script>
+<script src="{{ asset('js/seller/datatable/kategoridatatable.js')}}" type="text/javascript"></script>
 
 @endpush
