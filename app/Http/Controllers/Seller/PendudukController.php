@@ -2,7 +2,7 @@
 
 namespace Desaku\Http\Controllers\Seller;
 
-use Desaku\Model\Villager;
+use Desaku\Model\villager;
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
 
@@ -37,7 +37,7 @@ class PendudukController extends Controller
     public function store(Request $request)
     {
         //input data
-        $post = new\Desaku\Model\Villager();
+        $post = new\Desaku\Model\villager();
         $post->nama     = $request->nama;
         $post->alamat           = $request->alamat;       
         $post->no_hp            = $request->no_hp;
