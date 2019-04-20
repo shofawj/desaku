@@ -17,7 +17,7 @@ Route::name('seller.')->group(function () {
     Route::resource('pelanggan', 'Seller\PelangganController');
     Route::resource('penjualan', 'Seller\PenjualanController');
     Route::resource('penduduk', 'Seller\PendudukController');
-
+    Route::resource('product','Seller\ProductController');
     });
 
 });
