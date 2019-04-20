@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use strict";
 var pelangganDatatable = function() {
 
@@ -138,3 +139,8 @@ var pelangganDatatable = function() {
 jQuery(document).ready(function() {
 	pelangganDatatable.init();
 });
+=======
+$(document).ready( function () {
+	$('#table_pelanggan').DataTable();
+} );
+>>>>>>> origin/iqbal
