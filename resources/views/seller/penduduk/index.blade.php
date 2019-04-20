@@ -740,7 +740,7 @@
                         <td>373 Northwestern Plaza</td>
                         <td>Bliss Tummasutti</td>
                         <td>Legros-Cummings</td>
-                        <td>11/27/2017</td>
+                        <td>11/27/2017</td>ss
                         <td>5</td>
                         <td>1</td>
                         <td nowrap></td>
