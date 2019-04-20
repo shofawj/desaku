@@ -32,7 +32,7 @@ var pelangganDatatable = function() {
 					},
 				},
 				{
-					targets: 8,
+					targets: 1,
 					render: function(data, type, full, meta) {
 						var status = {
 							1: {'title': 'Pending', 'class': 'kt-badge--brand'},
@@ -50,7 +50,7 @@ var pelangganDatatable = function() {
 					},
 				},
 				{
-					targets: 9,
+					targets: 2,
 					render: function(data, type, full, meta) {
 						var status = {
 							1: {'title': 'Online', 'state': 'danger'},

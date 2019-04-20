@@ -18,6 +18,8 @@ Route::name('seller.')->group(function () {
     Route::resource('penjualan', 'Seller\PenjualanController');
     Route::resource('penduduk', 'Seller\PendudukController');
     Route::resource('product','Seller\ProductController');
+    Route::resource('category','Seller\CategoryController');
+
     });
 
 });
