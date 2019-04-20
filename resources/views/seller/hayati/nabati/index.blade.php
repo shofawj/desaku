@@ -71,7 +71,7 @@
         <div class="kt-portlet__body">
 
             <!--begin: Datatable -->
-            <table class="table table-striped- table-bordered table-hover table-checkable" id="kt_table_2">
+            <table class="table table-striped- table-bordered table-hover table-checkable" id="nabati_datatable">
                 <thead>
                     <tr>
                         <th>Record ID</th>

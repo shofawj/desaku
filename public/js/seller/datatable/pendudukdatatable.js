@@ -1,8 +1,8 @@
 "use strict";
-var KTDatatablesBasicScrollable = function() {
+var pendudukDatatable = function() {
 
 	var initTable1 = function() {
-		var table = $('#kt_table_1');
+		var table = $('#penduduk_datatable');
 
 		// begin first table
 		table.DataTable({
@@ -136,5 +136,5 @@ var KTDatatablesBasicScrollable = function() {
 }();
 
 jQuery(document).ready(function() {
-	KTDatatablesBasicScrollable.init();
+	pendudukDatatable.init();
 });

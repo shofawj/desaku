@@ -71,7 +71,7 @@
         <div class="kt-portlet__body">
 
             <!--begin: Datatable -->
-            <table class="table table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+            <table class="table table-striped- table-bordered table-hover table-checkable" id="hewani_datatable">
                 <thead>
                     <tr>
                         <th>Record ID</th>
@@ -754,6 +754,7 @@
 <!-- end:: Content -->
 @endsection
 @push('footer-scripts')
+
 <script src="{{ asset('js/seller/datatable/hewanidatatable.js')}}" type="text/javascript"></script>
 <script src="{{ asset('js/seller/datatable/datatables.bundle.js')}}" type="text/javascript"></script>
 

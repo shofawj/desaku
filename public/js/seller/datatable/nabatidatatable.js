@@ -2,7 +2,7 @@
 var nabatiDatatable = function() {
 
 	var initTable1 = function() {
-		var table = $('#kt_table_2');
+		var table = $('#nabati_datatable');
 
 		// begin first table
 		table.DataTable({
