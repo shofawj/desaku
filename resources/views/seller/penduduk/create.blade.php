@@ -17,49 +17,42 @@
 
             <div class="kt-portlet__body">
               <div class="form-group row">
-                <div class="col-lg-6">
-                  <label>Full Name:</label>
-                  <input type="email" class="form-control" placeholder="Enter full name">
-                  <span class="form-text text-muted">Please enter your full name</span>
+                <div class="col-lg-12">
+                  <label>Nama Lengkap:</label>
+                  <input type="text" name="nama_lengkap" id="nama_lengkap" class="form-control" placeholder="Masukkan nama penduduk">
+                  <span class="form-text text-muted">Tolong masukkan nama lengkap penduduk</span>
                 </div>
-                <div class="col-lg-6">
-                  <label class="">Contact Number:</label>
-                  <input type="email" class="form-control" placeholder="Enter contact number">
-                  <span class="form-text text-muted">Please enter your contact number</span>
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-lg-6">
-                  <label>Address:</label>
-                  <div class="kt-input-icon">
-                    <input type="text" class="form-control" placeholder="Enter your address">
-                    <span class="kt-input-icon__icon kt-input-icon__icon--right"><span><i class="la la-map-marker"></i></span></span>
-                  </div>
-                  <span class="form-text text-muted">Please enter your address</span>
-                </div>
-                <div class="col-lg-6">
-                  <label class="">Postcode:</label>
-                  <div class="kt-input-icon">
-                    <input type="text" class="form-control" placeholder="Enter your postcode">
-                    <span class="kt-input-icon__icon kt-input-icon__icon--right"><span><i class="la la-bookmark-o"></i></span></span>
-                  </div>
-                  <span class="form-text text-muted">Please enter your postcode</span>
+                <div class="col-lg-12">
+                  <label class="">Alamat:</label>
+                  <textarea type="text" class="form-control" name="alamat" id="alamat" placeholder="Masukkan alamat penduduk"></textarea>
+                  <span class="form-text text-muted">Tolong masukkan alamat penduduk</span>
                 </div>
               </div>
               <div class="form-group row">
+                <div class="col-lg-12">
+                  <label>No HP / Telepon:</label>
+                  <div class="kt-input-icon">
+                    <input type="number" name="no_hp" id="no_hp" class="form-control" placeholder="Masukkan nomor telp penduduk">
+                    <span class="kt-input-icon__icon kt-input-icon__icon--right"></span>
+                  </div>
+                  <span class="form-text text-muted">Tolong masukkan nomor penduduk</span>
+                </div>
+                
+              </div>
+              <div class="form-group row">
                 <div class="col-lg-6">
-                  <label>User Group:</label>
+                  <label>Jenis Kelamin:</label>
                   <div class="kt-radio-inline">
                     <label class="kt-radio kt-radio--solid">
-                      <input type="radio" name="example_2" checked value="2"> Sales Person
+                      <input type="radio" name="jenis_kelamin" id="jenis_kelamin" checked value="laki-laki"> Laki - laki
                       <span></span>
                     </label>
                     <label class="kt-radio kt-radio--solid">
-                      <input type="radio" name="example_2" value="2"> Customer
+                      <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="perempuan"> Perempuan
                       <span></span>
                     </label>
                   </div>
-                  <span class="form-text text-muted">Please select user group</span>
+                  <span class="form-text text-muted">Tolong pilih jenis kelamin</span>
                 </div>
               </div>
             </div>
