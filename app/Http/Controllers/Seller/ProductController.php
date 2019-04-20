@@ -1,6 +1,7 @@
 <?php
 
 namespace Desaku\Http\Controllers\Seller;
+use Desaku\Model\Product;
 
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
@@ -35,7 +36,31 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post = new\Desaku\Model\Product();
+        $post->nama_product     = $request->nama;
+        $post->deskripsi_product           = $request->alamat;       
+        $post->jenis_product            = $request->no_hp;
+
+        $this->validate($request, [
+           
+            'file' => 'required|file|max:2000'
+        ]);
+
+        $uploadedFile = $request->file('file');        
+        $postImage = $uploadedFile->store('public/files');
+        $post = File::create([
+            'image' => $postImage
+        ]);    
+
+        if($post->save()==0){
+            return redirect('/seller/product/create')->withError(sprintf('Data tidak tersimpan'));
+
+        }else{
+            return redirect('/seller/product')->withSuccess(sprintf('success','Data telah terkirim'));
+
+        };
+        
+
     }
 
     /**

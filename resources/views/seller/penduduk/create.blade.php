@@ -73,3 +73,8 @@
 </div>
 
 @endsection
+@push('footer-scripts')
+<script src="{{ asset('js/seller/datatable/pendudukdatatable.js')}}" type="text/javascript"></script>
+<script src="{{ asset('js/seller/datatable/datatables.bundle.js')}}" type="text/javascript"></script>
+
+@endpush
