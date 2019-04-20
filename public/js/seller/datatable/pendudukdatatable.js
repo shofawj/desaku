@@ -1,8 +1,8 @@
 "use strict";
-var nabatiDatatable = function() {
+var pendudukDatatable = function() {
 
 	var initTable1 = function() {
-		var table = $('#nabati_datatable');
+		var table = $('#penduduk_datatable');
 
 		// begin first table
 		table.DataTable({
@@ -136,5 +136,5 @@ var nabatiDatatable = function() {
 }();
 
 jQuery(document).ready(function() {
-	nabatiDatatable.init();
+	pendudukDatatable.init();
 });

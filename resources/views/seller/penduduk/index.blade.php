@@ -4,13 +4,6 @@
 
 <!-- begin:: Content -->
 <div class="kt-content  kt-grid__item kt-grid__item--fluid" id="kt_content">
-    <div class="alert alert-light alert-elevate" role="alert">
-        <div class="alert-icon"><i class="flaticon-warning kt-font-brand"></i></div>
-        <div class="alert-text">
-            This example shows a vertically scrolling DataTable that makes use of the CSS3 vh unit in order to
-            dynamically resize the viewport based on the browser window height.
-        </div>
-    </div>
     <div class="kt-portlet kt-portlet--mobile">
         <div class="kt-portlet__head kt-portlet__head--lg">
             <div class="kt-portlet__head-label">
@@ -18,7 +11,7 @@
                     <i class="kt-font-brand flaticon2-line-chart"></i>
                 </span>
                 <h3 class="kt-portlet__head-title">
-                    Scrollable Table
+                    Data Penduduk
                 </h3>
             </div>
             <div class="kt-portlet__head-toolbar">
@@ -78,7 +71,7 @@
         <div class="kt-portlet__body">
 
             <!--begin: Datatable -->
-            <table class="table table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+            <table class="table table-striped- table-bordered table-hover table-checkable" id="penduduk_datatable">
                 <thead>
                     <tr>
                         <th>Record ID</th>
@@ -761,7 +754,7 @@
 <!-- end:: Content -->
 @endsection
 @push('footer-scripts')
-<script src="{{ asset('js/seller/datatable/penduduk.js')}}" type="text/javascript"></script>
+<script src="{{ asset('js/seller/datatable/pendudukdatatable.js')}}" type="text/javascript"></script>
 <script src="{{ asset('js/seller/datatable/datatables.bundle.js')}}" type="text/javascript"></script>
 
 @endpush
