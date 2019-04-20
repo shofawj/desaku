@@ -69,107 +69,44 @@
             </div>
         </div>
         <div class="kt-portlet__body">
-
-            <!--begin: Datatable -->
-            <table class="table table-striped- table-bordered table-hover table-checkable" id="penduduk_datatable">
+            <table id="table_id" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
-                        <th>Record ID</th>
-                        <th>Order ID</th>
-                        <th>Country</th>
-                        <th>Ship City</th>
-                        <th>Ship Address</th>
-                        <th>Company Agent</th>
-                        <th>Company Name</th>
-                        <th>Ship Date</th>
-                        <th>Status</th>
-                        <th>Type</th>
-                        <th>Actions</th>
+                        <th>Nama Penduduk</th>
+                        <th>Alamat</th>
+                        <th>Jenis Kelamin</th>
+                        <th>No handphone</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
-                        <td>61715-075</td>
-                        <td>China</td>
-                        <td>Tieba</td>
-                        <td>746 Pine View Junction</td>
-                        <td>Nixie Sailor</td>
-                        <td>Gleichner, Ziemann and Gutkowski</td>
-                        <td>2/12/2018</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td nowrap></td>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>63629-4697</td>
-                        <td>Indonesia</td>
-                        <td>Cihaur</td>
-                        <td>01652 Fulton Trail</td>
-                        <td>Emelita Giraldez</td>
-                        <td>Rosenbaum-Reichel</td>
-                        <td>8/6/2017</td>
-                        <td>6</td>
-                        <td>3</td>
-                        <td nowrap></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>68084-123</td>
-                        <td>Argentina</td>
-                        <td>Puerto Iguazú</td>
-                        <td>2 Pine View Park</td>
-                        <td>Ula Luckin</td>
-                        <td>Kulas, Cassin and Batz</td>
-                        <td>5/26/2016</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td nowrap></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>67457-428</td>
-                        <td>Indonesia</td>
-                        <td>Talok</td>
-                        <td>3050 Buell Terrace</td>
-                        <td>Evangeline Cure</td>
-                        <td>Pfannerstill-Treutel</td>
-                        <td>7/2/2016</td>
-                        <td>1</td>
-                        <td>3</td>
-                        <td nowrap></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>31722-529</td>
-                        <td>Austria</td>
-                        <td>Sankt Andrä-Höch</td>
-                        <td>3038 Trailsway Junction</td>
-                        <td>Tierney St. Louis</td>
-                        <td>Dicki-Kling</td>
-                        <td>5/20/2017</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td nowrap></td>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td></td>
                     </tr>
                 </tbody>
             </table>
-
-            <!--end: Datatable -->
         </div>
     </div>
-
-</div>
-</div>
 </div>
 
 	
 
 <!-- end:: Content -->
 @endsection
+
 @push('footer-scripts')
+
 <script src="{{ asset('js/seller/datatable/pendudukdatatable.js')}}" type="text/javascript"></script>
-<script src="{{ asset('js/seller/datatable/datatables.bundle.js')}}" type="text/javascript"></script>
 
 @endpush
