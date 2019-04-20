@@ -1,84 +1,77 @@
 @extends('seller.index')
 
 @section('content')
-
 <div class="kt-content  kt-grid__item kt-grid__item--fluid" id="kt_content">
     <div class="row">
-      <div class="col-lg-12">
-        <div class="kt-portlet">
-          <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title">
-                Form Hewani
-              </h3>
+        <div class="col-lg-12">
+            <div class="kt-portlet">
+                <div class="kt-portlet__head">
+                    <div class="kt-portlet__head-label">
+                        <h3 class="kt-portlet__head-title">
+                            Form Hewani
+                        </h3>
+                    </div>
+                </div>
+                <form class="kt-form kt-form--label-right" action="{{url('seller/product')}}" method="POST">
+                    {{csrf_field()}}
+
+                    <div class="kt-portlet__body">
+                        <div class="form-group row">
+                            <div class="col-lg-12">
+                                <label>Nama Produk:</label>
+                                <input type="text" name="nama_product" id="nama_product" class="form-control"
+                                    placeholder="Masukkan nama produk">
+                                <span class="form-text text-muted">Tolong masukkan nama produk</span>
+                            </div>
+                            <div class="col-lg-12">
+                                <label class="">Deskripsi Produk:</label>
+                                <textarea type="text" class="form-control" name="deskripsi_product" id="deskripsi_product"
+                                    placeholder="Masukkan deskripsi produk"></textarea>
+                                <span class="form-text text-muted">Tolong masukkan deskripsi produk</span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-lg-6">
+                                <label>Jenis Produk:</label>
+                                <div class="kt-radio-inline">
+                                    <label class="kt-radio kt-radio--solid">
+                                        <input type="radio" name="jenis_product" id="jenis_product" value="Nabati" disabled> Nabati
+                                        <span></span>
+                                    </label>
+                                    <label class="kt-radio kt-radio--solid">
+                                        <input type="radio" name="jenis_product" id="jenis_product" value="Hewani" checked >
+                                        Hewani
+                                        <span></span>
+                                    </label>
+                                </div>
+                                <span class="form-text text-muted">Tolong pilih jenis produk</span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-lg-2">
+                                <label>Foto Produk</label>
+                                <input type="file" name="foto_product" id="foto_product" class="form-control"
+                                    placeholder="Masukkan nama produk">
+                                <span class="form-text text-muted">Tolong masukkan foto produk</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="kt-portlet__foot">
+                        <div class="kt-form__actions">
+                            <div class="row">
+                                <div class="col-lg-12 kt-align-right">
+                                    <button type="submit" class="btn btn-primary">Simpan data</button>
+                                    <button type="reset" class="btn btn-secondary">Batal</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
-          </div>
-          <form class="kt-form kt-form--label-right">
-            <div class="kt-portlet__body">
-              <div class="form-group row">
-                <div class="col-lg-6">
-                  <label>Full Name:</label>
-                  <input type="email" class="form-control" placeholder="Enter full name">
-                  <span class="form-text text-muted">Please enter your full name</span>
-                </div>
-                <div class="col-lg-6">
-                  <label class="">Contact Number:</label>
-                  <input type="email" class="form-control" placeholder="Enter contact number">
-                  <span class="form-text text-muted">Please enter your contact number</span>
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-lg-6">
-                  <label>Address:</label>
-                  <div class="kt-input-icon">
-                    <input type="text" class="form-control" placeholder="Enter your address">
-                    <span class="kt-input-icon__icon kt-input-icon__icon--right"><span><i class="la la-map-marker"></i></span></span>
-                  </div>
-                  <span class="form-text text-muted">Please enter your address</span>
-                </div>
-                <div class="col-lg-6">
-                  <label class="">Postcode:</label>
-                  <div class="kt-input-icon">
-                    <input type="text" class="form-control" placeholder="Enter your postcode">
-                    <span class="kt-input-icon__icon kt-input-icon__icon--right"><span><i class="la la-bookmark-o"></i></span></span>
-                  </div>
-                  <span class="form-text text-muted">Please enter your postcode</span>
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-lg-6">
-                  <label>User Group:</label>
-                  <div class="kt-radio-inline">
-                    <label class="kt-radio kt-radio--solid">
-                      <input type="radio" name="example_2" checked value="2"> Sales Person
-                      <span></span>
-                    </label>
-                    <label class="kt-radio kt-radio--solid">
-                      <input type="radio" name="example_2" value="2"> Customer
-                      <span></span>
-                    </label>
-                  </div>
-                  <span class="form-text text-muted">Please select user group</span>
-                </div>
-              </div>
-            </div>
-            <div class="kt-portlet__foot">
-              <div class="kt-form__actions">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <button type="reset" class="btn btn-primary">Save</button>
-                    <button type="reset" class="btn btn-secondary">Cancel</button>
-                  </div>
-                  <div class="col-lg-6 kt-align-right">
-                    <button type="reset" class="btn btn-danger">Delete</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
-      </div>
+        </div>
     </div>
-  </div>
 </div>
 
 @endsection

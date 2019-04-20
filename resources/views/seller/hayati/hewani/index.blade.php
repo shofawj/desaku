@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         &nbsp;
-                        <a href="{{ route('seller.penduduk.create')}}" class="btn btn-brand btn-elevate btn-icon-sm">
+                        <a href="{{ route('seller.hewani.create')}}" class="btn btn-brand btn-elevate btn-icon-sm">
                             <i class="la la-plus"></i>
                             Tambah Data </a>
                     </div>
