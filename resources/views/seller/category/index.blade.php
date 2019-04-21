@@ -80,7 +80,15 @@
                     @foreach ($kategori as $kat)
                     <tr>
                         <td>{{ $kat->nama_kategori }}</td>
-                        <td></td>
+                        <td>
+                        <a href="{{route('seller.category.edit',[$kat->id])}}" class="btn btn-primary">Edit</a>
+                        <form action="{{ route('seller.category.destroy', [$kat->id]) }}"
+                                method="POST">
+                                <input type="hidden" name="_method" value="Delete">
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                <input type="submit" class="btn btn-danger" value="Delete">
+                            </form>
+                        </td>
                     </tr>
                     @endforeach
                 </tbody>
