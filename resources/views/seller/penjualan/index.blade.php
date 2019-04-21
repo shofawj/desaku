@@ -72,11 +72,11 @@
             <table id="table_penjualan" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
-                        <th>Nama</th>
-                        <th>Kategori</th>
-                        <th>Nama Penduduk</th>
-                        <th>Jenis</th>
-                        <th>Deskripsi</th>
+                        <th>ID Penjualan</th>
+                        <th>ID Customer</th>
+                        <th>ID Produk</th>
+                        <th>Tanggal Pembelian</th>
+                        <th>Total Pembelian</th>
                         <th>Action</th>
                     </tr>
                 </thead>

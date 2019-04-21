@@ -18,8 +18,9 @@ class CreateSalesTable extends Migration
             $table->Integer('id_customer')->unsigned();
             $table->Integer('id_product')->unsigned();
             $table->date('tanggal_beli');
+            $table->string('jumlah_beli');
             $table->string('harga');
-            $table->string('total_beli');
+            $table->string('total_harga');
             $table->timestamps();
 
             $table->foreign('id_product')
