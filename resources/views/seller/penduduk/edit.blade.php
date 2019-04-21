@@ -44,11 +44,11 @@
                   <label>Jenis Kelamin:</label>
                   <div class="kt-radio-inline">
                     <label class="kt-radio kt-radio--solid">
-                      <input type="radio" name="jkel" id="jkel" checked value="{{$penduduk->jkel}}"> Laki - laki
+                      <input type="radio" name="jkel" id="jkel" checked value="laki-laki"> Laki - laki
                       <span></span>
                     </label>
                     <label class="kt-radio kt-radio--solid">
-                      <input type="radio" name="jkel" id="jkel" value="{{$penduduk->jkel}}"> Perempuan
+                      <input type="radio" name="jkel" id="jkel" value="perempuan"> Perempuan
                       <span></span>
                     </label>
                   </div>
