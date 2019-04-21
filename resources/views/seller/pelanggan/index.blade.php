@@ -73,30 +73,36 @@
                 <thead>
                     <tr>
                         <th>Nama Pelanggan</th>
-                        <th>Alamat</th>
-                        <th>Jenis Kelamin</th>
                         <th>No handphone</th>
                         <th>Tanggal lahir</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Alamat</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
+
+                    @foreach($pelanggan as $pel)
                     <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>61</td>
-                        <td></td>
-                        <td></td>
+                        <td>{{$pel->nama}}</td>
+                        <td>{{$pel->no_hp}}</td>
+                        <td>{{$pel->tgl_lahir}}</td>
+                        <td>{{$pel->jkel}}</td>
+                        <td>{{$pel->alamat}}</td>
+                        <td>
+                        <a href="{{route('seller.pelanggan.edit',[$pel->id])}}" class="btn btn-primary">Edit</a>
+                        <form action="{{ route('seller.pelanggan.destroy', [$pel->id]) }}"
+                                method="POST">
+                                <input type="hidden" name="_method" value="Delete">
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                <input type="submit" class="btn btn-danger" value="Delete">
+                            </form>
+
+
+                        </td>
+                        
                     </tr>
-                    <tr>
-                        <td>Garrett Winters</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>63</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+                    @endforeach
                 </tbody>
             </table>
         </div>

@@ -15,7 +15,8 @@ class PelangganController extends Controller
      */
     public function index()
     {
-        return view('seller.pelanggan.index');
+        $pelanggan = customer::all();
+        return view('seller.pelanggan.index',['pelanggan'=>$pelanggan]);
     }
 
     /**
@@ -67,7 +68,8 @@ class PelangganController extends Controller
      */
     public function edit($id)
     {
-        //
+        $pelanggan = customer::find($id);
+        return view('seller.pelanggan.edit',['pelanggan'=>$pelanggan]);
     }
 
     /**
@@ -79,7 +81,14 @@ class PelangganController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $pelanggan = customer::find($id);
+        $pelanggan->nama     = $request->nama;
+        $pelanggan->no_hp           = $request->no_hp;       
+        $pelanggan->tgl_lahir            = $request->tgl_lahir;
+        $pelanggan->jkel    = $request->jkel;
+        $pelanggan->alamat = $request->alamat;
+        $pelanggan->save();
+        return redirect('/seller/pelanggan');
     }
 
     /**
@@ -90,6 +99,9 @@ class PelangganController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $pelanggan = customer::find($id);
+        $pelanggan->delete();
+        return redirect()->route('seller.pelanggan.index')->with(['success' => 'Data berhasil dihapus']);
+
     }
 }
