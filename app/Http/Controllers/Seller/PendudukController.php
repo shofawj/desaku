@@ -69,7 +69,8 @@ class PendudukController extends Controller
      */
     public function edit($id)
     {
-        //
+        $penduduk = villager::find($id);
+        return view('seller.penduduk.edit',['penduduk'=> $penduduk]);
     }
 
     /**
@@ -81,7 +82,14 @@ class PendudukController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $penduduk = villager::find($id);
+        $penduduk->nama     = $request->nama;
+        $penduduk->alamat           = $request->alamat;       
+        $penduduk->no_hp            = $request->no_hp;
+        $penduduk->jkel      = $request->jkel;
+        $penduduk->save();
+        return view('seller.penduduk.index',['penduduk'=> $penduduk]);
+
     }
 
     /**
@@ -92,6 +100,8 @@ class PendudukController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $penduduk = villager::find($id);
+        $penduduk->delete();
+        return redirect()->route('seller.penduduk.index')->with(['success' => 'Data berhasil dihapus']);
     }
 }

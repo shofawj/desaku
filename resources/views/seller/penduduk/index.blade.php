@@ -86,16 +86,24 @@
                         <td>{{ $warga->alamat }}</td>
                         <td>{{ $warga->jkel }}</td>
                         <td>{{ $warga->no_hp }}</td>
-                        <td></td>
+                        <td>
+                            <a href="{{route('seller.penduduk.edit',[$warga->id])}}" class="btn btn-primary">Edit</a>
+                            <form action="{{ route('seller.penduduk.destroy', [$warga->id]) }}"
+                                method="POST">
+                                <input type="hidden" name="_method" value="Delete">
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                <input type="submit" class="btn btn-danger" value="Delete">
+                            </form>
+                        </td>
                     </tr>
-                  @endforeach
+                    @endforeach
                 </tbody>
             </table>
         </div>
     </div>
 </div>
 
-	
+
 
 <!-- end:: Content -->
 @endsection
