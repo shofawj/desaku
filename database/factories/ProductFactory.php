@@ -10,6 +10,7 @@ $factory->define(product::class, function (Faker $faker) {
         'id_category' => $faker->randomElement(category::pluck('id')->toArray()),
         'id_villager' => $faker->randomElement(villager::pluck('id')->toArray()),
         'nama' => $faker-> lastName(),
+        'harga' => $faker-> randomElement([100000,120000,50000,500000]),
         'deskripsi' => $faker->sentence($nbWords = 9, $variableNbWords = true),
         'jenis' => $faker-> randomElement(["Nabati","Hewani"]),
         'image' => $faker-> imageUrl($width = 640, $height = 480),

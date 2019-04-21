@@ -12,6 +12,8 @@ $factory->define(sales::class, function (Faker $faker) {
         'id_customer' => $faker->randomElement(customer::pluck('id')->toArray()),
         'id_product' => $faker->randomElement(product::pluck('id')->toArray()),
         'tanggal_beli' => $tgl_random,
-        'total_beli' => $faker->randomElement([100000, 1200000, 3000000, 2000000]),
+        'jumlah_beli' => $faker->randomElement([5, 12, 30, 20]),
+        'harga' => $faker->randomElement([50000, 12000, 3000, 20000]),
+        'total_harga' => $faker->randomElement([500000, 120000, 300000, 200000]),
     ];
 });
