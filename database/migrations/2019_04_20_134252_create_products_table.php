@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->Integer('id_category')->unsigned();
             $table->Integer('id_villager')->unsigned();
             $table->string('nama');
+            $table->string('harga');
             $table->text('deskripsi');
             $table->string('jenis');
             $table->string('image');
