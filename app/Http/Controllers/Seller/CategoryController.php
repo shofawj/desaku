@@ -38,8 +38,6 @@ class CategoryController extends Controller
     {
         $post = new\Desaku\Model\category();
         $post->nama_kategori     = $request->nama_kategori;
-       
-
         $post->save();
         return redirect('/seller/category')->with('success','Data telah terkirim');
 
@@ -64,7 +62,9 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        //
+        $kategori = category::find($id);
+        return view('seller.category.edit',['kategori'=> $kategori]);
+
     }
 
     /**
@@ -76,7 +76,11 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $kategori = category::find($id);
+        $kategori->nama_kategori     = $request->nama_kategori;
+        $kategori->save();
+        return redirect('/seller/category');
+
     }
 
     /**
@@ -87,6 +91,9 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $kategori = category::find($id);
+        $kategori->delete();
+        return redirect()->route('seller.category.index')->with(['success' => 'Data berhasil dihapus']);
+
     }
 }
