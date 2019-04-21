@@ -88,7 +88,7 @@ class PendudukController extends Controller
         $penduduk->no_hp            = $request->no_hp;
         $penduduk->jkel      = $request->jkel;
         $penduduk->save();
-        return redirect('seller.penduduk.index',['penduduk'=> $penduduk]);
+        return view('seller.penduduk.index',['penduduk'=> $penduduk]);
 
     }
 
