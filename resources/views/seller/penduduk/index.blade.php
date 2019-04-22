@@ -1,8 +1,6 @@
 @extends('seller.index')
 
 @section('content')
-
-<!-- begin:: Content -->
 <div class="kt-content  kt-grid__item kt-grid__item--fluid" id="kt_content">
     <div class="kt-portlet kt-portlet--mobile">
         <div class="kt-portlet__head kt-portlet__head--lg">
@@ -87,13 +85,19 @@
                         <td>{{ $warga->jkel }}</td>
                         <td>{{ $warga->no_hp }}</td>
                         <td>
-                            <a href="{{route('seller.penduduk.edit',[$warga->id])}}" class="btn btn-primary">Edit</a>
-                            <form action="{{ route('seller.penduduk.destroy', [$warga->id]) }}"
-                                method="POST">
-                                <input type="hidden" name="_method" value="Delete">
-                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                <input type="submit" class="btn btn-danger" value="Delete">
-                            </form>
+                            <div class="action">
+                                <ul>
+                                    <li> <a href="{{route('seller.penduduk.edit',[$warga->id])}}" class="btn btn-primary">Edit</a></li>
+                                    <li>
+                                        <form action="{{ route('seller.penduduk.destroy', [$warga->id]) }}"
+                                            method="POST">
+                                            <input type="hidden" name="_method" value="Delete">
+                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                            <input type="submit" class="btn btn-danger" value="Delete">
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
                         </td>
                     </tr>
                     @endforeach
@@ -102,14 +106,8 @@
         </div>
     </div>
 </div>
-
-
-
-<!-- end:: Content -->
 @endsection
 
 @push('footer-scripts')
-
 <script src="{{ asset('js/seller/datatable/pendudukdatatable.js')}}" type="text/javascript"></script>
-
 @endpush

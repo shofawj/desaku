@@ -74,4 +74,6 @@
 
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
 
-@stack('header-scripts-admin')
+<link rel="stylesheet" href="{{ asset('css/style.css')}}">
+
+@stack('header-scripts-seller')

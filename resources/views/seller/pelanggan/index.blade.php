@@ -81,7 +81,6 @@
                     </tr>
                 </thead>
                 <tbody>
-
                     @foreach($pelanggan as $pel)
                     <tr>
                         <td>{{$pel->nama}}</td>
@@ -89,18 +88,21 @@
                         <td>{{$pel->tgl_lahir}}</td>
                         <td>{{$pel->jkel}}</td>
                         <td>{{$pel->alamat}}</td>
-                        <td>
-                        <a href="{{route('seller.pelanggan.edit',[$pel->id])}}" class="btn btn-primary">Edit</a>
-                        <form action="{{ route('seller.pelanggan.destroy', [$pel->id]) }}"
-                                method="POST">
-                                <input type="hidden" name="_method" value="Delete">
-                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                <input type="submit" class="btn btn-danger" value="Delete">
-                            </form>
-
-
+                        <td width="15%">
+                            <div class="action">
+                                <ul>
+                                    <li><a href="{{route('seller.pelanggan.edit',[$pel->id])}}" class="btn btn-primary">Edit</a></li>
+                                    <li>
+                                        <form action="{{ route('seller.pelanggan.destroy', [$pel->id]) }}"
+                                            method="POST">
+                                            <input type="hidden" name="_method" value="Delete">
+                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                            <input type="submit" class="btn btn-danger" value="Delete">
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
                         </td>
-                        
                     </tr>
                     @endforeach
                 </tbody>
