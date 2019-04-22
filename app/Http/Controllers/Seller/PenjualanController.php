@@ -4,6 +4,8 @@ namespace Desaku\Http\Controllers\Seller;
 
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
+use Desaku\Model\customer;
+use Desaku\Model\product;
 
 class PenjualanController extends Controller
 {
@@ -14,6 +16,7 @@ class PenjualanController extends Controller
      */
     public function index()
     {
+
         return view('seller.penjualan.index');
     }
 
@@ -24,7 +27,9 @@ class PenjualanController extends Controller
      */
     public function create()
     {
-        return view('seller.penjualan.create');
+        $customer = customer::all();
+        $produk = product::all();
+        return view('seller.penjualan.create',['customer'=>$customer,'produk'=>$produk]);
     }
 
     /**
