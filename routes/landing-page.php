@@ -17,7 +17,7 @@ Route::name('landing-page.')->group(function () {
         Route::view('/about', 'landing-page.about.index')->name('about.index');
         Route::view('/kategori', 'landing-page.category.index')->name('category.index');
         Route::view('/kategori/article', 'landing-page.article.index')->name('article.index');
-        Route::view('/favorite', 'landing-page.favorite.index')->name('favorite.index');        
+        Route::view('/favorite', 'landing-page.favorite.index')->name('favorite.index')->middleware('auth');        
 
     });
 
