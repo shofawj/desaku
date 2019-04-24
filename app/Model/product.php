@@ -11,12 +11,12 @@ class Product extends Model
 
     public function category()
     {
-        return $this->belongsTo(category::class);
+        return $this->belongsTo(category::class, 'id_category');
     }
 
     public function villager()
     {
-        return $this->belongsTo(villager::class);
+        return $this->belongsTo(villager::class, 'id_villager');
     }
 
     public function customer()

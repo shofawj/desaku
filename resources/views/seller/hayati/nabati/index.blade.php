@@ -72,28 +72,27 @@
             <table id="table_nabati" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
-                    <th>ID Kategori</th>
-                            <th>ID Penduduk</th>
-                            <th>Nama Produk</th>
-                            <th>Harga</th>
-                            <th>Deskripsi</th>
-                            <th>Jenis</th>
-                            <th>Gambar</th>
-
+                        <th>Nama Kategori</th>
+                        <th>Nama Penduduk</th>
+                        <th>Nama Produk</th>
+                        <th>Harga</th>
+                        <th>Deskripsi</th>
+                        <th>Jenis</th>
+                        <th>Gambar</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     
-                @foreach($nabati as $nab)
+                @foreach($product as $nab)
                         <tr>
-                            <td>{{$nab->id_category}}</td>
-                            <td>{{$nab->id_villager}}</td>
+                            <td>{{$nab->category->nama_kategori}}</td>
+                            <td>{{$nab->villager->nama}}</td>
                             <td>{{$nab->nama}}</td>
                             <td>{{$nab->harga}}</td>
                             <td>{{$nab->deskripsi}}</td>
                             <td>{{$nab->jenis}}</td>
-                            <td>{{$nab->image}}</td>
+                            <td><img src="{{$nab->image}}" width="30"></td>
 
                             <td width="15%">
                             <div class="action">

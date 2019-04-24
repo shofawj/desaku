@@ -2,7 +2,7 @@
 
 namespace Desaku\Http\Controllers\Seller;
 
-use Desaku\Model\Product;
+use Desaku\Model\product;
 use Desaku\Model\category;
 use Desaku\Model\villager;
 use Illuminate\Http\Request;
@@ -19,9 +19,11 @@ class NabatiController extends Controller
      */
     public function index(Request $request)
     {
+
+        $product = product::where('jenis', 'nabati')->get();
         // $nabati = Product::all();
-        $nabati = DB::table('products')->where('jenis',$request->jenis = "nabati")->get();
-        return view('seller.hayati.nabati.index',['nabati'=>$nabati]);
+        // $nabati = DB::table('products')->where('jenis',$request->jenis = "nabati")->get();
+        return view('seller.hayati.nabati.index',['product'=>$product]);
     }
 
     /**
