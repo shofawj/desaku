@@ -24,22 +24,22 @@
                                 <span class="form-text text-muted">Tolong masukkan nama produk</span>
                             </div>
                             <div class="col-lg-4">
-                                <label class="form-label">ID kategori</label>
+                                <label class="form-label">Nama Kategori</label>
                                 <select class="form-control m-select2" id="id_category" name="id_category">
                                 @foreach ($kategori as $kate)
                                         <option value="{{ $kate->id }}">{{ $kate->nama_kategori}}</option>
                                     @endforeach
                                 </select>
-                                <span class="form-text text-muted">Tolong masukkan ID penduduk</span>
+                                <span class="form-text text-muted">Tolong masukkan nama kategori</span>
                             </div>
                             <div class="col-lg-4">
-                                <label class="form-label">ID penduduk</label>
+                                <label class="form-label">Nama Penduduk</label>
                                 <select class="form-control m-select2" id="id_villager" name="id_villager">
                                 @foreach ($penduduk as $pen)
                                         <option value="{{ $pen->id }}">{{ $pen->nama}}</option>
                                     @endforeach
                                 </select>
-                                <span class="form-text text-muted">Tolong masukkan ID penduduk</span>
+                                <span class="form-text text-muted">Tolong masukkan nama penduduk</span>
                             </div>
                             <div class="col-lg-12">
                                 <label class="">Deskripsi Produk:</label>
