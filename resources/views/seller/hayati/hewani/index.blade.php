@@ -73,31 +73,43 @@
                 <table id="table_hewani" class="table table-striped table-bordered" style="width:100%">
                     <thead>
                         <tr>
-                            <th>Nama</th>
-                            <th>Kategori</th>
-                            <th>Nama Penduduk</th>
-                            <th>Jenis</th>
+                            
+                            <th>ID Kategori</th>
+                            <th>ID Penduduk</th>
+                            <th>Nama Produk</th>
+                            <th>Harga</th>
                             <th>Deskripsi</th>
+                            <th>Jenis</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
+
+                    @foreach($hewani as $hew)
                         <tr>
-                            <td>Tiger Nixon</td>
-                            <td>System Architect</td>
-                            <td>Edinburgh</td>
-                            <td>61</td>
-                            <td></td>
-                            <td></td>
+                            <td>{{$hew->id_category}}</td>
+                            <td>{{$hew->id_villager}}</td>
+                            <td>{{$hew->nama}}</td>
+                            <td>{{$hew->harga}}</td>
+                            <td>{{$hew->deskripsi}}</td>
+                            <td>{{$hew->jenis}}</td>
+                            <td width="15%">
+                            <div class="action">
+                                <ul>
+                                    <li><a href="{{route('seller.hewani.edit',[$hew->id])}}" class="btn btn-primary">Edit</a></li>
+                                    <li>
+                                        <form action="{{ route('seller.hewani.destroy', [$hew->id]) }}"
+                                            method="POST">
+                                            <input type="hidden" name="_method" value="Delete">
+                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                            <input type="submit" class="btn btn-danger" value="Delete">
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
                         </tr>
-                        <tr>
-                            <td>Garrett Winters</td>
-                            <td>Accountant</td>
-                            <td>Tokyo</td>
-                            <td>63</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
+                       @endforeach
                     </tbody>
                 </table>
             </div>

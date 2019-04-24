@@ -108,6 +108,6 @@ class HewaniController extends Controller
     {
         $hewani = Product::find($id);
         $hewani->delete();
-        return redirect()->route('seller.hayati.hewani.index')->with(['success' => 'Data berhasil dihapus']);
+        return redirect()->route('seller.hewani.index')->with(['success' => 'Data berhasil dihapus']);
     }
 }
