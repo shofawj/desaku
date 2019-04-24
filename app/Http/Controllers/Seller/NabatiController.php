@@ -7,6 +7,8 @@ use Desaku\Model\category;
 use Desaku\Model\villager;
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
+
 
 class NabatiController extends Controller
 {
@@ -15,10 +17,10 @@ class NabatiController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $nabati = Product::all();
-
+        // $nabati = Product::all();
+        $nabati = DB::table('products')->where('jenis',$request->jenis = "nabati")->get();
         return view('seller.hayati.nabati.index',['nabati'=>$nabati]);
     }
 

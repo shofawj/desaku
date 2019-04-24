@@ -84,17 +84,34 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>61</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
                     
+                @foreach($nabati as $nab)
+                        <tr>
+                            <td>{{$nab->id_category}}</td>
+                            <td>{{$nab->id_villager}}</td>
+                            <td>{{$nab->nama}}</td>
+                            <td>{{$nab->harga}}</td>
+                            <td>{{$nab->deskripsi}}</td>
+                            <td>{{$nab->jenis}}</td>
+                            <td>{{$nab->image}}</td>
+
+                            <td width="15%">
+                            <div class="action">
+                                <ul>
+                                    <li><a href="{{route('seller.nabati.edit',[$nab->id])}}" class="btn btn-primary">Edit</a></li>
+                                    <li>
+                                        <form action="{{ route('seller.nabati.destroy', [$nab->id]) }}"
+                                            method="POST">
+                                            <input type="hidden" name="_method" value="Delete">
+                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                            <input type="submit" class="btn btn-danger" value="Delete">
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                        </tr>
+                       @endforeach
                 </tbody>
             </table>
         </div>

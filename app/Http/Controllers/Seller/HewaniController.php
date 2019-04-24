@@ -7,6 +7,7 @@ use Desaku\Model\category;
 use Desaku\Model\villager;
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class HewaniController extends Controller
 {
@@ -15,10 +16,12 @@ class HewaniController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $hewani = Product::all();
+        // $hewani = Product::all();
+        $hewani = DB::table('products')->where('jenis',$request->jenis = "hewani")->get();
         return view('seller.hayati.hewani.index',['hewani'=>$hewani]);
+
     }
 
     /**
