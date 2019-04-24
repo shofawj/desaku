@@ -4,7 +4,7 @@ Route::name('seller.')->group(function () {
 
     Route::group([
 
-        // 'namespace'     => 'Seller',
+        'namespace'     => 'Seller',
         // 'middleware'    => 'auth',
         'prefix'        => 'seller',
 
@@ -12,13 +12,13 @@ Route::name('seller.')->group(function () {
         
     
     Route::view('/', 'seller.dashboard')->name('index');
-    Route::resource('hewani', 'Seller\HewaniController');
-    Route::resource('nabati', 'Seller\NabatiController');
-    Route::resource('pelanggan', 'Seller\PelangganController');
-    Route::resource('penjualan', 'Seller\PenjualanController');
-    Route::resource('penduduk', 'Seller\PendudukController');
-    Route::resource('product','Seller\ProductController');
-    Route::resource('category','Seller\CategoryController');
+    Route::resource('hewani', 'HewaniController');
+    Route::resource('nabati', 'NabatiController');
+    Route::resource('pelanggan', 'PelangganController');
+    Route::resource('penjualan', 'PenjualanController');
+    Route::resource('penduduk', 'PendudukController');
+    Route::resource('product','ProductController');
+    Route::resource('category','CategoryController');
 
     });
 
