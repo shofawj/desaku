@@ -84,22 +84,22 @@
                 </thead>
                 <tbody>
                     
-                @foreach($product as $nab)
-                        <tr>
-                            <td>{{$nab->category->nama_kategori}}</td>
-                            <td>{{$nab->villager->nama}}</td>
-                            <td>{{$nab->nama}}</td>
-                            <td>{{$nab->harga}}</td>
-                            <td>{{$nab->deskripsi}}</td>
-                            <td>{{$nab->jenis}}</td>
-                            <td><img src="{{$nab->image}}" width="30"></td>
+                @foreach($product as $nabati)
+                    <tr>
+                        <td>{{$nabati->category->nama_kategori}}</td>
+                        <td>{{$nabati->villager->nama}}</td>
+                        <td>{{$nabati->nama}}</td>
+                        <td>{{$nabati->harga}}</td>
+                        <td>{{$nabati->deskripsi}}</td>
+                        <td>{{$nabati->jenis}}</td>
+                        <td><img src="{{$nabati->image}}" width="30"></td>
 
-                            <td width="15%">
+                        <td width="15%">
                             <div class="action">
                                 <ul>
-                                    <li><a href="{{route('seller.nabati.edit',[$nab->id])}}" class="btn btn-primary">Edit</a></li>
+                                    <li><a href="{{route('seller.nabati.edit',[$nabati->id])}}" class="btn btn-primary">Edit</a></li>
                                     <li>
-                                        <form action="{{ route('seller.nabati.destroy', [$nab->id]) }}"
+                                        <form action="{{ route('seller.nabati.destroy', [$nabati->id]) }}"
                                             method="POST">
                                             <input type="hidden" name="_method" value="Delete">
                                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -109,8 +109,8 @@
                                 </ul>
                             </div>
                         </td>
-                        </tr>
-                       @endforeach
+                    </tr>
+                @endforeach
                 </tbody>
             </table>
         </div>
