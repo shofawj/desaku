@@ -70,6 +70,6 @@
 <link href="{{ asset('assets/admin/assets/demo/default/skins/aside/dark.css') }}" rel="stylesheet" type="text/css" />
 
 <!--end::Layout Skins -->
-<link rel="shortcut icon" href="{{ asset('assets/admin/assets/media/logos/favicon.ico') }}" />
+{{-- <link rel="shortcut icon" href="{{ asset('assets/admin/assets/media/logos/favicon.ico') }}" /> --}}
 
 @stack('header-scripts-admin')
