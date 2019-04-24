@@ -19,42 +19,47 @@
                         <div class="form-group row">
                             <div class="col-lg-12">
                                 <label>Nama Produk:</label>
-                                <input type="text" name="nama_product" id="nama_product" class="form-control"
+                                <input type="text" name="nama" id="nama" class="form-control"
                                     placeholder="Masukkan nama produk">
                                 <span class="form-text text-muted">Tolong masukkan nama produk</span>
                             </div>
                             <div class="col-lg-12">
                                 <label class="">Deskripsi Produk:</label>
-                                <textarea type="text" class="form-control" name="deskripsi_product" id="deskripsi_product"
+                                <textarea type="text" class="form-control" name="deskripsi" id="deskripsi"
                                     placeholder="Masukkan deskripsi produk"></textarea>
                                 <span class="form-text text-muted">Tolong masukkan deskripsi produk</span>
                             </div>
                         </div>
                         <div class="form-group row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-2">
                                 <label>Jenis Produk:</label>
                                 <div class="kt-radio-inline">
                                     <label class="kt-radio kt-radio--solid">
-                                        <input type="radio" name="jenis_product" id="jenis_product" value="Nabati" disabled> Nabati
+                                        <input type="radio" name="jenis" id="jenis" value="Nabati" disabled> Nabati
                                         <span></span>
                                     </label>
                                     <label class="kt-radio kt-radio--solid">
-                                        <input type="radio" name="jenis_product" id="jenis_product" value="Hewani" checked >
+                                        <input type="radio" name="jenis" id="jenis" value="Hewani" checked >
                                         Hewani
                                         <span></span>
                                     </label>
                                 </div>
                                 <span class="form-text text-muted">Tolong pilih jenis produk</span>
                             </div>
+                            <div class="col-lg-2">
+                                <label>Harga</label>
+                                <input type="number" name="harga" id="harga" class="form-control"
+                                    placeholder="Masukkan harga produk">
+                                <span class="form-text text-muted">Tolong masukkan harga produk</span>
+                            </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-lg-2">
                                 <label>Foto Produk</label>
-                                <input type="file" name="foto_product" id="foto_product" class="form-control"
+                                <input type="file" name="image" id="image" class="form-control"
                                     placeholder="Masukkan nama produk">
                                 <span class="form-text text-muted">Tolong masukkan foto produk</span>
                             </div>
-
                         </div>
                     </div>
                     <div class="kt-portlet__foot">

@@ -15,7 +15,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('seller.product.index');
+        $produk = Product::all();
+        return view('seller.product.index',['produk'=>$produk]);
     }
 
     /**
@@ -36,30 +37,14 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        $post = new\Desaku\Model\Product();
-        $post->nama_product     = $request->nama;
-        $post->deskripsi_product           = $request->alamat;       
-        $post->jenis_product            = $request->no_hp;
-
-        $this->validate($request, [
-           
-            'file' => 'required|file|max:2000'
-        ]);
-
-        $uploadedFile = $request->file('file');        
-        $postImage = $uploadedFile->store('public/files');
-        $post = File::create([
-            'image' => $postImage
-        ]);    
-
-        if($post->save()==0){
-            return redirect('/seller/product/create')->withError(sprintf('Data tidak tersimpan'));
-
-        }else{
-            return redirect('/seller/product')->withSuccess(sprintf('success','Data telah terkirim'));
-
-        };
-        
+      $post = new\Desaku\Model\Product();
+      $post->nama = $request->nama;
+      $post->deskripsi = $request->deskripsi;
+      $post->jenis = $request->jenis;
+      $post->harga = $request->harga;
+      $post->image = $request->image;
+      $post->save();
+      return redirect('/seller/product')->with('success','Data telah terkirim');
 
     }
 
@@ -82,7 +67,8 @@ class ProductController extends Controller
      */
     public function edit($id)
     {
-        //
+        $produk = Product::find($id);
+        return view('seller.product.edit',['produk'=>$produk]);
     }
 
     /**
