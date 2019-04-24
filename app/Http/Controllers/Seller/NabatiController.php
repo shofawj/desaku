@@ -19,10 +19,7 @@ class NabatiController extends Controller
      */
     public function index(Request $request)
     {
-
         $product = product::where('jenis', 'nabati')->get();
-        // $nabati = Product::all();
-        // $nabati = DB::table('products')->where('jenis',$request->jenis = "nabati")->get();
         return view('seller.hayati.nabati.index',['product'=>$product]);
     }
 
