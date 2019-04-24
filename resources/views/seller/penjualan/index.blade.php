@@ -75,28 +75,41 @@
                         <th>ID Penjualan</th>
                         <th>ID Customer</th>
                         <th>ID Produk</th>
-                        <th>Tanggal Pembelian</th>
+                        <th>Jumlah Pembelian</th>
+                        <th>Harga</th>
                         <th>Total Pembelian</th>
+                        <th>Tanggal Pembelian</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
+                @foreach ($penjualan as $seles)
                     <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>61</td>
-                        <td></td>
-                        <td></td>
+                        <td>{{$seles->id}}</td>
+                        <td>{{$seles->id_customer}}</td>
+                        <td>{{$seles->id_product}}</td>
+                        <td>{{$seles->jumlah_beli}}</td>
+                        <td>{{$seles->harga}}</td>
+                        <td>{{$seles->total_harga}}</td>
+                        <td>{{$seles->tanggal_beli}}</td>
+                        <td>
+                            <div class="action">
+                                <ul>
+                                    <li> <a href="{{route('seller.penjualan.edit',[$seles->id])}}" class="btn btn-primary">Edit</a></li>
+                                    <li>
+                                        <form action="{{ route('seller.penjualan.destroy', [$seles->id]) }}"
+                                            method="POST">
+                                            <input type="hidden" name="_method" value="Delete">
+                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                            <input type="submit" class="btn btn-danger" value="Delete">
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+
                     </tr>
-                    <tr>
-                        <td>Garrett Winters</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>63</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+                  @endforeach
                 </tbody>
             </table>
         </div>

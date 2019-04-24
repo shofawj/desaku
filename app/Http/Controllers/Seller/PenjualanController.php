@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
 use Desaku\Model\customer;
 use Desaku\Model\Product;
-
+use Desaku\Model\sales;
 class PenjualanController extends Controller
 {
     /**
@@ -16,8 +16,9 @@ class PenjualanController extends Controller
      */
     public function index()
     {
+        $penjualan = sales::all();
 
-        return view('seller.penjualan.index');
+        return view('seller.penjualan.index',['penjualan'=>$penjualan]);
     }
 
     /**
@@ -40,7 +41,21 @@ class PenjualanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post = new\Desaku\Model\sales();
+        $post->id_customer     = $request->id_customer;
+        $post->id_product     = $request->id_product;
+        $post->jumlah_beli     = $request->jumlah_beli;
+        $post->harga     = $request->harga;
+        $post->tanggal_beli     = $request->tanggal_beli;
+        // 
+        $harga_pembelian = $post->harga;
+        $jumlah_pembelian = $post->jumlah_beli;
+        $post->total_harga = $request->total_harga = $jumlah_pembelian * $harga_pembelian;
+        // 
+        ;
+        $post->save();
+        return redirect('/seller/penjualan')->with('success','Data telah terkirim');
+
     }
 
     /**
