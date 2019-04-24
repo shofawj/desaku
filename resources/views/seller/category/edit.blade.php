@@ -8,13 +8,13 @@
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label">
               <h3 class="kt-portlet__head-title">
-Kategori Produk              </h3>
+                Kategori Produk             
+              </h3>
             </div>
           </div>
           <form class="kt-form kt-form--label-right" action="{{route('seller.category.update',[$kategori->id])}}" method="POST">
           {{csrf_field()}}           
           {{ method_field('PUT') }}         
-
             <div class="kt-portlet__body">
               <div class="form-group row">
                 <div class="col-lg-12">

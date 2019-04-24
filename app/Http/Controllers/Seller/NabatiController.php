@@ -78,9 +78,9 @@ class NabatiController extends Controller
      */
     public function edit($id)
     {
+        $nabati = product::find($id);
         $penduduk = villager::all();
         $kategori = category::all();
-        $nabati = Product::all();
         return view('seller.hayati.nabati.edit',['nabati'=>$nabati,'penduduk'=>$penduduk,'kategori'=>$kategori]);
     }
 

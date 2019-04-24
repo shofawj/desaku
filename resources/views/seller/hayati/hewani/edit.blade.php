@@ -12,44 +12,39 @@
                         </h3>
                     </div>
                 </div>
-                <form class="kt-form kt-form--label-right" action="{{route('seller.hewani.update',[$hewani[0]->id])}}" method="POST">
-                    {{csrf_field()}}
-                    {{ method_field('PUT') }}         
-
+                <form class="kt-form kt-form--label-right" action="{{route('seller.hewani.update',[$hewani->id])}}" method="POST">
+                    {{csrf_field()}}           
+                    {{ method_field('PUT')}}   
                     <div class="kt-portlet__body">
                         <div class="form-group row">
                             <div class="col-lg-4">
                                 <label>Nama Produk:</label>
-                                @foreach ($hewani as $hew)
                                 <input type="text" name="nama" id="nama" class="form-control"
-                                    value="{{$hew->nama}}">
-                                @endforeach
+                                    placeholder="Masukkan nama produk" value="{{ $hewani->nama}}">
                                 <span class="form-text text-muted">Tolong masukkan nama produk</span>
                             </div>
                             <div class="col-lg-4">
-                                <label class="form-label">ID kategori</label>
-                                <select  class="form-control m-select2" id="id_category" name="id_category">
-                                    @foreach ($kategori as $kate)
-                                    <option  value="{{ $kate->id }}">{{ $kate->nama_kategori}}</option>
+                                <label class="form-label">Nama Kategori</label>
+                                <select class="form-control m-select2" id="id_category" name="id_category">
+                                @foreach ($kategori as $kate)
+                                        <option value="{{ $kate->id }}">{{ $kate->nama_kategori}}</option>
                                     @endforeach
                                 </select>
-                                <span class="form-text text-muted">Tolong masukkan ID penduduk</span>
+                                <span class="form-text text-muted">Tolong masukkan nama penduduk</span>
                             </div>
                             <div class="col-lg-4">
-                                <label class="form-label">ID penduduk</label>
-                                <select   class="form-control m-select2" id="id_villager" name="id_villager">
-                                    @foreach ($penduduk as $pen)
-                                    <option value="{{ $pen->id }}">{{ $pen->nama}}</option>
+                                <label class="form-label">Nama Penduduk</label>
+                                <select class="form-control m-select2" id="id_villager" name="id_villager">
+                                @foreach ($penduduk as $pen)
+                                        <option value="{{ $pen->id }}">{{ $pen->nama}}</option>
                                     @endforeach
                                 </select>
-                                <span class="form-text text-muted">Tolong masukkan ID penduduk</span>
+                                <span class="form-text text-muted">Tolong masukkan nama penduduk</span>
                             </div>
                             <div class="col-lg-12">
                                 <label class="">Deskripsi Produk:</label>
-                                @foreach ($hewani as $hew)
                                 <textarea type="text" class="form-control" name="deskripsi" id="deskripsi"
-                                    placeholder="Masukkan deskripsi produk">{{$hew->deskripsi}}</textarea>
-                                    @endforeach
+                                    placeholder="Masukkan deskripsi produk">{{$hewani->deskripsi}}</textarea>
                                 <span class="form-text text-muted">Tolong masukkan deskripsi produk</span>
                             </div>
                         </div>
@@ -58,11 +53,12 @@
                                 <label>Jenis Produk:</label>
                                 <div class="kt-radio-inline">
                                     <label class="kt-radio kt-radio--solid">
-                                        <input type="radio" name="jenis" id="jenis" value="Nabati" disabled> Nabati
+                                        <input type="radio" name="jenis" id="jenis" value="Nabati" disabled> 
+                                        Nabati
                                         <span></span>
                                     </label>
                                     <label class="kt-radio kt-radio--solid">
-                                        <input type="radio" name="jenis" id="jenis" value="Hewani" checked>
+                                        <input type="radio" name="jenis" id="jenis" value="Hewani" checked >
                                         Hewani
                                         <span></span>
                                     </label>
@@ -71,10 +67,8 @@
                             </div>
                             <div class="col-lg-2">
                                 <label>Harga</label>
-                                @foreach ($hewani as $hew)
                                 <input type="number" name="harga" id="harga" class="form-control"
-                                    value="{{$hew->harga}}">
-                                    @endforeach
+                                    placeholder="Masukkan harga produk" value="{{ $hewani->harga }}">
                                 <span class="form-text text-muted">Tolong masukkan harga produk</span>
                             </div>
                         </div>
@@ -82,7 +76,7 @@
                             <div class="col-lg-2">
                                 <label>Foto Produk</label>
                                 <input type="file" name="image" id="image" class="form-control"
-                                    placeholder="Masukkan nama produk">
+                                    placeholder="Masukkan nama produk" value="{{ $hewani->image }}">
                                 <span class="form-text text-muted">Tolong masukkan foto produk</span>
                             </div>
                         </div>

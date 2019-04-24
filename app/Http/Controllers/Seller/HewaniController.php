@@ -77,9 +77,9 @@ class HewaniController extends Controller
      */
     public function edit($id)
     {
+        $hewani = product::find($id);
         $penduduk = villager::all();
         $kategori = category::all();
-        $hewani = Product::all();
         return view('seller.hayati.hewani.edit',['hewani'=>$hewani,'penduduk'=>$penduduk,'kategori'=>$kategori]);
     }
 
