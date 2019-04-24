@@ -73,8 +73,10 @@ class HewaniController extends Controller
      */
     public function edit($id)
     {
-        $hewani = Product::find($id);
-        return view('seller.product.edit',['hewani'=>$hewani]);
+        $penduduk = villager::all();
+        $kategori = category::all();
+        $hewani = Product::all();
+        return view('seller.hayati.hewani.edit',['hewani'=>$hewani,'penduduk'=>$penduduk,'kategori'=>$kategori]);
     }
 
     /**
@@ -86,12 +88,14 @@ class HewaniController extends Controller
      */
     public function update(Request $request, $id)
     {
-         $hewani = Product::find($id);
+        $hewani = Product::find($id);
         $hewani->nama = $request->nama;
         $hewani->deskripsi = $request->deskripsi;
         $hewani->jenis = $request->jenis;
         $hewani->harga = $request->harga;
         $hewani->image = $request->image;
+        $hewani->id_category = $request->id_category;
+        $hewani->id_villager = $request->id_villager;
         $hewani->save();
 
         return redirect('/seller/hewani');
