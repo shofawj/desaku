@@ -47,6 +47,8 @@ class HewaniController extends Controller
         $post->jenis = $request->jenis;
         $post->harga = $request->harga;
         $post->image = $request->image;
+        $post->id_category = $request->id_category;
+        $post->id_villager = $request->id_villager;
         $post->save();
         return redirect('/seller/hewani')->with('success','Data telah terkirim');
   

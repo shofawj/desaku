@@ -12,7 +12,7 @@
                         </h3>
                     </div>
                 </div>
-                <form class="kt-form kt-form--label-right" action="{{url('seller/product')}}" method="POST">
+                <form class="kt-form kt-form--label-right" action="{{url('seller/hewani')}}" method="POST">
                     {{csrf_field()}}
 
                     <div class="kt-portlet__body">
