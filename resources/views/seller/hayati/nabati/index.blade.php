@@ -11,7 +11,7 @@
                     <i class="kt-font-brand flaticon2-line-chart"></i>
                 </span>
                 <h3 class="kt-portlet__head-title">
-                    Scrollable Table
+                    Data Nabati
                 </h3>
             </div>
             <div class="kt-portlet__head-toolbar">
@@ -72,11 +72,14 @@
             <table id="table_nabati" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
-                        <th>Nama</th>
-                        <th>Kategori</th>
-                        <th>Nama Penduduk</th>
-                        <th>Jenis</th>
-                        <th>Deskripsi</th>
+                    <th>ID Kategori</th>
+                            <th>ID Penduduk</th>
+                            <th>Nama Produk</th>
+                            <th>Harga</th>
+                            <th>Deskripsi</th>
+                            <th>Jenis</th>
+                            <th>Gambar</th>
+
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -88,15 +91,10 @@
                         <td>61</td>
                         <td></td>
                         <td></td>
-                    </tr>
-                    <tr>
-                        <td>Garrett Winters</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>63</td>
                         <td></td>
                         <td></td>
                     </tr>
+                    
                 </tbody>
             </table>
         </div>

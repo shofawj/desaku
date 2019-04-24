@@ -2,6 +2,9 @@
 
 namespace Desaku\Http\Controllers\Seller;
 
+use Desaku\Model\Product;
+use Desaku\Model\category;
+use Desaku\Model\villager;
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
 
@@ -14,7 +17,9 @@ class NabatiController extends Controller
      */
     public function index()
     {
-        return view('seller.hayati.nabati.index');
+        $nabati = Product::all();
+
+        return view('seller.hayati.nabati.index',['nabati'=>$nabati]);
     }
 
     /**
@@ -24,7 +29,9 @@ class NabatiController extends Controller
      */
     public function create()
     {
-        return view('seller.hayati.nabati.create');
+        $penduduk = villager::all();
+        $kategori = category::all();
+        return view('seller.hayati.nabati.create',['penduduk'=>$penduduk,'kategori'=>$kategori]);
     }
 
     /**
@@ -35,7 +42,17 @@ class NabatiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post = new\Desaku\Model\Product();
+        $post->nama = $request->nama;
+        $post->deskripsi = $request->deskripsi;
+        $post->jenis = $request->jenis;
+        $post->harga = $request->harga;
+        $post->image = $request->image;
+        $post->id_category = $request->id_category;
+        $post->id_villager = $request->id_villager;
+        $post->save();
+        return redirect('/seller/nabati')->with('success','Data telah terkirim');
+
     }
 
     /**
@@ -57,7 +74,10 @@ class NabatiController extends Controller
      */
     public function edit($id)
     {
-        //
+        $penduduk = villager::all();
+        $kategori = category::all();
+        $nabati = Product::all();
+        return view('seller.hayati.nabati.edit',['nabati'=>$nabati,'penduduk'=>$penduduk,'kategori'=>$kategori]);
     }
 
     /**
@@ -69,7 +89,17 @@ class NabatiController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $nabati = Product::find($id);
+        $nabati->nama = $request->nama;
+        $nabati->deskripsi = $request->deskripsi;
+        $nabati->jenis = $request->jenis;
+        $nabati->harga = $request->harga;
+        $nabati->image = $request->image;
+        $nabati->id_category = $request->id_category;
+        $nabati->id_villager = $request->id_villager;
+        $nabati->save();
+
+        return redirect('/seller/nabati');
     }
 
     /**
@@ -80,6 +110,8 @@ class NabatiController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $nabati = Product::find($id);
+        $nabati->delete();
+        return redirect()->route('seller.nabati.index')->with(['success' => 'Data berhasil dihapus']);
     }
 }

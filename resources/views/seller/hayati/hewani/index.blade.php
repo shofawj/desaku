@@ -11,7 +11,7 @@
                     <i class="kt-font-brand flaticon2-line-chart"></i>
                 </span>
                 <h3 class="kt-portlet__head-title">
-                    Data Nabati
+                    Data Hewani
                 </h3>
             </div>
             <div class="kt-portlet__head-toolbar">
@@ -80,6 +80,8 @@
                             <th>Harga</th>
                             <th>Deskripsi</th>
                             <th>Jenis</th>
+                            <th>Gambar</th>
+
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -93,6 +95,8 @@
                             <td>{{$hew->harga}}</td>
                             <td>{{$hew->deskripsi}}</td>
                             <td>{{$hew->jenis}}</td>
+                            <td>{{$hew->image}}</td>
+
                             <td width="15%">
                             <div class="action">
                                 <ul>

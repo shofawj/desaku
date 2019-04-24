@@ -12,49 +12,73 @@
                         </h3>
                     </div>
                 </div>
-                <form class="kt-form kt-form--label-right" action="{{url('seller/product')}}" method="POST">
+                <form class="kt-form kt-form--label-right" action="{{url('seller/nabati')}}" method="POST">
                     {{csrf_field()}}
 
+                    
                     <div class="kt-portlet__body">
                         <div class="form-group row">
-                            <div class="col-lg-12">
+                            <div class="col-lg-4">
                                 <label>Nama Produk:</label>
-                                <input type="text" name="nama_product" id="nama_product" class="form-control"
+                                <input type="text" name="nama" id="nama" class="form-control"
                                     placeholder="Masukkan nama produk">
                                 <span class="form-text text-muted">Tolong masukkan nama produk</span>
                             </div>
+                            <div class="col-lg-4">
+                                <label class="form-label">ID kategori</label>
+                                <select class="form-control m-select2" id="id_category" name="id_category">
+                                @foreach ($kategori as $kate)
+                                        <option value="{{ $kate->id }}">{{ $kate->nama_kategori}}</option>
+                                    @endforeach
+                                </select>
+                                <span class="form-text text-muted">Tolong masukkan ID penduduk</span>
+                            </div>
+                            <div class="col-lg-4">
+                                <label class="form-label">ID penduduk</label>
+                                <select class="form-control m-select2" id="id_villager" name="id_villager">
+                                @foreach ($penduduk as $pen)
+                                        <option value="{{ $pen->id }}">{{ $pen->nama}}</option>
+                                    @endforeach
+                                </select>
+                                <span class="form-text text-muted">Tolong masukkan ID penduduk</span>
+                            </div>
                             <div class="col-lg-12">
                                 <label class="">Deskripsi Produk:</label>
-                                <textarea type="text" class="form-control" name="deskripsi_product" id="deskripsi_product"
+                                <textarea type="text" class="form-control" name="deskripsi" id="deskripsi"
                                     placeholder="Masukkan deskripsi produk"></textarea>
                                 <span class="form-text text-muted">Tolong masukkan deskripsi produk</span>
                             </div>
                         </div>
                         <div class="form-group row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-2">
                                 <label>Jenis Produk:</label>
                                 <div class="kt-radio-inline">
                                     <label class="kt-radio kt-radio--solid">
-                                        <input type="radio" name="jenis_product" id="jenis_product" value="Nabati" checked> Nabati
+                                        <input type="radio" name="jenis" id="jenis" value="Nabati" checked > Nabati
                                         <span></span>
                                     </label>
                                     <label class="kt-radio kt-radio--solid">
-                                        <input type="radio" name="jenis_product" id="jenis_product" value="Hewani" disabled>
+                                        <input type="radio" name="jenis" id="jenis" value="Hewani" disabled  >
                                         Hewani
                                         <span></span>
                                     </label>
                                 </div>
                                 <span class="form-text text-muted">Tolong pilih jenis produk</span>
                             </div>
+                            <div class="col-lg-2">
+                                <label>Harga</label>
+                                <input type="number" name="harga" id="harga" class="form-control"
+                                    placeholder="Masukkan harga produk">
+                                <span class="form-text text-muted">Tolong masukkan harga produk</span>
+                            </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-lg-2">
                                 <label>Foto Produk</label>
-                                <input type="file" name="foto_product" id="foto_product" class="form-control"
+                                <input type="file" name="image" id="image" class="form-control"
                                     placeholder="Masukkan nama produk">
                                 <span class="form-text text-muted">Tolong masukkan foto produk</span>
                             </div>
-
                         </div>
                     </div>
                     <div class="kt-portlet__foot">
