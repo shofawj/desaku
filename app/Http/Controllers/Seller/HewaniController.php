@@ -19,8 +19,9 @@ class HewaniController extends Controller
     public function index(Request $request)
     {
         // $hewani = Product::all();
-        $hewani = DB::table('products')->where('jenis',$request->jenis = "hewani")->get();
-        return view('seller.hayati.hewani.index',['hewani'=>$hewani]);
+        $product = product::where('jenis', 'Hewani')->get();
+        // $hewani = DB::table('products')->where('jenis',$request->jenis = "hewani")->get();
+        return view('seller.hayati.hewani.index',['product'=>$product]);
 
     }
 

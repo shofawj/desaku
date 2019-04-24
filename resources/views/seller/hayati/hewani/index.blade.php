@@ -73,47 +73,43 @@
                 <table id="table_hewani" class="table table-striped table-bordered" style="width:100%">
                     <thead>
                         <tr>
-                            
-                            <th>ID Kategori</th>
-                            <th>ID Penduduk</th>
+                            <th>Nama Kategori</th>
+                            <th>Nama Penduduk</th>
                             <th>Nama Produk</th>
                             <th>Harga</th>
                             <th>Deskripsi</th>
                             <th>Jenis</th>
                             <th>Gambar</th>
-
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
-
-                    @foreach($hewani as $hew)
+                    @foreach($product as $hewani)
                         <tr>
-                            <td>{{$hew->id_category}}</td>
-                            <td>{{$hew->id_villager}}</td>
-                            <td>{{$hew->nama}}</td>
-                            <td>{{$hew->harga}}</td>
-                            <td>{{$hew->deskripsi}}</td>
-                            <td>{{$hew->jenis}}</td>
-                            <td>{{$hew->image}}</td>
-
-                            <td width="15%">
-                            <div class="action">
-                                <ul>
-                                    <li><a href="{{route('seller.hewani.edit',[$hew->id])}}" class="btn btn-primary">Edit</a></li>
-                                    <li>
-                                        <form action="{{ route('seller.hewani.destroy', [$hew->id]) }}"
-                                            method="POST">
-                                            <input type="hidden" name="_method" value="Delete">
-                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                            <input type="submit" class="btn btn-danger" value="Delete">
-                                        </form>
-                                    </li>
-                                </ul>
-                            </div>
-                        </td>
+                            <td>{{$hewani->category->nama_kategori}}</td>
+                            <td>{{$hewani->villager->nama}}</td>
+                            <td>{{$hewani->nama}}</td>
+                            <td>{{$hewani->harga}}</td>
+                            <td>{{$hewani->deskripsi}}</td>
+                            <td>{{$hewani->jenis}}</td>
+                            <td><img src="{{$hewani->image}}" width="30"></td>
+                            <td width="16%">
+                                <div class="action">
+                                    <ul>
+                                        <li><a href="{{route('seller.hewani.edit',[$hewani->id])}}" class="btn btn-primary">Edit</a></li>
+                                        <li>
+                                            <form action="{{ route('seller.hewani.destroy', [$hewani->id]) }}"
+                                                method="POST">
+                                                <input type="hidden" name="_method" value="Delete">
+                                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                <input type="submit" class="btn btn-danger" value="Delete">
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </td>
                         </tr>
-                       @endforeach
+                    @endforeach
                     </tbody>
                 </table>
             </div>
