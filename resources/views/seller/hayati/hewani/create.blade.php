@@ -17,11 +17,29 @@
 
                     <div class="kt-portlet__body">
                         <div class="form-group row">
-                            <div class="col-lg-12">
+                            <div class="col-lg-4">
                                 <label>Nama Produk:</label>
                                 <input type="text" name="nama" id="nama" class="form-control"
                                     placeholder="Masukkan nama produk">
                                 <span class="form-text text-muted">Tolong masukkan nama produk</span>
+                            </div>
+                            <div class="col-lg-4">
+                                <label class="form-label">ID kategori</label>
+                                <select class="form-control m-select2" id="id_category" name="id_category">
+                                @foreach ($kategori as $kate)
+                                        <option value="{{ $kate->id }}">{{ $kate->nama_kategori}}</option>
+                                    @endforeach
+                                </select>
+                                <span class="form-text text-muted">Tolong masukkan ID penduduk</span>
+                            </div>
+                            <div class="col-lg-4">
+                                <label class="form-label">ID penduduk</label>
+                                <select class="form-control m-select2" id="id_villager" name="id_villager">
+                                @foreach ($penduduk as $pen)
+                                        <option value="{{ $pen->id }}">{{ $pen->nama}}</option>
+                                    @endforeach
+                                </select>
+                                <span class="form-text text-muted">Tolong masukkan ID penduduk</span>
                             </div>
                             <div class="col-lg-12">
                                 <label class="">Deskripsi Produk:</label>
@@ -80,3 +98,7 @@
 </div>
 
 @endsection
+@push('footer-scripts')
+<script src="{{ asset('js/function/select2/categorySelect2.js')}}" type="text/javascript"></script>
+<script src="{{ asset('js/function/select2/villagerSelect2.js')}}" type="text/javascript"></script>
+@endpush

@@ -2,7 +2,8 @@
 
 namespace Desaku\Http\Controllers\Seller;
 use Desaku\Model\Product;
-
+use Desaku\Model\category;
+use Desaku\Model\villager;
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
 
@@ -15,8 +16,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $produk = Product::all();
-        return view('seller.product.index',['produk'=>$produk]);
+        // $produk = Product::all();
+        // return view('seller.product.index',['produk'=>$produk]);
     }
 
     /**
@@ -26,7 +27,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('seller.product.create');
+        // return view('seller.product.create');
     }
 
     /**
@@ -37,14 +38,14 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-      $post = new\Desaku\Model\Product();
-      $post->nama = $request->nama;
-      $post->deskripsi = $request->deskripsi;
-      $post->jenis = $request->jenis;
-      $post->harga = $request->harga;
-      $post->image = $request->image;
-      $post->save();
-      return redirect('/seller/product')->with('success','Data telah terkirim');
+    //   $post = new\Desaku\Model\Product();
+    //   $post->nama = $request->nama;
+    //   $post->deskripsi = $request->deskripsi;
+    //   $post->jenis = $request->jenis;
+    //   $post->harga = $request->harga;
+    //   $post->image = $request->image;
+    //   $post->save();
+    //   return redirect('/seller/product')->with('success','Data telah terkirim');
 
     }
 
@@ -80,7 +81,16 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        // $produk = Product::find($id);
+        // $produk->nama = $request->nama;
+        // $produk->deskripsi = $request->deskripsi;
+        // $produk->jenis = $request->jenis;
+        // $produk->harga = $request->harga;
+        // $produk->image = $request->image;
+        // $produk->save();
+
+        // return redirect('/seller/product');
+
     }
 
     /**
@@ -91,6 +101,9 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        //
+        // $produk = Product::find($id);
+        // $produk->delete();
+        // return redirect()->route('seller.product.index')->with(['success' => 'Data berhasil dihapus']);
+
     }
 }

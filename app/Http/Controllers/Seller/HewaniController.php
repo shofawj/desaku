@@ -2,6 +2,9 @@
 
 namespace Desaku\Http\Controllers\Seller;
 
+use Desaku\Model\Product;
+use Desaku\Model\category;
+use Desaku\Model\villager;
 use Illuminate\Http\Request;
 use Desaku\Http\Controllers\Controller;
 
@@ -14,7 +17,8 @@ class HewaniController extends Controller
      */
     public function index()
     {
-        return view('seller.hayati.hewani.index');
+        $hewani = Product::all();
+        return view('seller.hayati.hewani.index',['hewani'=>$hewani]);
     }
 
     /**
@@ -24,7 +28,9 @@ class HewaniController extends Controller
      */
     public function create()
     {
-        return view('seller.hayati.hewani.create');
+        $penduduk = villager::all();
+        $kategori = category::all();
+        return view('seller.hayati.hewani.create',['penduduk'=>$penduduk,'kategori'=>$kategori]);
     }
 
     /**
@@ -35,7 +41,15 @@ class HewaniController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post = new\Desaku\Model\Product();
+        $post->nama = $request->nama;
+        $post->deskripsi = $request->deskripsi;
+        $post->jenis = $request->jenis;
+        $post->harga = $request->harga;
+        $post->image = $request->image;
+        $post->save();
+        return redirect('/seller/hewani')->with('success','Data telah terkirim');
+  
     }
 
     /**
@@ -57,7 +71,8 @@ class HewaniController extends Controller
      */
     public function edit($id)
     {
-        //
+        $hewani = Product::find($id);
+        return view('seller.product.edit',['hewani'=>$hewani]);
     }
 
     /**
@@ -69,7 +84,16 @@ class HewaniController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+         $hewani = Product::find($id);
+        $hewani->nama = $request->nama;
+        $hewani->deskripsi = $request->deskripsi;
+        $hewani->jenis = $request->jenis;
+        $hewani->harga = $request->harga;
+        $hewani->image = $request->image;
+        $hewani->save();
+
+        return redirect('/seller/hewani');
+
     }
 
     /**
@@ -80,6 +104,8 @@ class HewaniController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $hewani = Product::find($id);
+        $hewani->delete();
+        return redirect()->route('seller.hayati.hewani.index')->with(['success' => 'Data berhasil dihapus']);
     }
 }
