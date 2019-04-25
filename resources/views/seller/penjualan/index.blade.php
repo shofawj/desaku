@@ -75,10 +75,10 @@
                         <th>ID Penjualan</th>
                         <th>ID Customer</th>
                         <th>ID Produk</th>
-                        <th>Jumlah Pembelian</th>
+                        <th>Jumlah Penjualan</th>
                         <th>Harga</th>
-                        <th>Total Pembelian</th>
-                        <th>Tanggal Pembelian</th>
+                        <th>Total Penjualan</th>
+                        <th>Tanggal Penjualan</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -92,7 +92,7 @@
                         <td>{{$seles->harga}}</td>
                         <td>{{$seles->total_harga}}</td>
                         <td>{{$seles->tanggal_beli}}</td>
-                        <td>
+                        <td width="15%">
                             <div class="action">
                                 <ul>
                                     <li> <a href="{{route('seller.penjualan.edit',[$seles->id])}}" class="btn btn-primary">Edit</a></li>

@@ -84,17 +84,17 @@
                         <!--  -->
                         <div class="form-group row">
                             <div class="col-lg-6">
-                                <label>Jumlah Pembelian</label>
+                                <label>Jumlah Penjualan</label>
                                 <div class="kt-input-icon">
                                     <input type="number" name="jumlah_beli" id="jumlah_beli" class="form-control"
-                                        placeholder="Masukkan jumlah pembelian">
+                                        placeholder="Masukkan jumlah penjualan">
                                     <span class="kt-input-icon__icon kt-input-icon__icon--right"></span>
                                 </div>
-                                <span class="form-text text-muted">Tolong masukkan jumlah pembelian</span>
+                                <span class="form-text text-muted">Tolong masukkan jumlah penjualan</span>
                             </div>
                             <!--  -->
                             <div class="col-lg-6">
-                                <label>Harga Pembelian</label>
+                                <label>Harga Penjualan</label>
                                 <div class="kt-input-icon">
                                     <input type="number" name="harga" id="harga" class="form-control"
                                         placeholder="Masukkan harga produk">
@@ -108,7 +108,7 @@
                         <!--  -->
                         <div class="form-group row">
                             <div class="col-lg-12">
-                                <label>Tangal Pembelian</label>
+                                <label>Tangal Penjualan</label>
                                 <div class="kt-input-icon">
                                     <input type="date" name="tanggal_beli" id="tanggal_beli" class="form-control"
                                         placeholder="Masukkan tanggal pembelian">

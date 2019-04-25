@@ -85,12 +85,12 @@
       </a>
       <div class="kt-notification__custom">
         <a  href="{{ route('logout') }}"  onclick="event.preventDefault();
-        document.getElementById('logout-form').submit();" class="btn btn-label-brand btn-sm btn-bold">
-       {{ __('Logout') }}  
-      </a>
-      <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-        @csrf
-    </form>
+          document.getElementById('logout-form').submit();" class="btn btn-label-brand btn-sm btn-bold">
+        {{ __('Logout') }}  
+        </a>
+        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+          @csrf
+        </form>
       </div>
     </div>
 

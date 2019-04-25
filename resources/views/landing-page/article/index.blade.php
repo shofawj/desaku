@@ -91,7 +91,7 @@
                                     </div>
 
                                     <div class="price">
-                                        <p>Rp. 50.000/kg</p>
+                                        <p>Rp. 50.000/kg - Rp. 100.000/kg</p>
                                     </div>
                                     <div class="location">
                                         <p>Desa Gayo di Papua Barat</p>
@@ -274,7 +274,7 @@
                                         <h5>Comments (3)</h5>
                                         	<!-- Comment -->
 						<div class="media comment">
-							<img src="images/speakers/speaker-thumb-four.jpg" alt="image">
+							<img src="{{ asset('assets/images/speakers/speaker-thumb-four.jpg') }}" alt="image">
 							<div class="media-body">
 								<h6>Jessica Brown</h6>
 								<ul class="list-inline">
@@ -286,7 +286,7 @@
 								</p>
 								<!-- Nested Comment -->
 								<div class="media comment">
-									<img src="images/speakers/speaker-thumb-three.jpg" alt="image">
+									<img src="{{ asset('assets/images/speakers/speaker-thumb-four.jpg') }}" alt="image">
 									<div class="media-body">
 										<h6>Jonathan Doe</h6>
 										<ul class="list-inline">
@@ -302,7 +302,7 @@
                         
                         	<!-- Comment -->
 						<div class="media comment">
-							<img src="images/speakers/speaker-thumb-two.jpg" alt="image">
+							<img src="{{ asset('assets/images/speakers/speaker-thumb-four.jpg') }}" alt="image">
 							<div class="media-body">
 								<h6>Adam Smith</h6>
 								<ul class="list-inline">
