@@ -344,13 +344,6 @@
             <div class="col-md-4 col-sm-4">
                 <div class="aside">
                     <div class="sidebar">
-                        <!-- Search Widget -->
-                        <div class="widget search p-0">
-                            <div class="input-group">
-                                <input type="text" class="form-control main m-0" id="expire" placeholder="Search...">
-                                <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                            </div>
-                        </div>
                         <!-- Category Widget -->
                         <div class="widget category">
                             <!-- Widget Header -->
