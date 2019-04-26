@@ -72,9 +72,8 @@
             <table id="table_penjualan" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
-                        <th>ID Penjualan</th>
-                        <th>ID Customer</th>
-                        <th>ID Produk</th>
+                        <th>Nama Customer</th>
+                        <th>Nama Produk</th>
                         <th>Jumlah Penjualan</th>
                         <th>Harga</th>
                         <th>Total Penjualan</th>
@@ -85,9 +84,8 @@
                 <tbody>
                 @foreach ($penjualan as $seles)
                     <tr>
-                        <td>{{$seles->id}}</td>
-                        <td>{{$seles->id_customer}}</td>
-                        <td>{{$seles->id_product}}</td>
+                        <td>{{$seles->customer->nama}}</td>
+                        <td>{{$seles->product->nama}}</td>
                         <td>{{$seles->jumlah_beli}}</td>
                         <td>{{$seles->harga}}</td>
                         <td>{{$seles->total_harga}}</td>
