@@ -77,7 +77,10 @@ class PenjualanController extends Controller
      */
     public function edit($id)
     {
-        //
+        $sales = sales::find($id);
+        $customer = customer::all();
+        $produk = Product::all();
+        return view('seller.penjualan.edit',['sales'=> $sales,'customer'=>$customer,'produk'=>$produk]);
     }
 
     /**
@@ -89,7 +92,20 @@ class PenjualanController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = sales::find($id);
+        $post->id_customer     = $request->id_customer;
+        $post->id_product     = $request->id_product;
+        $post->jumlah_beli     = $request->jumlah_beli;
+        $post->harga     = $request->harga;
+        $post->tanggal_beli     = $request->tanggal_beli;
+        // 
+        $harga_pembelian = $post->harga;
+        $jumlah_pembelian = $post->jumlah_beli;
+        $post->total_harga = $request->total_harga = $jumlah_pembelian * $harga_pembelian;
+        // 
+        ;
+        $post->save();
+        return redirect('/seller/penjualan')->with('success','Data telah terkirim');
     }
 
     /**
@@ -100,6 +116,8 @@ class PenjualanController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $sales = sales::find($id);
+        $sales->delete();
+        return redirect()->route('seller.penjualan.index')->with(['success' => 'Data berhasil dihapus']);
     }
 }
