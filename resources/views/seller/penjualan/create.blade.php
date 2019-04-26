@@ -2,46 +2,6 @@
 
 @section('content')
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="kt-portlet kt-portlet--mobile">
-                <div class="">
-                    <div class="kt-portlet__body">
-                        <table id="table_nabati" class="table table-striped table-bordered" style="width:100%">
-                            <thead>
-                                <tr>
-
-                                    <th>Nama Penduduk</th>
-                                    <th>Nama Produk</th>
-                                    <th>Harga</th>
-
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                                @foreach($produk as $nabati)
-                                <tr>
-
-                                    <td>{{$nabati->villager->nama}}</td>
-                                    <td>{{$nabati->nama}}</td>
-                                    <td>{{$nabati->harga}}</td>
-
-
-                                </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-</div>
-</div>
-
 <div class="kt-content  kt-grid__item kt-grid__item--fluid" id="kt_content">
 
 
