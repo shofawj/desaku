@@ -61,6 +61,8 @@ class PendudukController extends Controller
         //
     }
 
+
+
     /**
      * Show the form for editing the specified resource.
      *
@@ -104,4 +106,6 @@ class PendudukController extends Controller
         $penduduk->delete();
         return redirect()->route('seller.penduduk.index')->with(['success' => 'Data berhasil dihapus']);
     }
+
+
 }

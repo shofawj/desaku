@@ -23,14 +23,15 @@
           <a class="nav-link" href="{{ route('landing-page.about.index')}}">Tentang Kami<span>/</span></a>
         </li>
         
+
         <li class="nav-item">
           <a class="nav-link" href="{{ route('landing-page.contact.index')}}">Kontak</a>
         </li>
 
       </ul>
-      <a href="#" class="ticket">
+    <a href="{{route('login')}}" class="ticket">
         <img src="{{ asset('assets/images/icon/ticket.png')}}" alt="ticket">
-        <span>Favorite</span>
+        <span>AYO MULAI</span>
       </a>
       </div>
   </div>

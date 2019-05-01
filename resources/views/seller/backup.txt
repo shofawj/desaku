@@ -1,18 +1,3 @@
-{{-- <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
-</head>
-<body>
-<h1>{{$yee}}</h1>
-	
-
-</body>
-</html> --}}
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -33,9 +18,9 @@
 		<!-- begin:: Header Mobile -->
 		<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
 			<div class="kt-header-mobile__logo">
-				{{-- <a href="{{ route('seller.index')}}">
+				<a href="{{ route('seller.index')}}">
 					Desaku
-				</a> --}}
+				</a>
 			</div>
 			<div class="kt-header-mobile__toolbar">
 				<button class="kt-header-mobile__toggler kt-header-mobile__toggler--left" id="kt_aside_mobile_toggler"><span></span></button>

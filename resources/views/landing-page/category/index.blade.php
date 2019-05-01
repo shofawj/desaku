@@ -342,7 +342,7 @@
 									<a href="#">30</a>
 								</li>
 							</div>
-						</div>
+						</div>	
 					</div>
 					<!-- Popular Tag Widget -->
 					<div class="widget tags">
