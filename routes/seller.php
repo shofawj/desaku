@@ -11,7 +11,7 @@ Route::name('seller.')->group(function () {
     ], function () {
         
     
-    Route::view('/', 'seller.dashboard')->name('index');
+    Route::resource('dashboard', 'DashbordController');
     Route::resource('hewani', 'HewaniController');
     Route::resource('nabati', 'NabatiController');
     Route::resource('pelanggan', 'PelangganController');
