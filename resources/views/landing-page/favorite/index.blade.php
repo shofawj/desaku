@@ -62,9 +62,11 @@
                             <p>Total : Rp. 180.000 </p>
                             <br>
                             <br>
-                            <button type="submit" class="btn btn-success">
-                                Melakukan pemesanan ke pemilik
-                            </button>
+                           <a href="https://api.whatsapp.com/send?phone=082231861119&text=Saya ingin membeli">
+                                <button type="submit" class="btn btn-success">
+                                        Melakukan pemesanan ke pemilik
+                                    </button>
+                           </a>
                         </div>
                     </div>
                 </div>
