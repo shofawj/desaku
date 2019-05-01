@@ -11,14 +11,14 @@
               <div class="kt-widget24__details">
                 <div class="kt-widget24__info">
                   <h4 class="kt-widget24__title">
-                    Total Profit
+                    Total Transaksi
                   </h4>
                   <span class="kt-widget24__desc">
-                    All Customs Value
-                  </span>
+Semua Transaksi                  </span>
                 </div>
                 <span class="kt-widget24__stats kt-font-brand">
-                  $18M
+                    {{$seles}}
+                  
                 </span>
               </div>
               <div class="progress progress--sm">
@@ -26,7 +26,6 @@
               </div>
               <div class="kt-widget24__action">
                 <span class="kt-widget24__change">
-                  Change
                 </span>
                 <span class="kt-widget24__number">
                   78%
@@ -39,14 +38,14 @@
               <div class="kt-widget24__details">
                 <div class="kt-widget24__info">
                   <h4 class="kt-widget24__title">
-                    New Feedbacks
+                    Jumlah Penduduk Desa
                   </h4>
                   <span class="kt-widget24__desc">
-                    Customer Review
+                    Penduduk Desa
                   </span>
                 </div>
                 <span class="kt-widget24__stats kt-font-warning">
-                  1349
+                    {{$totPenduduk}}
                 </span>
               </div>
               <div class="progress progress--sm">
@@ -54,7 +53,7 @@
               </div>
               <div class="kt-widget24__action">
                 <span class="kt-widget24__change">
-                  Change
+                  
                 </span>
                 <span class="kt-widget24__number">
                   84%
@@ -67,14 +66,15 @@
             <div class="kt-widget24__details">
               <div class="kt-widget24__info">
                 <h4 class="kt-widget24__title">
-                  New Orders
+                  Pelanggan Terdaftar
                 </h4>
                 <span class="kt-widget24__desc">
-                  Fresh Order Amount
+                  Pelanggan
                 </span>
               </div>
               <span class="kt-widget24__stats kt-font-danger">
-                567
+                  {{$customer}}
+
               </span>
             </div>
             <div class="progress progress--sm">
@@ -82,7 +82,7 @@
             </div>
             <div class="kt-widget24__action">
               <span class="kt-widget24__change">
-                Change
+                
               </span>
               <span class="kt-widget24__number">
                 69%
@@ -95,14 +95,14 @@
               <div class="kt-widget24__details">
                 <div class="kt-widget24__info">
                   <h4 class="kt-widget24__title">
-                    New Users
+                  Produk Tersedia
                   </h4>
                   <span class="kt-widget24__desc">
-                    Joined New User
+                  Produk
                   </span>
                 </div>
                 <span class="kt-widget24__stats kt-font-success">
-                  276
+                  {{$produk}}
                 </span>
               </div>
               <div class="progress progress--sm">
@@ -110,7 +110,7 @@
               </div>
               <div class="kt-widget24__action">
                 <span class="kt-widget24__change">
-                  Change
+                  
                 </span>
                 <span class="kt-widget24__number">
                   90%
@@ -127,8 +127,10 @@
         <div class="kt-portlet__body kt-portlet__body--fluid">
           <div class="kt-widget26">
             <div class="kt-widget26__content">
-              <span class="kt-widget26__number">570</span>
-              <span class="kt-widget26__desc">Total Sales</span>
+              <span class="kt-widget26__number">                    
+                {{$productNabati}}
+                </span>
+              <span class="kt-widget26__desc">Total Produk Nabati</span>
             </div>
             <div class="kt-widget26__chart" style="height:100px; width: 230px;">
               <canvas id="kt_chart_quick_stats_1"></canvas>
@@ -141,8 +143,8 @@
         <div class="kt-portlet__body kt-portlet__body--fluid">
           <div class="kt-widget26">
             <div class="kt-widget26__content">
-              <span class="kt-widget26__number">640</span>
-              <span class="kt-widget26__desc">Completed Transactions</span>
+            <span class="kt-widget26__number">Rp. {{$pendapatan}}</span>
+              <span class="kt-widget26__desc">Total Pendapatan</span>
             </div>
             <div class="kt-widget26__chart" style="height:100px; width: 230px;">
               <canvas id="kt_chart_quick_stats_2"></canvas>
@@ -156,8 +158,8 @@
         <div class="kt-portlet__body kt-portlet__body--fluid">
           <div class="kt-widget26">
             <div class="kt-widget26__content">
-              <span class="kt-widget26__number">234+</span>
-              <span class="kt-widget26__desc">Transactions</span>
+              <span class="kt-widget26__number">{{$productHewani}}</span>
+              <span class="kt-widget26__desc">Total Produk Hewani</span>
             </div>
             <div class="kt-widget26__chart" style="height:100px; width: 230px;">
               <canvas id="kt_chart_quick_stats_3"></canvas>
@@ -170,8 +172,9 @@
         <div class="kt-portlet__body kt-portlet__body--fluid">
           <div class="kt-widget26">
             <div class="kt-widget26__content">
-              <span class="kt-widget26__number">4.4M$</span>
-              <span class="kt-widget26__desc">Paid Comissions</span>
+              <span class="kt-widget26__number">                  {{$produk}}
+                </span>
+              <span class="kt-widget26__desc">Produk Tersedia</span>
             </div>
             <div class="kt-widget26__chart" style="height:100px; width: 230px;">
               <canvas id="kt_chart_quick_stats_4"></canvas>

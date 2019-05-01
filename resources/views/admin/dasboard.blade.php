@@ -18,7 +18,6 @@
                     </span>
                   </div>
                   <span class="kt-widget24__stats kt-font-brand">
-                    $18M
                   </span>
                 </div>
                 <div class="progress progress--sm">
