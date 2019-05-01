@@ -97,10 +97,10 @@
                                         <p>Desa Gayo di Papua Barat</p>
                                     </div>
 
-                                    <div class="group-button">
+                                    <div class="group-button" id="phone">
 
-                                        <button type="submit" class="btn btn-submit">
-                                            <h4>Hubungi Penjual</h4>
+                                        <button type="submit" class="btn btn-submit" onclick="change()">
+                                            <h4 id="phone-detail">Hubungi Penjual</h4>
                                         </button>
 
                                     </div>
@@ -782,4 +782,24 @@
 
 </style>
 
+@endpush
+
+
+@push('footer-scripts')
+<script>
+
+    function change(){
+
+        let phone = document.getElementById('phone-detail');
+        let phone_detail= phone.value;
+        // document.getElementById('phone-detail').innerHTML = '081336532601'
+        if (phone_detail === "081336532601") {
+			phone.innerHTML = "https://api.whatsapp.com/send?phone=081336532601";
+		} 
+		else {
+			phone.innerHTML = "081336532601";
+            
+		}
+    }
+</script>
 @endpush
