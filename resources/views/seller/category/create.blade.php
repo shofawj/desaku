@@ -28,7 +28,7 @@ Kategori Produk              </h3>
                 <div class="row">
                   <div class="col-lg-12 kt-align-right">
                     <button type="submit" class="btn btn-primary">Simpan data</button>
-                    <button type="reset" class="btn btn-secondary">Batal</button>
+                    <button type="reset" class="btn btn-secondary">Batal Simpan</button>
                   </div>
                   
                 </div>
